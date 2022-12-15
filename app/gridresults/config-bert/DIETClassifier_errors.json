@@ -1,0 +1,3292 @@
+[
+  {
+    "text": "tra cứu mã ngành công nghệ thông tin",
+    "entities": [
+      {
+        "start": 17,
+        "end": 36,
+        "value": "công nghệ thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.5038272142410278,
+        "value": "nghệ thông",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "an toàn thông tin học phí bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "an toàn thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Học phí ngành Kỹ Thuật Phần Mềm khoảng bao nhiêu 1 năm ạ? Em cảm ơn",
+    "entities": [
+      {
+        "start": 14,
+        "end": 31,
+        "value": "Kỹ Thuật Phần Mềm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9958581328392029,
+        "value": "Kỹ Thuật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 28,
+        "end": 31,
+        "confidence_entity": 0.9948750138282776,
+        "value": "Mềm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Học phí sư phạm anh là bao nhiêu vậy ạ??",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "sư phạm anh",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 8,
+        "end": 10,
+        "confidence_entity": 0.7614954710006714,
+        "value": "sư",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Chỉ tiêu xét học bạ và điểm thi Ngôn ngữ anh là bao nhiêu ạ?",
+    "entities": [
+      {
+        "start": 32,
+        "end": 44,
+        "value": "Ngôn ngữ anh",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 20,
+        "end": 22,
+        "confidence_entity": 0.9820464253425598,
+        "value": "và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 32,
+        "end": 44,
+        "confidence_entity": 0.9979654550552368,
+        "value": "Ngôn ngữ anh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi 28.25đ thì xét quản trị kinh doanh có đc không ạ. Có thể cho em thêm thông tin về ngành [mkt không ạ",
+    "entities": [
+      {
+        "start": 26,
+        "end": 45,
+        "value": "quản trị kinh doanh",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 26,
+        "end": 45,
+        "confidence_entity": 0.7590972185134888,
+        "value": "quản trị kinh doanh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 100,
+        "end": 103,
+        "confidence_entity": 0.9271196126937866,
+        "value": "mkt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ cho con hỏi về ngành công nghệ thực phẩm với lại công nghệ sau thu hoạch với ạ",
+    "entities": [
+      {
+        "start": 24,
+        "end": 43,
+        "value": "công nghệ thực phẩm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 34,
+        "end": 43,
+        "confidence_entity": 0.852684497833252,
+        "value": "thực phẩm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành sư phạm tiểu học xét học bạ bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 6,
+        "end": 22,
+        "value": "sư phạm tiểu học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 6,
+        "end": 18,
+        "confidence_entity": 0.7859780788421631,
+        "value": "sư phạm tiểu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cho em hỏi điểm chuẩn xét học bạ của ngành Kĩ thuật phần mềm với ạ",
+    "entities": [
+      {
+        "start": 43,
+        "end": 60,
+        "value": "Kĩ thuật phần mềm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 43,
+        "end": 51,
+        "confidence_entity": 0.993386447429657,
+        "value": "Kĩ thuật",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Công nghệ kĩ thuật hóa học và kĩ thuật cơ khí thì điểm học bạ nghành nào cao hơn ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 26,
+        "value": "Công nghệ kĩ thuật hóa học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 45,
+        "confidence_entity": 0.5075712203979492,
+        "value": "Công nghệ kĩ thuật hóa học và kĩ thuật cơ khí",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ 22 ,36 đủ đậu kĩ thuật công trình thủy ko ạ",
+    "entities": [
+      {
+        "start": 17,
+        "end": 41,
+        "value": "kĩ thuật công trình thủy",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.7952390909194946,
+        "value": "kĩ thuật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 31,
+        "end": 36,
+        "confidence_entity": 0.8939303159713745,
+        "value": "trình",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Điểm học bạ của em đang là 26.92 thì có khả năng đậu vào ngành CNTT hay Logistics và quản lí chuỗi cung ứng ko v ạ",
+    "entities": [
+      {
+        "start": 72,
+        "end": 81,
+        "value": "Logistics",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 63,
+        "end": 67,
+        "confidence_entity": 0.987346351146698,
+        "value": "CNTT",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 72,
+        "end": 81,
+        "confidence_entity": 0.9620639681816101,
+        "value": "Logistics",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành CN Sinh Học và ngành KH Cây Trồng thì ngành nào có tỉ lệ việc làm cao hơn ạ?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "CN Sinh Học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 31,
+        "confidence_entity": 0.5621548295021057,
+        "value": "CN Sinh Học và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 38,
+        "end": 50,
+        "confidence_entity": 0.7098827362060547,
+        "value": "KH Cây Trồng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ cho em hỏi ngành bảo vệ thực vật trường mình có liên kết với những công ty nào để hỗ trợ việc làm sau khi tốt nghiệp vậy ạ?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "value": "bảo vệ thực vật",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.7416591048240662,
+        "value": "thực vật",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kính thưa quý Thầy/ Cô. Khi nói đến ngành quản lý đất đai thì đa phần sẽ nghĩ là về làm địa chính. Vậy cho em hỏi học Quản lí đất đai ngoài làm lĩnh vực địa chính đo đạc còn làm được những lĩnh vực nào và làm việc ở đâu?. Cảm ơn quý Thầy/ Cô",
+    "entities": [
+      {
+        "start": 42,
+        "end": 57,
+        "value": "quản lý đất đai",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 42,
+        "end": 57,
+        "confidence_entity": 0.8838931322097778,
+        "value": "quản lý đất đai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 118,
+        "end": 122,
+        "confidence_entity": 0.9786593317985535,
+        "value": "Quản",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 130,
+        "end": 133,
+        "confidence_entity": 0.9200962781906128,
+        "value": "đai",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ngôn ngữ anh sau khi ra trường có làm việc bên lĩnh vực báo chí đc ko ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "ngôn ngữ anh",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho em hỏi là ngành Khoa học máy tính thì khác gì với ngành công nghệ thông tin ạ?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "value": "Khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho em hỏi ngành an toàn thông tin là sao ạ",
+    "entities": [
+      {
+        "start": 17,
+        "end": 34,
+        "value": "an toàn thông tin",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 20,
+        "end": 34,
+        "confidence_entity": 0.9048715233802795,
+        "value": "toàn thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành quan hệ công chúng vs truyền thông đa phương tiện có điểm nào khác nhau và số điểm thi năm nay có gì khác biệt không ạ",
+    "entities": [
+      {
+        "start": 39,
+        "end": 67,
+        "value": "truyền thông đa phương tiện",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 46,
+        "end": 51,
+        "confidence_entity": 0.6298301219940186,
+        "value": "thông",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ cho em hỏi ngành quản lý công nghiệp",
+    "entities": [
+      {
+        "start": 20,
+        "end": 39,
+        "value": "quản lý công nghiệp",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Dạ có thể giới thiệu về nghành quản trị du lịch và lữ hành được không ạ",
+    "entities": [
+      {
+        "start": 31,
+        "end": 58,
+        "value": "quản trị du lịch và lữ hành",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 31,
+        "end": 47,
+        "confidence_entity": 0.4921591281890869,
+        "value": "quản trị du lịch",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 51,
+        "end": 58,
+        "confidence_entity": 0.6137505173683167,
+        "value": "lữ hành",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ năm nay trường có tuyển sinh ngành khoa học dũ liệu k",
+    "entities": [
+      {
+        "start": 38,
+        "end": 54,
+        "value": "khoa học dũ liệu",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Em không giỏi toán và tin học thì có thể học kiểm toán được không ạ?",
+    "entities": [
+      {
+        "start": 45,
+        "end": 54,
+        "value": "kiểm toán",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Giữa ngành nông học và khoa học cây trồng thì ngành nào phát triển về cây hiệu quả hơn ạ",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "nông học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.4421318471431732,
+        "value": "nông",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "truyền thông đa phương tiện thuộc khoa công nghệ ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 27,
+        "value": "truyền thông đa phương tiện",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 44,
+        "end": 48,
+        "confidence_entity": 0.547834575176239,
+        "value": "nghệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Em đang quan tâm về ngành công nghệ thông tin quốc tế ạ, em muốn biết yêu cầu để học ngành này và học phí cùng những học bổng xung quanh ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 26,
+        "end": 53,
+        "confidence_entity": 0.8370192646980286,
+        "value": "công nghệ thông tin quốc tế",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sắp tới Trung tâm Công nghệ Phâmg mềm Đại học Cần Thơ có nhu cầu tuyển dụng Lập trình viên như thế nào ? Trung tâm có dự án gia công phần mềm với nước ngoài không ? Nếu có thì yêu cầu như thế nào ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.721354067325592,
+        "value": "Công nghệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi nghành marketing chương trình học thì ntn ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.997393012046814,
+        "value": "marketing",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Chuẩn đầu ra của ngành luật hành chính thì sao ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 23,
+        "end": 38,
+        "confidence_entity": 0.5999154448509216,
+        "value": "luật hành chính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ cho em hỏi ngành truyền thông đa phương tiện có phải học hoàn toàn trên máy tính ko ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.8351376056671143,
+        "value": "thông",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dạ cho em hỏi, học hóa dược, công nghệ sinh học và tự động hóa thì cẩn chuẩn bị những gì để có thể học tốt ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 44,
+        "end": 47,
+        "confidence_entity": 0.5160375833511353,
+        "value": "học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ trường cho em hỏi là em muốn biết thêm về ngành trường mới mở là ngành truyền thông đa phương tiện học những gì",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 74,
+        "end": 101,
+        "confidence_entity": 0.9397668838500977,
+        "value": "truyền thông đa phương tiện",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hóa dược, công nghệ sinh học và tự động hóa. Cả 3 ngành này đều có đào tạo kĩ sư phải k ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.595552384853363,
+        "value": "nghệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kĩ thuật điện tử là mình học về j ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 16,
+        "confidence_entity": 0.807185709476471,
+        "value": "Kĩ thuật điện tử",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ngành ngôn ngữ Pháp bao nhiêu năm vậy ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.6595880389213562,
+        "value": "ngữ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nông học có thể học cao hơn sau khi tốt nghiệp ko ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.903336226940155,
+        "value": "Nông học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi em học ban xã hội..có thể xét họ bạ vào ngành kinh tế được hong ạ ..em cảm ơn",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 22,
+        "end": 24,
+        "confidence_entity": 0.9786394834518433,
+        "value": "xã",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 57,
+        "end": 64,
+        "confidence_entity": 0.8795408606529236,
+        "value": "kinh tế",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành thú y có xét điểm học bạ kh ạ tại gì em thi xh nếu có thì điểm bao nhiêu thì đậu ạ??",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.9268471598625183,
+        "value": "thú",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành công nghệ thực phẩm, vs ngành nuôi trồng thủy sản học phí nhiêu ạ",
+    "entities": [
+      {
+        "start": 17,
+        "end": 36,
+        "value": "công nghệ thực phẩm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 36,
+        "confidence_entity": 0.7621592879295349,
+        "value": "công nghệ thực phẩm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 47,
+        "end": 66,
+        "confidence_entity": 0.9204124808311462,
+        "value": "nuôi trồng thủy sản",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dạ cho em hỏi, đào tạo bằng cử nhân hóa dược học phí như nào ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 40,
+        "end": 44,
+        "confidence_entity": 0.9081675410270691,
+        "value": "dược",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Học phí ngành cơ khí ô tô là bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 14,
+        "end": 25,
+        "value": "cơ khí ô tô",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.9932960867881775,
+        "value": "ô tô",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "NGÀNH GIÁO DỤC TIỂU HỌC, học phí BAO NHIÊU TRÊN NĂM VẬY Ạ",
+    "entities": [
+      {
+        "start": 6,
+        "end": 23,
+        "value": "GIÁO DỤC TIỂU HỌC",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 11,
+        "end": 14,
+        "confidence_entity": 0.9208869934082031,
+        "value": "DỤC",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi chỉ tiêu của ngành công nghệ kĩ thuật hóa học đại trà vs CLC năm nay vs ạ",
+    "entities": [
+      {
+        "start": 30,
+        "end": 52,
+        "value": "công nghệ kĩ thuật hóa",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 30,
+        "end": 39,
+        "confidence_entity": 0.5635112524032593,
+        "value": "công nghệ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 40,
+        "end": 48,
+        "confidence_entity": 0.7186316251754761,
+        "value": "kĩ thuật",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành logistis và ngành maketing bao nhiu điểm ạ",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "logistis",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9994669556617737,
+        "value": "logistis",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 35,
+        "end": 43,
+        "confidence_entity": 0.997789740562439,
+        "value": "maketing",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ngành kdoanh thương mai điểm chuẩn học bạ bnhieu v ạ?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 23,
+        "value": "kdoanh thương mai",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Sư phạm hoá học bao nhiêu điểm ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "Sư phạm hoá",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 15,
+        "confidence_entity": 0.5316641330718994,
+        "value": "Sư phạm hoá học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Chào thầy cô! Thầy cô em em hỏi là ngành Bảo vệ thực vật và ngành Khoa học cây trồng cơ hội có việc làm là bao nhiêu ạ?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 56,
+        "value": "Bảo vệ thực vật",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 41,
+        "end": 44,
+        "confidence_entity": 0.7506917715072632,
+        "value": "Bảo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 48,
+        "end": 56,
+        "confidence_entity": 0.45203739404678345,
+        "value": "thực vật",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi là kĩ thuật hóa học và kĩ thuật cơ khí thì cơ hội việc làm nghành nào ổn hơn vậy ạ",
+    "entities": [
+      {
+        "start": 14,
+        "end": 49,
+        "value": "kĩ thuật hóa học và kĩ thuật cơ khí",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 14,
+        "end": 30,
+        "confidence_entity": 0.8705822825431824,
+        "value": "kĩ thuật hóa học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 34,
+        "end": 42,
+        "confidence_entity": 0.8990468382835388,
+        "value": "kĩ thuật",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi nghành marketing sau khi học mình có thể làm ở vị trí nào và sau khi kết thúc chương trình học thì trường có liên kết tìm kiếm công việc cho sinh viên không ạ",
+    "entities": [
+      {
+        "start": 18,
+        "end": 27,
+        "value": "marketing",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Mức lương TB của kỹ thuật điện khi ra trường là bao nhiêu vậy ạ.",
+    "entities": [
+      {
+        "start": 17,
+        "end": 30,
+        "value": "kỹ thuật điện",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 10,
+        "end": 12,
+        "confidence_entity": 0.5971180200576782,
+        "value": "TB",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 30,
+        "confidence_entity": 0.7845774292945862,
+        "value": "kỹ thuật điện",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi CNTT và KTPM giống khác nhau như thế nào ạ",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "CNTT",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.997455894947052,
+        "value": "CNTT",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.829161524772644,
+        "value": "KTPM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi CNTT và KTPM giống và khác nhau như nào ạ",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "CNTT",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.6895567178726196,
+        "value": "CNTT và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.8936497569084167,
+        "value": "KTPM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành hoá học và ngành công nghệ kĩ thuật hoá học khác nhau ở điểm nào ạ???",
+    "entities": [
+      {
+        "start": 34,
+        "end": 60,
+        "value": "công nghệ kĩ thuật hoá học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.3870201110839844,
+        "value": "hoá",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 34,
+        "end": 43,
+        "confidence_entity": 0.5246734023094177,
+        "value": "công nghệ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 44,
+        "end": 52,
+        "confidence_entity": 0.844934344291687,
+        "value": "kĩ thuật",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi xã hội học với quan hệ công chúng gần giống nhau phải hông ạ",
+    "entities": [
+      {
+        "start": 11,
+        "end": 21,
+        "value": "xã hội học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "dạ cho e hỏi chương trình học của ngành Xã hội học ạ",
+    "entities": [
+      {
+        "start": 40,
+        "end": 50,
+        "value": "Xã hội học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Dạ cho em hỏi về ngành công nghe thực phẩm, công nghe chế biến thủy sản vs công nghệ sinh học vs ạ",
+    "entities": [
+      {
+        "start": 23,
+        "end": 42,
+        "value": "công nghe thực phẩm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 58,
+        "end": 62,
+        "confidence_entity": 0.6947811245918274,
+        "value": "biến",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "để học ngành xã hội học mình cần gì ạ",
+    "entities": [
+      {
+        "start": 13,
+        "end": 23,
+        "value": "xã hội học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Dạ cho em hỏi ngành truyền thông đa phương tiện có phải là thiết kế và lập trình ko ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 27,
+        "end": 47,
+        "confidence_entity": 0.6114071011543274,
+        "value": "thông đa phương tiện",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành ngôn ngữ là ngành ngoài sư phạm đúng không ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.5140271186828613,
+        "value": "ngôn ngữ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nghành quản lí tài nguyên và môi trường học bao nhiêu năm ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 7,
+        "end": 43,
+        "confidence_entity": 0.6576629877090454,
+        "value": "quản lí tài nguyên và môi trường học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cho em hỏi là ngành kỹ thuật điều khiển và tự động hóa lấy 26d xét học bạ , mà em có 24d chưa công điểm vùng thì có cơ hội không ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 20,
+        "end": 54,
+        "confidence_entity": 0.4950259029865265,
+        "value": "kỹ thuật điều khiển và tự động hóa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xét học bạ ngôn ngữ anh bao nhiêu học kì ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 20,
+        "end": 23,
+        "confidence_entity": 0.5898802876472473,
+        "value": "anh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xét học bạ ngành sư phạm lịch sử là bao nhiêu điểm vậy ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 32,
+        "confidence_entity": 0.9791945815086365,
+        "value": "sư phạm lịch sử",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi sư phạm địa lí hệ đại trà chi phí bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "value": "sư phạm địa lí",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 11,
+        "end": 36,
+        "confidence_entity": 0.4780034124851227,
+        "value": "sư phạm địa lí hệ đại trà",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Học phí CNSH 1 năm là bao nhiêu ạ?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "CNSH",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Học phí kỹ thuật cộng trình thủy bao nhiu v ạ",
+    "entities": [
+      {
+        "start": 8,
+        "end": 32,
+        "value": "kỹ thuật cộng trình thủy",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.9717759490013123,
+        "value": "kỹ thuật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.9086609482765198,
+        "value": "trình thủy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành y khoa học phí bao nhiêu một năm vậy cô ?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 12,
+        "value": "y khoa",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 6,
+        "end": 7,
+        "confidence_entity": 0.9795145988464355,
+        "value": "y",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.9168189167976379,
+        "value": "khoa học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chỉ tiêu sư Phạm Văn là bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "sư Phạm Văn",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "ntts năm nay lấy nhiêu sinh viên v ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "ntts",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho em hỏi xã hội học học bạ và điểm thi là bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 11,
+        "end": 21,
+        "value": "xã hội học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.9719877243041992,
+        "value": "xã hội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "CNTT điểm dao động là bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "CNTT",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9982390403747559,
+        "value": "CNTT",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.5979450941085815,
+        "value": "dao động",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ điểm khối b00 của em nó 22.63 điểm em có thể đậu ngành nuôi trồng thủy sản ko ạ",
+    "entities": [
+      {
+        "start": 58,
+        "end": 77,
+        "value": "nuôi trồng thủy sản",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 58,
+        "end": 62,
+        "confidence_entity": 0.573282778263092,
+        "value": "nuôi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 69,
+        "end": 77,
+        "confidence_entity": 0.8039013147354126,
+        "value": "thủy sản",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Học bạ em xét đc 22đ có thể đậu luật k ạ",
+    "entities": [
+      {
+        "start": 32,
+        "end": 36,
+        "value": "luật",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Dạ cho em hỏi ngành quản lý công nghiệp sau khi ra trường tỉ lệ có việc làm cao không ạ",
+    "entities": [
+      {
+        "start": 20,
+        "end": 39,
+        "value": "quản lý công nghiệp",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.9874102473258972,
+        "value": "quản lý",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.6903061866760254,
+        "value": "nghiệp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho e hỏi là ngành kinh tế tài nguyên thiên nhiên sau này ra làm gì ạ",
+    "entities": [
+      {
+        "start": 19,
+        "end": 49,
+        "value": "kinh tế tài nguyên thiên nhiên",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.7785933613777161,
+        "value": "kinh tế",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.4549297094345093,
+        "value": "nguyên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 44,
+        "end": 49,
+        "confidence_entity": 0.5868734121322632,
+        "value": "nhiên",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ trường cho em hỏi là em muốn biết thêm về ngành trường mới mở là ngành truyền thông đa phương tiện cơ hội việc làm như thế nào v ạ?",
+    "entities": [
+      {
+        "start": 74,
+        "end": 101,
+        "value": "truyền thông đa phương tiện",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Em cho hỏi về triển vọng của sư phạm địa 2022",
+    "entities": [
+      {
+        "start": 29,
+        "end": 40,
+        "value": "sư phạm địa",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 29,
+        "end": 36,
+        "confidence_entity": 0.5043877959251404,
+        "value": "sư phạm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Học Nông Học ra trường làm ở mảng nuôi trồng thủy sản được ko ạ",
+    "entities": [
+      {
+        "start": 4,
+        "end": 12,
+        "value": "Nông Học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.6720231771469116,
+        "value": "Nông",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Học sư phạm tốt nghiệp xong nhà trường có giới thiệu cho sv có đến các trường để dạy k ạ.",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "sư phạm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Tỉ lệ có việc làm của ngành toán ứng dụng và khoa học máy tính là bao nhiêu % ạ?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 41,
+        "value": "toán ứng dụng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 28,
+        "end": 44,
+        "confidence_entity": 0.42716675996780396,
+        "value": "toán ứng dụng và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 45,
+        "end": 62,
+        "confidence_entity": 0.915469765663147,
+        "value": "khoa học máy tính",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\"Và khi học ngành Quản lý đất đai thì có cơ hội làm việc trong lĩnh vực của các ngành liên quan (Quản lý tài nguyên môi trường,...) hay không? Em xin cảm ơn quý thầy cô\"",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "value": "Quản lý đất đai",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho em hỏi , em thích học Toán và ước mơ đc đi dạy thì em nên chọn Toán Ứng Dụng hay Thống Kê ạ",
+    "entities": [
+      {
+        "start": 67,
+        "end": 80,
+        "value": "Toán Ứng Dụng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cho em hỏi học ngành luật bên viện kiểm sát nên học khối nào trong 4 khối ạ",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "luật",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho em hỏi ngành MMT và TTDL khi nào mới cần dùng đến máy tính ạ",
+    "entities": [
+      {
+        "start": 17,
+        "end": 28,
+        "value": "MMT và TTDL",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 20,
+        "confidence_entity": 0.9963809847831726,
+        "value": "MMT",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 24,
+        "end": 28,
+        "confidence_entity": 0.9871348738670349,
+        "value": "TTDL",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi tư vấn ngành Thú Y qua chưa ạ em cảm ơn",
+    "entities": [
+      {
+        "start": 24,
+        "end": 29,
+        "value": "Thú Y",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 28,
+        "end": 29,
+        "confidence_entity": 0.941770613193512,
+        "value": "Y",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dạ cho em hỏi ngành cntt với an toàn thông tin khác nhau như thế nào ạ",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "cntt",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.8708968162536621,
+        "value": "cntt",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 29,
+        "end": 46,
+        "confidence_entity": 0.5647368431091309,
+        "value": "an toàn thông tin",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "điện tử viễn thông là mình học về mảng gì vậy trường",
+    "entities": [
+      {
+        "start": 0,
+        "end": 18,
+        "value": "điện tử viễn thông",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 8,
+        "end": 18,
+        "confidence_entity": 0.6553152203559875,
+        "value": "viễn thông",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "\"Kính chào quý thầy/cô! Cho em hỏi ngành Quản lý đất đai và ngành Khoa học Đất có giống nhau không?\"",
+    "entities": [
+      {
+        "start": 41,
+        "end": 56,
+        "value": "Quản lý đất đai",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 41,
+        "end": 56,
+        "confidence_entity": 0.7226815223693848,
+        "value": "Quản lý đất đai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 75,
+        "end": 78,
+        "confidence_entity": 0.5855439305305481,
+        "value": "Đất",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thầy cô tư vấn về luật hành chính được kh ạ",
+    "entities": [
+      {
+        "start": 18,
+        "end": 33,
+        "value": "luật hành chính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Thầy ơi, ngành hóa học và ngành kỹ thuật hóa học khác nhau như thế nào vậy ạ",
+    "entities": [
+      {
+        "start": 32,
+        "end": 48,
+        "value": "kỹ thuật hóa học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.7941809892654419,
+        "value": "hóa học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 32,
+        "end": 40,
+        "confidence_entity": 0.7768204212188721,
+        "value": "kỹ thuật",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 41,
+        "end": 48,
+        "confidence_entity": 0.3419158160686493,
+        "value": "hóa học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Em xin chào Thầy (Cô) ạ ! Em muốn hỏi về hình thức tuyển sinh liên thông từ cao đẳng lên Đại học (hệ chính quy và hệ VLVH) chuyên ngành Kế Toán như thế nào ạ ? Nếu liên thông theo hình thức chính quy, em sẽ được miễn bao nhiêu tín chỉ khi học ạ ? Em xin cảm ơn Thầy (Cô)",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 136,
+        "end": 143,
+        "confidence_entity": 0.8062884211540222,
+        "value": "Kế Toán",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành quan hệ công chúng vs truyền thông đa phươngtiện có điểm nào khác nhau không ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 54,
+        "confidence_entity": 0.8555440902709961,
+        "value": "truyền thông đa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ cho em hỏi về ngành khoa học cây trồng ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 23,
+        "end": 41,
+        "confidence_entity": 0.6016244292259216,
+        "value": "khoa học cây trồng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ cho em hỏi. Đối với ngành Kỹ thuật môi trường thì người học cần trang bị những kỹ năng gì để có thể học tốt được ngành này",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 32,
+        "end": 37,
+        "confidence_entity": 0.9250826835632324,
+        "value": "thuật",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kính chào quý Thầy, Cô. Thầy, cô Những kỹ năng nào em sẽ được cung cấp để đáp ứng nhu cầu của doanh nghiệp sau khi học ngành kỹ thuật môi trường ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 128,
+        "end": 144,
+        "confidence_entity": 0.8135635852813721,
+        "value": "thuật môi trường",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Chào thầy cho hỏi nghành công nghệ thông tinh có xét tuyển theo học bạ hông thầy",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 25,
+        "end": 34,
+        "confidence_entity": 0.5724952220916748,
+        "value": "công nghệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi cách tính điểm học bạ ngành ngôn ngữ anh ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 39,
+        "end": 51,
+        "confidence_entity": 0.9023662805557251,
+        "value": "ngôn ngữ anh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành bảo vệ thực vật xét học bạ là bao nhiêu ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 32,
+        "confidence_entity": 0.9948561191558838,
+        "value": "bảo vệ thực vật",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành công nghệ thực phẩm xét học bạ thế nào để đậu ạ, em đọc hướng dẫn nhiều lần nhưng vẫn ko hiêu ad giúp em với.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 32,
+        "end": 36,
+        "confidence_entity": 0.9704549908638,
+        "value": "phẩm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi học phí ngành hóa dược với công nghệ thực phẩm với ạ",
+    "entities": [
+      {
+        "start": 25,
+        "end": 33,
+        "value": "hóa dược",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 25,
+        "end": 33,
+        "confidence_entity": 0.5383844375610352,
+        "value": "hóa dược",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 38,
+        "end": 57,
+        "confidence_entity": 0.7640796899795532,
+        "value": "công nghệ thực phẩm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành bảo vệ thực vật học phí là bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 17,
+        "end": 36,
+        "value": "bảo vệ thực vật học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 21,
+        "end": 23,
+        "confidence_entity": 0.6604945659637451,
+        "value": "vệ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Em tên Phạm Anh Vũ em đang muốn học ngành ngôn ngữ anh vậy mức học phí như thế nào ạ",
+    "entities": [
+      {
+        "start": 42,
+        "end": 54,
+        "value": "ngôn ngữ anh",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.7485740184783936,
+        "value": "Phạm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 47,
+        "end": 50,
+        "confidence_entity": 0.8595393300056458,
+        "value": "ngữ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sư Phạm Văn học phí bao nhiêu ạ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Sư Phạm Văn học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9968070983886719,
+        "value": "Sư Phạm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.9366263151168823,
+        "value": "Văn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ cho em hỏi điểm đầu vô tuyển sinh của nghành điều dưỡng của trường mình là bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 48,
+        "end": 58,
+        "value": "điều dưỡng",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Điểm học bạ của 21,68 có khả năng xét tuyển khoa học đất đại học cần thơ k ạ",
+    "entities": [
+      {
+        "start": 44,
+        "end": 60,
+        "value": "khoa học đất đại",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 44,
+        "end": 56,
+        "confidence_entity": 0.44305717945098877,
+        "value": "khoa học đất",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Điểm tổ hợp 5 học kì cỡ bao nhiêi thì đậu sư phạm địa lí vậy ạ",
+    "entities": [
+      {
+        "start": 42,
+        "end": 56,
+        "value": "sư phạm địa lí",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 54,
+        "end": 56,
+        "confidence_entity": 0.6174895167350769,
+        "value": "lí",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mạng máy tính và truyền thông dữ liệu lên tận 7.5 điểm so với năm ngoái ạ 🙁 e còn thiếu 0.25 nữa là đậu rồi huhu. Tạm biệt đại học luôn rồi 🙁",
+    "entities": [
+      {
+        "start": 0,
+        "end": 37,
+        "value": "Mạng máy tính và truyền thông dữ liệu",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 16,
+        "confidence_entity": 0.7918120622634888,
+        "value": "Mạng máy tính và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 37,
+        "confidence_entity": 0.6700107455253601,
+        "value": "truyền thông dữ liệu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 127,
+        "end": 130,
+        "confidence_entity": 0.6766424179077148,
+        "value": "học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nghành KT ĐIỆN điểm học bạ bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "Nghành KT ĐIỆN",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.8851767778396606,
+        "value": "KT ĐIỆN",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tổ hợp coo của em tầm 25-26,15 vậy em có cơ hội đậu vào sư phạm văn,sử,địa k ạ?",
+    "entities": [
+      {
+        "start": 56,
+        "end": 63,
+        "value": "sư phạm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.3895818889141083,
+        "value": "Tổ hợp coo",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 56,
+        "end": 74,
+        "confidence_entity": 0.9932507872581482,
+        "value": "sư phạm văn,sử,địa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "XÉT HỌC BẠ NGÀNH QUẢN TRỊ DỊCH VỤ DU LỊCH VÀ LỮ HÀNH BAO NHIÊU ĐIỂM VẬY Ạ",
+    "entities": [
+      {
+        "start": 17,
+        "end": 52,
+        "value": "QUẢN TRỊ DỊCH VỤ DU LỊCH VÀ LỮ HÀNH",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 22,
+        "end": 41,
+        "confidence_entity": 0.7842414975166321,
+        "value": "TRỊ DỊCH VỤ DU LỊCH",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 45,
+        "end": 47,
+        "confidence_entity": 0.9749045372009277,
+        "value": "LỮ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Chào Trường đại học cần Thơ. Cho e hỏi bên mảng công nghệ trừ công nghệ thông tin thì sau nó có nghành nào có xu hướng có việc làm cao sao khi ra trường không ạ?",
+    "entities": [
+      {
+        "start": 48,
+        "end": 57,
+        "value": "công nghệ",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho e hỏi là ngành khoa học máy tính và kĩ thuật điện tử viễn thông ra trường làm j ạ, e cảm ơn ạ",
+    "entities": [
+      {
+        "start": 40,
+        "end": 67,
+        "value": "kĩ thuật điện tử viễn thông",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 19,
+        "end": 36,
+        "confidence_entity": 0.49034273624420166,
+        "value": "khoa học máy tính",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 40,
+        "end": 67,
+        "confidence_entity": 0.4971838891506195,
+        "value": "kĩ thuật điện tử viễn thông",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "học xong có đi kéo cap hay sửa chữa giống mấy anh VNPT hay viettle gì khum ta",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 50,
+        "end": 54,
+        "confidence_entity": 0.8408493399620056,
+        "value": "VNPT",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi 1 số kiến thức về thủ tục đất đai ạ",
+    "entities": [
+      {
+        "start": 37,
+        "end": 44,
+        "value": "đất đai",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 41,
+        "end": 44,
+        "confidence_entity": 0.9048336744308472,
+        "value": "đai",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi là đối với ngành sư phạm mình có thể từ chối nhận hỗ trợ sinh hoạt phí được không ạ? Sau khi từ chối nhận thì mình còn ràng buộc sau khi ra trường không ạ?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 35,
+        "value": "sư phạm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 31,
+        "end": 35,
+        "confidence_entity": 0.9481998085975647,
+        "value": "phạm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành nuôi trồng thủy sản vs nuôi trồng thủy sản (CTTT) có gì khác nhau ko ạ?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 36,
+        "value": "nuôi trồng thủy sản",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 61,
+        "end": 65,
+        "confidence_entity": 0.5482465028762817,
+        "value": "CTTT",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Kính chào quý Thầy/Cô, Em xin phép hỏi câu hỏi như sau kính mong quý Thầy/Cô giải đáp giúp em ạ. Em rất thích về lĩnh vực nghiên cứu khoa học, phân tích, kiểm nghiệm nước, thì em nên học ngành nào ở Khoa MT và TNTN ạ? và học ngành đó thì tụi em sẽ được đào tạo những kỹ năng nào ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 154,
+        "end": 158,
+        "confidence_entity": 0.7911757826805115,
+        "value": "kiểm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 166,
+        "end": 170,
+        "confidence_entity": 0.8984288573265076,
+        "value": "nước",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thủy sản chia ra 2 khối là nuôi trồng và bệnh học đúng hông ạ, vậy còn bệnh học lấy sao ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Thủy sản",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho em hỏi ngành Kinh doanh nông nghiệp ạ ,em thấy ngành này rất ít người hỏi không biết chương trình đào tạo ra sao ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 27,
+        "confidence_entity": 0.8013289570808411,
+        "value": "Kinh doanh",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.9629450440406799,
+        "value": "nghiệp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ cho em hỏi ngành quản lý công nghiệp đào tạo những gì ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.9939770698547363,
+        "value": "quản lý",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.5282447338104248,
+        "value": "nghiệp",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho e hỏi ngành nuôi trồng thủy sản đào tạo bao nhiêu năm",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 16,
+        "end": 35,
+        "confidence_entity": 0.8556873798370361,
+        "value": "nuôi trồng thủy sản",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi chỉ tiêu Cntt Khu 4 ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9590628147125244,
+        "value": "Cntt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngành Thú Y chương trình học mấy năm?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.5302994847297668,
+        "value": "Thú Y",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cho em xin chương trình đào tạo của ngành Truyền thông đa phương tiện với ạ, em cảm ơn",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 42,
+        "end": 69,
+        "confidence_entity": 0.9022592902183533,
+        "value": "Truyền thông đa phương tiện",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Chương trình luật CLC bao nhiêu 1 tín chỉ ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9838518500328064,
+        "value": "luật",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "CNSH đại trà có học phần tế bào gốc không ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6550182700157166,
+        "value": "CNSH",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "CNTP CLC hiện nay là bao nhiêu tín chỉ vậy ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9967431426048279,
+        "value": "CNTP",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ cho em hỏi Ngành Quản Lý Tài Nguyên và Môi Trường cần trang bị trước những gì và chương trình học có trải nghiệm thực tế không ạ.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 20,
+        "end": 41,
+        "confidence_entity": 0.7829166054725647,
+        "value": "Quản Lý Tài Nguyên và",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Em có câu hỏi là Ngành KHMT có những ưu điểm vì so với các ngành khác trong khoa MT và TNTN và em sẽ được trang bị nhưng kiến thức cơ bản nào ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 23,
+        "end": 27,
+        "confidence_entity": 0.9893388152122498,
+        "value": "KHMT",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Học về lĩnh vực điện công công nghiệp và truyền tải điện",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 16,
+        "end": 40,
+        "confidence_entity": 0.5804489850997925,
+        "value": "điện công công nghiệp và",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 41,
+        "end": 56,
+        "confidence_entity": 0.6412843465805054,
+        "value": "truyền tải điện",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành Thống Kê năm nay bắt đầu tuyển sinh thuộc khoa nào ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.997377872467041,
+        "value": "Thống Kê",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành Việt Nam học là ngành như thế nào ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 6,
+        "end": 14,
+        "confidence_entity": 0.9771509170532227,
+        "value": "Việt Nam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi là ngành siêu phạm địa có xét cả năm 12 phải được loại giỏi không ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 25,
+        "end": 33,
+        "confidence_entity": 0.6475225687026978,
+        "value": "phạm địa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "E tốt nghiệp năm 2018 v có thể dùng học bạ để xét vào trường đại học cần thơ ngành sư phạm sử được hay không ạ và cần có những yêu cầu gì ko ạ.",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 86,
+        "end": 90,
+        "confidence_entity": 0.7030818462371826,
+        "value": "phạm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành Thủy sản có xét học bạ khối AOO ko ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 6,
+        "end": 10,
+        "confidence_entity": 0.5144670009613037,
+        "value": "Thủy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xét học bạ ngành quản trị kinh ntn",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.686102569103241,
+        "value": "quản trị",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "CNTP CLC học phí 4.5 là bao nhiêu ạ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "CNTP",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Học phí ngàng NNA từ năm 2 năm 3 năm 4 có tăng học phí thêm ko ạ... Năm đầu là 12.6 tr ạ",
+    "entities": [
+      {
+        "start": 14,
+        "end": 17,
+        "value": "NNA",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ngành công nghệ kỹ thuật hóa học CLC có học phí bao nhiêu vậy ạ",
+    "entities": [
+      {
+        "start": 6,
+        "end": 32,
+        "value": "công nghệ kỹ thuật hóa học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 19,
+        "end": 28,
+        "confidence_entity": 0.5750593543052673,
+        "value": "thuật hóa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành hóa học và ngành công nghệ hóa học đại trà có học phí bao nhiêu vậy ạ",
+    "entities": [
+      {
+        "start": 6,
+        "end": 40,
+        "value": "hóa học và ngành công nghệ hóa học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 6,
+        "end": 13,
+        "confidence_entity": 0.5343506336212158,
+        "value": "hóa học",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 33,
+        "end": 36,
+        "confidence_entity": 0.6688862442970276,
+        "value": "hóa",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành sư phạm lịch sử học phí là bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 6,
+        "end": 21,
+        "value": "sư phạm lịch sử",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 6,
+        "end": 13,
+        "confidence_entity": 0.5243430137634277,
+        "value": "sư phạm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nông học có học phí 4.5 là bao nhiêu ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "Nông học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "24 điểm học bạ thì có đậu nghành nào về CNTT k ạ",
+    "entities": [
+      {
+        "start": 40,
+        "end": 44,
+        "value": "CNTT",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho em hỏi điểm sư phạm lịch sử ạ",
+    "entities": [
+      {
+        "start": 16,
+        "end": 31,
+        "value": "sư phạm lịch sử",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 16,
+        "end": 28,
+        "confidence_entity": 0.5861127972602844,
+        "value": "sư phạm lịch",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi điểm xét học bạ nuôi trồng thủy sản năm 2022 có tăng lên nữa không ạ",
+    "entities": [
+      {
+        "start": 27,
+        "end": 46,
+        "value": "nuôi trồng thủy sản",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 43,
+        "end": 46,
+        "confidence_entity": 0.5471158623695374,
+        "value": "sản",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi ngôn ngữ anh xét học bạ 23.33đ có khả năng đậu kh ạ",
+    "entities": [
+      {
+        "start": 11,
+        "end": 23,
+        "value": "ngôn ngữ anh",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Cho em hỏi Sư phạm hoá lấy bao nhiêu điểm, sư phạm sinh bao nhiêu điểm",
+    "entities": [
+      {
+        "start": 11,
+        "end": 22,
+        "value": "Sư phạm hoá",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 11,
+        "end": 22,
+        "confidence_entity": 0.9676491022109985,
+        "value": "Sư phạm hoá",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 43,
+        "end": 50,
+        "confidence_entity": 0.5768455862998962,
+        "value": "sư phạm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Dạ cho e hỏi điểm học bạ ngành Xã hội học 2021 là 26.25. Em tính điểm học bạ của e là 26.12 vậy là trượt rồi phải ko ạ. Em cảm ơn",
+    "entities": [
+      {
+        "start": 25,
+        "end": 41,
+        "value": "ngành Xã hội học",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.7813212275505066,
+        "value": "Xã hội",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Điểm xét học bạ sp sử với địa ạ",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "sp sử",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nghành QTDL VÀ LH xét học bạ bao nhiêu điểm ạ",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "Nghành QTDL VÀ LH",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 7,
+        "end": 17,
+        "confidence_entity": 0.76505047082901,
+        "value": "QTDL VÀ LH",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sư phạm lịch sử điểm chuẩn là bao nhiêu ạ?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Sư phạm lịch sử",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Trung bình môn 9.0 có khả năng đậu học bạ khối D ngành NNA không ạ",
+    "entities": [
+      {
+        "start": 55,
+        "end": 58,
+        "value": "NNA",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Xét học bạ ngành công nghệ thực phẩm là nhiu vậy ạ",
+    "entities": [
+      {
+        "start": 17,
+        "end": 36,
+        "value": "công nghệ thực phẩm",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 27,
+        "end": 36,
+        "confidence_entity": 0.7049424648284912,
+        "value": "thực phẩm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Xét học bạ quản trị kinh doanh là bao nhiu điểm ạ",
+    "entities": [
+      {
+        "start": 11,
+        "end": 30,
+        "value": "quản trị kinh doanh",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Dạ cho em hỏi em muốn trở thành lập trình viên, em đang phân vân giữa 2 ngành khoa học máy tính và kỹ thuật phần mềm, vậy em nên chọn ngành nào trong 2 ngành đó. Nếu em học khoa học máy tính thì có thể làm những công việc của kỹ thuật phần mềm và ngược lại được không? Em xin cảm ơn",
+    "entities": [
+      {
+        "start": 78,
+        "end": 95,
+        "value": "khoa học máy tính",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Học chăn nuôi ra mở tiệm thuốc thức ăn được không ạ",
+    "entities": [
+      {
+        "start": 4,
+        "end": 13,
+        "value": "chăn nuôi",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Nghành KT ĐIỆN TỬ- VIỄN THÔNG ra trường có đi kéo cáp k ad",
+    "entities": [
+      {
+        "start": 7,
+        "end": 29,
+        "value": "KT ĐIỆN TỬ- VIỄN THÔNG",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 17,
+        "confidence_entity": 0.8024701476097107,
+        "value": "Nghành KT ĐIỆN TỬ",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 19,
+        "end": 29,
+        "confidence_entity": 0.7684738039970398,
+        "value": "VIỄN THÔNG",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi tiêu chí của sư phạm ngữ văn như thế nào? Học phí và phương thức xét học bạ là bao nhiêu học kì và có cần học sinh giỏi không ạ . Các công việc khi tốt nghiệp của ngành này. Em cảm ơn.",
+    "entities": [
+      {
+        "start": 24,
+        "end": 39,
+        "value": "sư phạm ngữ văn",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.5663894414901733,
+        "value": "sư phạm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Có thể cho em thêm thông tin về ngành mkt không ạ",
+    "entities": [
+      {
+        "start": 38,
+        "end": 41,
+        "value": "mkt",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Dạ cho em tìm hiểu thêm về ngành logictis của trường ạ tại là ngành mới nên em chưa có thông tin gì nhiều từ trường ạ",
+    "entities": [
+      {
+        "start": 33,
+        "end": 41,
+        "value": "logictis",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Dạ theo như em biết thì năm nay trường có đào tạo ngành mới là Kĩ Thuật cấp thoát nước, em muốn hỏi là ngành này có gì đặc biệt hơn so với các ngành còn lại ạ.",
+    "entities": [
+      {
+        "start": 63,
+        "end": 86,
+        "value": "Kĩ Thuật cấp thoát nước",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Em xin thông tin về CNTT ạ",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "CNTT",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hiện tại ngành CNTT đang thiếu nhân lực nên có rất rất rất nhiều bạn theo học, liệu rằng đến lúc bọn em ra trường có bị dư nguồn nhân lực không ạ?",
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "CNTT",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "học bạ 24đ thì có đậu nổi nuôi trồng thủy sản k ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 26,
+        "end": 30,
+        "confidence_entity": 0.6023518443107605,
+        "value": "nuôi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "major_name",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.835027277469635,
+        "value": "thủy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Ngành KHMT có những ưu điểm vì so với các ngành khác trong khoa MT và TNTN.",
+    "entities": [
+      {
+        "start": 6,
+        "end": 10,
+        "value": "KHMT",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Ngành Thống Kê thuộc khoa nào ạ",
+    "entities": [
+      {
+        "start": 6,
+        "end": 14,
+        "value": "Thống Kê",
+        "entity": "major_name"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Đại trà có yêu cầu tiếng anh đầu ra khum?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 25,
+        "end": 28,
+        "confidence_entity": 0.8640062212944031,
+        "value": "anh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Em đang quan tâm về ngành mới của trường đó là Truyền thông đa phương tiện , em muốn biết thêm về ngành và cơ hội việc làm .Nếu em học ở trường mình thì khi lên Sài Gòn cơ hội việc làm có cao không ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 70,
+        "end": 74,
+        "confidence_entity": 0.8166866898536682,
+        "value": "tiện",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho e hỏi Xã hội học cũng giống như quan hệ công chúng mà nó bao quát hơn đúng hông ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.6637818813323975,
+        "value": "hội học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Học khoa học đất có học bên khu hòa an k ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 13,
+        "end": 16,
+        "confidence_entity": 0.6269327998161316,
+        "value": "đất",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Nghành CNTT khu 2 khác gì so với ở hòa an ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.9632810950279236,
+        "value": "CNTT",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "trường mình có đào tạo bằng nghiệp vụ sư phạm k ạ?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 38,
+        "end": 45,
+        "confidence_entity": 0.6884368658065796,
+        "value": "sư phạm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho e hỏi sư phạm tiểu học có xét học bạ như nào vậy ah",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 18,
+        "end": 26,
+        "confidence_entity": 0.5874260663986206,
+        "value": "tiểu học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cho em hỏi cn kt hóa học chất lượng cao có xét hc bạ bằng tổ hợp a00 k ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.4364445209503174,
+        "value": "hóa học",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ngành kdoanh thương mai chỉ tiêu xét học bạ là bnhieu % v ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 6,
+        "end": 23,
+        "confidence_entity": 0.9986080527305603,
+        "value": "kdoanh thương mai",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sư phạm anh xét hc bạ tổ hợp a01 đc k ạ",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "major_name",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.5253539085388184,
+        "value": "sư phạm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

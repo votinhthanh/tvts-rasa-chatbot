@@ -1,0 +1,646 @@
+version: "3.1"
+
+stories:
+  - story: ask_hoc_phi
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hoc_phi
+        entities:
+          - major_name: 'công nghệ thông tin'
+      - slot_was_set:
+          - major_name: 'công nghệ thông tin'
+      - action: action_get_major_tuition
+  - story: ask_hoc_phi
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hoc_phi
+        entities:
+          - major_name: 'cntt'
+      - slot_was_set:
+          - major_name: 'công nghệ thông tin'
+      - action: action_get_major_tuition
+  - story: ask_hoc_phi
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hoc_phi
+        entities:
+          - major_name: 'hệ thống thông tin'
+      - slot_was_set:
+          - major_name: 'hệ thống thông tin'
+      - action: action_get_major_tuition
+  - story: ask_hoc_phi
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hoc_phi
+        entities:
+          - major_name: 'httt'
+      - slot_was_set:
+          - major_name: 'hệ thống thông tin'
+      - action: action_get_major_tuition
+  - story: ask_hoc_phi
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hoc_phi
+        entities:
+          - major_name: 'quản trị kinh danh'
+      - slot_was_set:
+          - major_name: 'quản trị kinh danh'
+      - action: action_get_major_tuition
+  - story: ask_hoc_phi
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hoc_phi
+        entities:
+          - major_name: 'qtkd'
+      - slot_was_set:
+          - major_name: 'quản trị kinh danh'
+      - action: action_get_major_tuition
+  - story: ask_hoc_phi
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hoc_phi
+        entities:
+          - major_name: 'Kinh doanh quốc tế'
+      - slot_was_set:
+          - major_name: 'Kinh doanh quốc tế'
+      - action: action_get_major_tuition
+  - story: ask_hoc_phi
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: hoc_phi
+        entities:
+          - major_name: 'kdqt'
+      - slot_was_set:
+          - major_name: 'Kinh doanh quốc tế'
+      - action: action_get_major_tuition
+  - story: ask_chi_tieu_tuyen_sinh
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: 'công nghệ thông tin'
+      - slot_was_set:
+          - major_name: 'công nghệ thông tin'
+      - action: action_get_major_target
+
+  - story: ask_chi_tieu_tuyen_sinh
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: 'cntt'
+      - slot_was_set:
+          - major_name: 'công nghệ thông tin'
+      - action: action_get_major_target
+  - story: ask_chi_tieu_tuyen_sinh
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: 'hệ thống thông tin'
+      - slot_was_set:
+          - major_name: 'hệ thống thông tin'
+      - action: action_get_major_target
+  - story: ask_chi_tieu_tuyen_sinh
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: 'httt'
+      - slot_was_set:
+          - major_name: 'hệ thống thông tin'
+      - action: action_get_major_target
+  - story: ask_chi_tieu_tuyen_sinh
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: 'quản trị kinh danh'
+      - slot_was_set:
+          - major_name: 'quản trị kinh danh'
+      - action: action_get_major_target
+  - story: ask_chi_tieu_tuyen_sinh
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: 'qtkd'
+      - slot_was_set:
+          - major_name: 'quản trị kinh danh'
+      - action: action_get_major_target
+  - story: ask_chi_tieu_tuyen_sinh
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: 'Kinh doanh quốc tế'
+      - slot_was_set:
+          - major_name: 'Kinh doanh quốc tế'
+      - action: action_get_major_target
+  - story: ask_chi_tieu_tuyen_sinh
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: 'kdqt'
+      - slot_was_set:
+          - major_name: 'Kinh doanh quốc tế'
+      - action: action_get_major_target
+  - story: ask_thong_tin_nganh_dao_tao
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: 'công nghệ thông tin'
+      - slot_was_set:
+          - major_name: 'công nghệ thông tin'
+      - action: action_get_major_information
+  - story: ask_thong_tin_nganh_dao_tao
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: 'cntt'
+      - slot_was_set:
+          - major_name: 'công nghệ thông tin'
+      - action: action_get_major_information
+  - story: ask_thong_tin_nganh_dao_tao
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: 'hệ thống thông tin'
+      - slot_was_set:
+          - major_name: 'hệ thống thông tin'
+      - action: action_get_major_information
+  - story: ask_thong_tin_nganh_dao_tao
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: 'httt'
+      - slot_was_set:
+          - major_name: 'hệ thống thông tin'
+      - action: action_get_major_information
+  - story: ask_thong_tin_nganh_dao_tao
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: 'quản trị kinh danh'
+      - slot_was_set:
+          - major_name: 'quản trị kinh danh'
+      - action: action_get_major_information
+  - story: ask_thong_tin_nganh_dao_tao
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: 'qtkd'
+      - slot_was_set:
+          - major_name: 'quản trị kinh danh'
+      - action: action_get_major_information
+  - story: ask_thong_tin_nganh_dao_tao
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: 'Kinh doanh quốc tế'
+      - slot_was_set:
+          - major_name: 'Kinh doanh quốc tế'
+      - action: action_get_major_information
+  - story: ask_thong_tin_nganh_dao_tao
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: 'kdqt'
+      - slot_was_set:
+          - major_name: 'Kinh doanh quốc tế'
+      - action: action_get_major_information
+  - story: ask_diem_xet_tuyen
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: diem_xet_tuyen
+        entities:
+          - major_name: 'công nghệ thông tin'
+      - slot_was_set:
+          - major_name: 'công nghệ thông tin'
+      - action: action_get_major_score
+  - story: ask_diem_xet_tuyen
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: diem_xet_tuyen
+        entities:
+          - major_name: 'cntt'
+      - slot_was_set:
+          - major_name: 'công nghệ thông tin'
+      - action: action_get_major_score
+  - story: ask_diem_xet_tuyen
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: diem_xet_tuyen
+        entities:
+          - major_name: 'hệ thống thông tin'
+      - slot_was_set:
+          - major_name: 'hệ thống thông tin'
+      - action: action_get_major_score
+  - story: ask_diem_xet_tuyen
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: diem_xet_tuyen
+        entities:
+          - major_name: 'httt'
+      - slot_was_set:
+          - major_name: 'hệ thống thông tin'
+      - action: action_get_major_score
+  - story: ask_diem_xet_tuyen
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: diem_xet_tuyen
+        entities:
+          - major_name: 'quản trị kinh danh'
+      - slot_was_set:
+          - major_name: 'quản trị kinh danh'
+      - action: action_get_major_score
+  - story: ask_diem_xet_tuyen
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: diem_xet_tuyen
+        entities:
+          - major_name: 'qtkd'
+      - slot_was_set:
+          - major_name: 'quản trị kinh danh'
+      - action: action_get_major_score
+  - story: ask_diem_xet_tuyen
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: diem_xet_tuyen
+        entities:
+          - major_name: 'Kinh doanh quốc tế'
+      - slot_was_set:
+          - major_name: 'Kinh doanh quốc tế'
+      - action: action_get_major_score
+  - story: ask_diem_xet_tuyen
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: diem_xet_tuyen
+        entities:
+          - major_name: 'kdqt'
+      - slot_was_set:
+          - major_name: 'Kinh doanh quốc tế'
+      - action: action_get_major_score
+  - story: ask_co_hoi_viec_lam
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: co_hoi_viec_lam_sau_tn
+      - action: utter_co_hoi_viec_lam_sau_tn
+      - intent: cam_on
+      - action: utter_cam_on
+      - intent: chao_tam_biet
+      - action: utter_chao_tam_biet
+  - story: ask_chuong_trinh_dao_tao
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: challenge_bot
+      - action: utter_challenge_bot
+      - intent: chuong_trinh_dao_tao
+      - action: utter_chuong_trinh_dao_tao
+      - intent: cam_on
+      - action: utter_cam_on
+      - intent: chao_tam_biet
+      - action: utter_chao_tam_biet
+  - story: out_of_scope1
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: challenge_bot
+      - action: utter_challenge_bot
+      - intent: out_of_scope
+      - action: utter_out_of_scope
+      - intent: cam_on
+      - action: utter_cam_on
+      - intent: chao_tam_biet
+      - action: utter_chao_tam_biet
+  - story: out_of_scope2
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: challenge_bot
+      - action: utter_challenge_bot
+      - intent: out_of_scope
+      - action: utter_out_of_scope
+      - intent: cam_on
+      - action: utter_cam_on
+      - intent: chao_tam_biet
+      - action: utter_chao_tam_biet
+  - story: out_of_scope3
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: challenge_bot
+      - action: utter_challenge_bot
+      - intent: out_of_scope
+      - action: utter_out_of_scope
+      - intent: cam_on
+      - action: utter_cam_on
+      - intent: chao_tam_biet
+      - action: utter_chao_tam_biet
+  - story: out_of_scope4
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: challenge_bot
+      - action: utter_challenge_bot
+      - intent: out_of_scope
+      - action: utter_out_of_scope
+      - intent: cam_on
+      - action: utter_cam_on
+      - intent: chao_tam_biet
+      - action: utter_chao_tam_biet
+  - story: hoi_xet_tuyen_hoc_ba
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: challenge_bot
+      - action: utter_challenge_bot
+      - intent: xet_tuyen_hoc_ba
+      - action: utter_xet_tuyen_hoc_ba
+      - intent: cam_on
+      - action: utter_cam_on
+      - intent: chao_tam_biet
+      - action: utter_chao_tam_biet
+  - story: hoi_xet_tuyen_hoc_ba
+    steps:
+      - intent: xet_tuyen_hoc_ba
+      - action: utter_xet_tuyen_hoc_ba
+      - intent: cam_on
+      - action: utter_cam_on
+      - intent: chao_tam_biet
+      - action: utter_chao_tam_biet
+  - story: hoi_xet_tuyen_hoc_ba
+    steps:
+      - intent: xet_tuyen_hoc_ba
+      - action: utter_xet_tuyen_hoc_ba
+      - intent: cam_on
+      - action: utter_cam_on
+      - intent: chao_tam_biet
+      - action: utter_chao_tam_biet
+  - story: hoi_xet_tuyen_hoc_ba
+    steps:
+      - intent: xet_tuyen_hoc_ba
+      - action: utter_xet_tuyen_hoc_ba
+      - intent: cam_on
+      - action: utter_cam_on
+      - intent: chao_tam_biet
+      - action: utter_chao_tam_biet
+  - story: ask_major_code
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: ask_major_code
+        entities:
+          - major_name: hệ thống thông tin
+      - slot_was_set:
+          - major_name: hệ thống thông tin
+      - action: action_find_major_code
+      - intent: ask_major_name
+        entities:
+          - major_code: '8945899'
+      - slot_was_set:
+          - major_code: '8945899'
+      - action: action_get_major_name
+  - story: ask_major_code
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: ask_major_code
+        entities:
+          - major_name: httt
+      - slot_was_set:
+          - major_name: hệ thống thông tin
+      - action: action_find_major_code
+      - intent: ask_major_name
+        entities:
+          - major_code: '8945899'
+      - slot_was_set:
+          - major_code: '8945899'
+      - action: action_get_major_name
+  - story: ask_major_code
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: ask_major_code
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: công nghệ thông tin
+      - action: action_find_major_code
+      - intent: ask_major_name
+        entities:
+          - major_code: '8945899'
+      - slot_was_set:
+          - major_code: '8945899'
+      - action: action_get_major_name
+
+  - story: ask_major_code
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: ask_major_code
+        entities:
+          - major_name: hệ thống thông tin
+      - slot_was_set:
+          - major_name: hệ thống thông tin
+      - action: action_find_major_code
+  - story: ask_major_code
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: ask_major_code
+        entities:
+          - major_name: httt
+      - slot_was_set:
+          - major_name: hệ thống thông tin
+      - action: action_find_major_code
+  - story: ask_major_code
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: ask_major_code
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: công nghệ thông tin
+      - action: action_find_major_code
+  - story: ask_major_name
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: ask_major_name
+        entities:
+          - major_code: '8945899'
+      - slot_was_set:
+          - major_code: '8945899'
+      - action: action_get_major_name
+  - story: ask_major_name
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: ask_major_name
+        entities:
+          - major_code: '8945899'
+      - slot_was_set:
+          - major_code: '8945899'
+      - action: action_get_major_name
+  - story: interactive_story_1
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: challenge_bot
+        entities:
+          - major_name: tôi
+      - slot_was_set:
+          - major_name: tôi
+      - action: utter_challenge_bot
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: cntt
+      - action: action_get_major_information
+
+  - story: interactive_story_1
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: challenge_bot
+      - action: utter_challenge_bot
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: ktpm
+      - slot_was_set:
+          - major_name: ktpm
+      - action: action_get_major_information
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: công nghệ thông tin
+      - slot_was_set:
+          - major_name: công nghệ thông tin
+      - action: action_get_major_information
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: cntt
+      - action: action_get_major_information
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: cntt
+      - action: action_get_major_target
+      - intent: hoc_phi
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: cntt
+      - action: action_get_major_tuition
+      - intent: diem_xet_tuyen
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: cntt
+      - action: action_get_major_score
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: hệ thống thông tin
+      - slot_was_set:
+          - major_name: hệ thống thông tin
+      - action: action_get_major_information
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: cntt
+      - action: action_get_major_target
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: cntt
+      - action: action_get_major_target
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: cntt
+      - action: action_get_major_target
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: cntt
+      - action: action_get_major_information
+      - intent: chi_tieu_tuyen_sinh
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: cntt
+      - action: action_get_major_target
+      - intent: hoc_phi
+        entities:
+          - major_name: cntt
+      - slot_was_set:
+          - major_name: cntt
+      - action: action_get_major_tuition
+  - story: interactive_story_1
+    steps:
+      - intent: chao_hoi
+      - action: utter_chao_hoi
+      - intent: nganh_dao_tao
+        entities:
+          - major_name: ktpm
+      - slot_was_set:
+          - major_name: ktpm
+      - action: action_get_major_information
+      - intent: hoc_phi
+      - action: action_get_major_tuition
+      - intent: chi_tieu_tuyen_sinh
+      - action: action_get_major_target
+      - intent: cam_on
+      - action: utter_cam_on

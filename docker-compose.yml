@@ -1,0 +1,34 @@
+version: "3.0"
+
+services:
+  app:
+    container_name: rasa-app
+    build:
+      context: .
+      dockerfile: docker/app/Dockerfile
+    ports:
+      - "5005:5005"
+    volumes:
+      - ./app:/app
+    entrypoint: [ "tail", "-f", "/dev/null" ]
+  rasa-apache:
+    container_name: rasa-apache
+    build:
+      context: docker/apache
+    depends_on:
+      - rasa-db
+    volumes:
+      - ./data-api/:/var/www
+    ports:
+      - "8090:80"
+  rasa-db:
+    container_name: rasa-db
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "secret"
+      MYSQL_DATABASE: "data_api"
+    volumes:
+      - ./mysql/data:/var/lib/mysql
+    ports:
+      - "3307:3306"

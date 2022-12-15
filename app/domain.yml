@@ -1,0 +1,146 @@
+version: '3.1'
+intents:
+- ask_major_code
+- ask_major_name
+- cam_on
+- challenge_bot
+- chao_hoi
+- chao_tam_biet
+- chi_tieu_tuyen_sinh
+- chuong_trinh_dao_tao
+- co_hoi_viec_lam_sau_tn
+- diem_xet_tuyen
+- hoc_phi
+- nganh_dao_tao
+- out_of_scope
+- xet_tuyen_hoc_ba
+responses:
+  utter_out_of_scope:
+  - text: Xin lỗi, tôi không thể giúp bạn! Câu hỏi của bạn nằm ngoài hiểu biết của tôi. Bạn có thể hỏi về thông tin ngành đào tạo nhá!
+  - text: Tôi không thể giúp bạn. Bạn vui lòng hỏi lại nha.
+  - text: Tôi không thể giúp bạn được với câu hỏi này. Bạn vui lòng hỏi về thông tin ngành tuyển sinh nha.
+  - text: tôi không thể giúp được, mong bạn thông cảm nha.
+  - text: Câu hỏi vượt quá khả năng của mình rồi. Bạn vui lòng hỏi lĩnh vực tuyển sinh nha.
+  utter_chao_hoi:
+  - text: Xin chào bạn, mình có thể giúp gì cho bạn?
+  - text: Chào bạn, mình có thể giúp gì cho bạn không?
+  - text: Xin chào, bạn cần giúp gì?
+  - text: Xin chào, bạn cần biết những thông tin gì?
+  - text: Chào bạn, bạn muốn biết thông tin gì?
+  - text: Chào bạn, bạn muốn được tư vấn về vấn đề gì?
+  - text: Hi, bạn cần thông tin gì?
+  - text: Hi, bạn muốn biết thông tin gì?
+  - text: Hi, bạn có cần mình giúp gì không?
+  - text: Hello, bạn cần những thông tin gì?
+  - text: Hello, bạn muốn biết những thông tin nào?
+  - text: Chào mừng bạn đến với chatbot
+  - text: Mình có thể giúp gì cho bạn?
+  - text: Bạn muốn biết thông tin về vấn đề gì?
+  - text: Chào bạn, mình muốn biết thêm thông tin gì?
+  - text: Hello, bạn cần gì không?
+  - text: Hey, mình có giúp được gì không?
+  - text: Hi, mình có thể giải đáp các thắc mắc của bạn không?
+  - text: Hey, chào bạn đến với chatbot trường Đại học Cần Thơ
+  - text: Admin chatbot xin chào bạn
+  utter_challenge_bot:
+  - text: Mình là bot hỗ trợ tư vấn tuyển sinh cho trường ĐHCT.
+  - text: Mình có thể trả lời các thắc mắc của bạn về các ngành học.
+  - text: Mình có thể trả lời giúp bạn một số câu hỏi bạn cần về các ngành đào tạo.
+  - text: Mình giải đáp bạn những trăn trở về ngành học bạn gặp phải khi xét tuyển vào trường.
+  - text: Giải đáp thắc mắc của bạn về học phí, chương trình đào tạo, ngành học bạn quan tâm,...
+  - text: Giải đáp kịp thời một số câu hỏi bạn quan tâm về ngành học
+  - text: Giúp bạn có được thông tin về trường hay tư vấn cho bạn có định hướng để chon ngành phù hợp nhất.
+  - text: Trả lời đa phân câu hỏi liên quan đến lộ trình học taị trường, cách thức xét tuyển...
+  - text: Giúp bạn trả lời để bạn có cái nhìn tổng quan với các ngành học của trường.
+  utter_cam_on:
+  - text: Không có chi
+  - text: Rất vui đã giúp được bạn.
+  - text: Cảm ơn bạn đã liên hệ nha.
+  - text: Cảm ơn bạn đã liên hệ.
+  - text: Rất vui khi đã tư vấn cho bạn.
+  - text: Cảm ơn đã quan tâm.
+  - text: Không có gì.
+  - text: Không có chi, rất vui vì giúp được bạn.
+  - text: Rất vui được hỗ trợ bạn
+  - text: rất vui được giúp bạn
+  utter_chao_tam_biet:
+  - text: Bái bai
+  - text: Chào tạm biệt
+  - text: Hẹn gặp lại
+  - text: Chúc bạn nhiều may mắn
+  - text: Chào bạn nha
+  - text: Chào tạm biệt bạn nha
+  - text: bye bye
+  - text: Tạm biệt
+  - text: Chào bạn
+  - text: Chào tạm biệt bạn
+  - text: Tạm biệt bạn
+  - text: Hẹn gặp lại bạn sau nha
+  - text: Ok, Tạm biệt
+  utter_chuong_trinh_dao_tao:
+  - text: Thông tin về chương trình đào tạo bạn có thể xem chi tiết hơn ở đây nha <a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về các môn học trong chương trình đào tạo bạn có xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về học phí của chương trình đào tạo xem chi tiết tại đây <a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về chương trình đào tạo bạn có thể xem chi tiết hơn ở đây nha <a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về chương trình đào tạo ngành công nghệ thông tin khóa 45 xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về chương trình đào tạo của trường xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về chương trình đào tạo ĐHCT chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về hình thức đào tạo xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về chương trình đào tạo của trường ĐHCT xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về chương trình đào tạo đại học trường Đại học Cần Thơ xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về chương trình đào tạo bạn có thể xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về ngành, chuyên ngành đào tạo xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về các chương trình đào tạo của trường ĐHCT bạn có thể xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Chương trình đào tạo chất lượng cao và chương trình đào tạo đại trà ĐHCT xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về chương trình đào tạo bạn có thể xem chi tiết hơn ở đây nha <a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  utter_xet_tuyen_hoc_ba:
+  - text: Hướng dẫn đăng ký xét tuyển học bạ ở đây nha <a href="https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/thong-tin-tuyen-sinh.html" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về phương thức xét tuyển học bạ bạn có thể xem chi tiết hơn ở đây nha <a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về tuyển sinh theo hình tưc học bạ của trường Đại học Cần Thơ xem tại đây<a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về chỉ tiêu của phương thức tuyển sinh bằng học bạ xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về kết quả xét tuyển học bạ xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về các ngành có xét tuyển học bạ của trường Đại học Cần Thơ xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về một số đối tượng đủ điều kiện để xé tuyển học bạ xem tại đây<a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về các điều kiện để xét tuyển học bạ xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về nguyên tắc xét tuyển học bạ xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về cách tính điểm xét tuyển học bạ xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin về thời gian và hồ sơ đăng ký xét tuyển học bạ xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin liên hệ tư vấn tuyển sinh theo hình thức học bạ xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Thông tin đăng ký xét tuyển học bạ trường Đại học Cần Thơ xem chi tiết tại đây<a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  - text: Các chính sách ưu tiên đối với xét tuyển học bạ bạn xem chi tiết tại đây <a href="https://tuyensinh.ctu.edu.vn/images/upload/TT_TS/2022/huongdandkxthocba2022.pdf" target="_blank"> Xem Thông Tin </a>
+  utter_co_hoi_viec_lam_sau_tn:
+  - text: Thông tin về cơ hội viêc làm bạn có thể xem chi tiết hơn ở đây nha <a href="https://tuyensinh.ctu.edu.vn/chuong-trinh-dai-tra/177-thong-tin/943-phuong-thuc-xet-tuyen.html" target="_blank"> Xem Thông Tin </a>
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+entities:
+- major_name
+- major_code
+slots:
+  major_code:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: major_code
+  major_name:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: major_name
+actions:
+- action_find_major_code
+- action_get_major_information
+- action_get_major_name
+- action_get_major_score
+- action_get_major_target
+- action_get_major_tuition
+- utter_cam_on
+- utter_challenge_bot
+- utter_chao_hoi
+- utter_chao_tam_biet
+- utter_chuong_trinh_dao_tao
+- utter_co_hoi_viec_lam_sau_tn
+- utter_out_of_scope
+- utter_xet_tuyen_hoc_ba

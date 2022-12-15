@@ -1,0 +1,1277 @@
+version: "3.1"
+nlu:
+- intent: ask_major_name
+  examples: |
+    - Cho mình mã [8945899](major_code) là ngành gì vậy
+    - ad cho mình hỏi mã ngành [2165698](major_code) là ngành gì
+    - mã ngành [2641710](major_code)
+    - tư vấn về ngành [8884569](major_code)
+- intent: ask_major_code
+  examples: |
+    - Cho mình mã ngành của [hệ thống thông tin](major_name)
+    - tra cứu mã ngành [công nghệ thông tin](major_name)
+    - ngành [công nghệ thông tin](major_name) mã gì vậy ạ
+    - cho e hỏi mã ngành [công nghệ thông tin](major_name) là gì vậy ạ
+    - cho mình hỏi mã ngành của [hệ thống thông tin](major_name)
+    - cho hỏi mã ngành [hệ thống thông tin](major_name)
+- intent: chao_hoi
+  examples: |
+    - xin chào
+    - chào bạn
+    - hello
+    - hi
+    - hey
+    - mình có vài câu hỏi
+    - có ai giúp mình không
+    - bạn ơi
+    - anh ơi
+    - chị ơi
+    - cháu ơi
+    - chào
+    - có ai ở đây không?
+    - Em cần tư vấn tuyển sinh
+    - Em cần tư vấn
+    - Cho em hỏi
+    - Chao
+    - Ê
+    - Alo
+    - alo
+    - heyy
+    - Chào
+    - ad ơi
+    - admin ơi
+    - chào ad
+    - ad có ở đó không ạ
+    - em cần giúp đỡ
+    - ad tư vấn giúp em với
+    - em có thắc mắc ạ
+    - ad giúp e vs
+    - ad tư vấn cho e đi
+    - Xin chào admin
+- intent: challenge_bot
+  examples: |
+    - bạn có thể làm được những gì
+    - bạn giúp được gì nào
+    - chức năng của bạn là gì
+    - bạn có thể làm được mấy chức năng
+    - bạn giỏi nhất làm gì
+    - bạn có tư vấn giúp mình được không
+    - việc gì bạn làm được
+    - kể xem bạn làm được gì
+    - cho mình biết bạn làm được gì nhé
+    - bạn hữu dụng như thế nào
+    - bạn có ích trong những việc gì
+    - lĩnh vực gì bạn giỏi nhất
+    - mình tò mò về những việc bạn làm được
+    - chẳng biết bạn làm được gì
+    - bạn tệ nhất trong việc gì
+    - bạn biết được những lĩnh vực gì
+    - bạn giỏi hỗ trợ nhất trong lĩnh vực gì
+    - kể cho mình biết những việc bạn có thể làm được nhé
+    - nói cho mình về những việc bạn giúp được mình
+    - bạn giúp được mình gì nào
+    - bạn có thể làm gì
+    - em giúp được gì
+    - em làm được gì
+    - mày biết làm gì
+    - em biết làm gì
+    - bạn biết làm gì
+    - biết làm gì
+    - làm được gì
+    - có làm được gì
+    - có làm được trò gì
+    - giúp giúp cái gì
+    - biết gì mà nói
+    - giúp được gì
+    - mày làm được gì
+    - có biết gì
+    - Bạn làm được những gì?
+    - Mày là ai?
+    - Bạn là ai
+    - Thông tin ngành thì sao?
+    - Bạn cso thể giúp gì cho [tôi](major_name)
+    - Bạn có thể giúp được gì cho mình?
+- intent: cam_on
+  examples: |
+    - chuẩn
+    - hay
+    - siêu
+    - tuyệt
+    - cám ơn
+    - thanks
+    - thank you
+    - cảm ơn em
+    - cảm ơn em nhiều nhé
+    - cảm ơn
+    - thank you very much
+    - you're so helpful
+    - I appreciate you
+    - Let me know if you need anything else
+    - Couldn't have done it without you
+    - You made this easy
+    - You're so helpful
+    - What do you think
+    - I'm impressed
+    - Xin cảm ơn
+    - em cảm ơn nhiều
+    - củm ơn ạ
+    - Thật tuyệt vời
+    - Cảm ơn nhé
+    - Em cảm ơn chị ạ
+    - Cảm ơn bot
+    - Cảm ơn cháu đã giúp đỡ
+    - xin cam on
+    - Bạn thật tốt
+- intent: chao_tam_biet
+  examples: |
+    - Rất vui được gặp bạn!
+    - bye
+    - good bye
+    - Tạm biệt.
+    - Cuối tuần vui vẻ!
+    - Chúc một ngày tuyệt vời!
+    - Bảo trọng.
+    - Hẹn gặp lại bạn sau.
+    - Chúc ngủ ngon
+    - cee you later
+    - good night
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - see ya
+    - see you tomorrow
+    - see you soon
+    - have a nice weekend
+    - Bái bai nha
+    - bái bai
+    - Bai
+    - bai
+- intent: hoc_phi
+  examples: |
+    - Cho em hỏi ngành [truyền thông đa phương tiện](major_name) học phí bao nhiêu 1 năm ạ?
+    - Học phí ngành [quản lý thủy sản](major_name) 1 năm khoảng bao nhiêu?
+    - Học phí ngành [Quản lý công nghiệp](major_name) năm nay từ bnhiu đến bnhiu ạ
+    - Cho em hỏi học phí ngành [Kỹ thuật cơ khí](major_name) khoảng bao nhiêu ạ?
+    - Học phí ngành [Kỹ thuật điện tử - viễn thông](major_name) bao nhiêu?
+    - Hỏi về chi phí ngành [Kỹ thuật vật liệu](major_name) ở trường?
+    - Chi phí ngành [Công nghệ thực phẩm](major_name) như thế nào?
+    - Học phí ngành [Công nghệ chế biến thủy sản](major_name) á.
+    - Chi phí ngành [Kỹ thuật xây dựng công trình giao thông](major_name) có cao không?
+    - Học phí ngành [Khoa học đất](major_name) nhiêu trên năm?
+    - 1 tín ngành [Kỹ thuật cấp thoát nước](major_name) chỉ có chi phí bao nhiêu
+    - Học phí ngành [Hóa dược](major_name) thì như thế nào ạ
+    - Thường học phí ngành [Thú y](major_name) thì sẽ như thế nào?
+    - học phí ngành [Triết học](major_name) bên trường mình bao nhiêu?
+    - học phí ngành [văn  học](major_name) hết khoá ước lượng như thế nào?
+    - Chính sách học phí ngành [Kinh tế](major_name) của Nhà trường là gì?
+    - Ngành [Chính trị học](major_name) có học phí cao không?
+    - Học phí ngành [Thông tin - thư viện](major_name) ở trường như thế nào?
+    - Học phí ngành [Thông tin - thư viện](major_name) ra sau?
+    - Dạ cho em hỏi về phần học phí của ngành [Quản lý tài nguyên và môi trường](major_name)
+    - cho em hỏi học phí ngành [luật](major_name) bao nhiêu một năm ạ
+    - [an toàn thông tin](major_name) học phí bao nhiêu ạ
+    - Chào Thầy cô cho hỏi [công nghệ thông tin](major_name) đóng học phí một nâm bao nhiêu ạ
+    - chi phí của ngành [Luật hành chính](major_name) như thế nào?
+    - CHI PHÍ trung bình của ngành [Truyền thông đa phương tiện](major_name) BAO NHIÊU 1 NĂM VẬY Ạ
+    - Cho e hỏi học phí ngành [Kinh tế Nông nghiệp](major_name) với ạ
+    - Cho e hỏi học phí ngành [Quản trị dịch vụ du lịch và lữ hành](major_name) với ạ
+    - Cho e hỏi học phí nghành [quản lí tài nguyên và môi trường](major_name) là bao nhiêu ạ
+    - Cho e hỏi ngành [logistic](major_name) có học phí bao nhiêu?
+    - Cho e hỏi ngành [quản trị dịch vụ du lịch và lữ hành](major_name) học phí bao nhiêu?
+    - Cho e hỏi nghành [xã hội học](major_name) học phí bao nhiêu
+    - Cho em hỏi [bệnh học thủy sản](major_name) học phí bao nhiêu ạ?
+    - Cho em hỏi chi phí cho ngành [marketing](major_name) là bao nhiêu ạ?
+    - Cho em hỏi chỉ tiêu xét học bạ ngành [CNSH](major_name) học phí ra sao ạ?
+    - Cho em hỏi học phí của ngành [quản lý tài nguyên và môi trường](major_name) là bao nhiêu ạ?
+    - Cho em hỏi học phí ngành [chính trị học](major_name) ạ
+    - Cho em hỏi học phí ngành [CNSH](major_name) là 14,2 triệu 1 năm hay 1 học kì ạ?
+    - Cho em hỏi học phí ngành [công nghệ sinh học](major_name) khoảng bao nhiêu v ạ?
+    - Cho em hỏi học phí ngành [hóa dược](major_name) với công nghệ thực phẩm với ạ
+    - Cho em hỏi chi phí ngành [công nghệ sinh học](major_name) khoảng bao nhiêu v ạ?
+    - Cho em hỏi chi phí ngành [hóa dược](major_name) với công nghệ thực phẩm với ạ
+    - cho em hỏi học phí ngành [kinh tế môi trường](major_name) bao nhiêu ạ
+    - Cho em hỏi học phí ngành [logistics](major_name) là bao nhiêu ạ??
+    - CHO EM HỎI HỌC PHÍ NGÀNH [MARKETING](major_name) BAO NHIÊU VẬY Ạ
+    - CHO EM HỎI CHI PHÍ NGÀNH [MARKETING](major_name) BAO NHIÊU VẬY Ạ
+    - Cho em hỏi học phí nghành [chuỗi cung ứng và quản lí](major_name) là bao nhiêu
+    - Cho em hỏi học phí nghành [truyền thông đa phương tiện](major_name) là bao nhiêu ạ
+    - cho em hỏi học phí [ngôn ngữ anh](major_name) năm nay ạ
+    - Cho em hỏi học phí [qtkd](major_name) năm nay bn ạ?
+    - Cho em hỏi chi phí [qtkd](major_name) năm nay bn ạ?
+    - Cho em hỏi ngành [an toàn thông tin](major_name) học phí năm 2022-2023 bao nhiêu ạ
+    - Cho em hỏi ngành [bảo vệ thực vật](major_name) học phí là bao nhiêu ạ
+    - Cho em hỏi ngành [Công nghệ Thực phẩm](major_name) học phí bao nhiêu ạ
+    - Cho em hỏi ngành [công nghệ thực phẩm](major_name) học phí nhiêu ạ
+    - Cho em hỏi ngành [nuôi trồng thủy sản](major_name) học phí nhiêu ạ
+    - Cho em hỏi ngành [công nghệ thực phẩm](major_name) chi phí nhiêu ạ
+    - Cho em hỏi ngành [nuôi trồng thủy sản](major_name) chi phí nhiêu ạ
+    - Cho em hỏi ngành [KDQT](major_name) học phí bao nhiêu ạ ?
+    - Cho em hỏi ngành [kinh doanh thương mại](major_name) học phí bao nhiêu 1 năm ạ?
+    - Cho em hỏi ngành [logistics](major_name) học phí như nào ạ?
+    - Cho em hỏi ngành [marketing](major_name) học phí bao nhiêu ạ
+    - Cho em hỏi ngành [logistics](major_name) chi phí như nào ạ?
+    - Cho em hỏi ngành [marketing](major_name) chi phí bao nhiêu ạ
+    - CHO EM HỎI NGÀNH [MARKETING](major_name) học phí BAO NHIÊU VẬY Ạ
+    - CHO EM HỎI NGÀNH [THIẾT KẾ ĐỒ HỌA](major_name) học phí BAO NHIÊU VẬY Ạ
+    - Cho em hỏi ngành [Ngôn Ngữ Anh](major_name) hệ đại trà học phi bao nhiêu ạ
+    - Cho em hỏi ngành [nuôi trồng thủy sản](major_name) học phí tầm bao nhiêu 1 năm ạ
+    - Cho em hỏi ngành [nuôi trồng thủy sản](major_name) hc phí tầm bao nhiêu 1 năm ạ
+    - Cho em hỏi ngành [quản lý đất đai](major_name) học phí bao nhiêu ạ?
+    - Cho em hỏi ngành [quản trị kinh doanh](major_name) học phí 1 năm nhiu vậy
+    - Cho em hỏi ngành [quản trị kinh doanh](major_name) chi phí 1 năm nhiu vậy
+    - Cho em hỏi ngành [tài chính ngân hàng](major_name) có học phí là bao nhiêu ạ?
+    - Cho em hỏi ngành [thú y](major_name) học phí bao nhiêu
+    - Cho em hỏi ngành [Thú Y](major_name) học phí như nào ạ
+    - Cho em hỏi ngành [thú y](major_name) chi phí bao nhiêu
+    - Cho em hỏi ngành [Thú Y](major_name) chi phí như nào ạ
+    - Cho em hỏi ngành [truyền thông](major_name) học phí bao nhiu ạ
+    - Cho em hỏi ngành [Văn học](major_name) học phí bao nhiêu ạ?
+    - Cho em hỏi nghành [kế toán](major_name) học phí là bao nhiêu ạ?
+    - Cho em hỏi [sư phạm địa lí](major_name) hệ đại trà chi phí bao nhiêu ạ
+    - Cho em hỏi về học phí ngành [logistic](major_name) với ạ em cảm ơn
+    - Cho em hỏi, học phí ngành [Việt Nam học](major_name) đại trà trong một năm tầm bao nhiu?
+    - Chương trình đại trà của ngành [CNTP](major_name) co học phí thế nào ạ.
+    - ngành [CNTP](major_name) có học phí bao nhiêu trên một năm học ạ
+    - [CNTP](major_name) CLC học phí 4.5 là bao nhiêu ạ?
+    - [Công nghệ thông tin](major_name) chất lượng cao học phí như thế nào dạ
+    - Dạ cho e hỏi là học phí ngành [CNTT](major_name) là bao nhiêu ạ
+    - dạ cho em hỏi học phí ngành [Văn học](major_name) ạ. em cảm ơn ạ
+    - Dạ cho em hỏi là ngành [truyền thông đa phương tiện](major_name) có học phí là bao nhiêu ạ?
+    - Dạ cho e hỏi là chi phí ngành [CNTT](major_name) là bao nhiêu ạ
+    - dạ cho em hỏi chi phí ngành [Văn học](major_name) ạ. em cảm ơn ạ
+    - Dạ cho em hỏi là ngành [truyền thông đa phương tiện](major_name) có chi phí là bao nhiêu ạ?
+    - Dạ cho em hỏi ngành [CNTT](major_name) chi phí như thế nào ạ?
+    - Dạ cho em hỏi ngành [ngôn ngữ Anh](major_name) học phí bao nhiêu ạ
+    - Dạ cho em hỏi ngành [ngôn ngữ Anh](major_name) học phí bao nhiêu một năm ạ
+    - Dạ cho em hỏi ngành [sư phạm](major_name) có mức học phí như nào ạ
+    - Dạ cho em hỏi ngành [truyền thông đa phương tiện](major_name) học phí một năm là bao nhiêu vậy ạ?
+    - Dạ cho em hỏi nghành [truyền thông đa phương tiện](major_name) học phí ntn ạ
+    - dạ cho em hỏi, đào tạo bằng cử nhân nganh [hóa dược](major_name) học phí như nào ạ?
+    - Dạ học phí ngành [KDQT](major_name) chất lượng cao thì sao ạ
+    - Dạ học phí ngành [KDQT](major_name) CLC là bao nhiêu ạ ?
+    - Dạ ngành [Xã hội học](major_name) học phí bao nhiêu ạ. Em cảm ơn
+    - Chi phí 1 năm của ngành [luật](major_name) sao ạ
+    - em hỏi học phí của ngành [sư phạm](major_name) ạ
+    - Em muốn hỏi học phí của trường về ngành [Kinh doanh quốc tế](major_name) ạ
+    - Em nghe nói năm nay ngành [Quản lý tài nguyên và môi trường](major_name) tăng học phí đúng không ạ?
+    - Em tên Phạm Anh Vũ em đang muốn học ngành [ngôn ngữ anh](major_name) vậy mức học phí như thế nào ạ
+    - Học ngành [điện](major_name) bao nhiêu tiền 1 học kỳ ạ.tư vấn giúp em với ạ.
+    - Học phí [CNSH](major_name) 1 năm là bao nhiêu ạ?
+    - Học phí [CNTP](major_name) ạ
+    - Học phí của ngành [chăn nuôi](major_name) bao nhiêu vậy ạ
+    - Học phí của ngành [quản lí đất đai](major_name) bao nhiêu vậy ạ
+    - Học phí của ngành [sư phạm](major_name) ạ
+    - Học phí của [quản trị du lịch lữ hành](major_name) là bao nhiêu ạ
+    - Học phí đại trà mỗi năm tăng bao nhiêu phần trăm đối với mỗi tín chỉ ạ
+    - CHI phí [CNSH](major_name) 1 năm là bao nhiêu ạ?
+    - chi phí [CNTP](major_name) ạ
+    - chi phí của ngành [chăn nuôi](major_name) bao nhiêu vậy ạ
+    - chi phí của ngành [quản lí đất đai](major_name) bao nhiêu vậy ạ
+    - chi phí của ngành [sư phạm](major_name) ạ
+    - chi phí của [quản trị du lịch lữ hành](major_name) là bao nhiêu ạ
+    - chi phí đại trà mỗi năm tăng bao nhiêu phần trăm đối với mỗi tín chỉ ạ
+    - Học phí [khoa học đất](major_name) là bao nhiu v ạ
+    - Học phí [kỹ thuật công trình thủy](major_name) bao nhiu v ạ
+    - Học phí ngành [Kinh tế tài nguyên thiên nhiên](major_name) năm nay thì sao ạ
+    - Học phí ngàng [NNA](major_name) từ năm 2 năm 3 năm 4 có học phí thêm bao nhiu ạ
+    - Học phí ngành [bảo vệ thực](major_name) là bao nhiêu 1 tính chỉ vậy ạ ????
+    - Học phí ngành [chế biến thủy sản](major_name) 1 năm nhiu ạ
+    - Học phí ngành [chế biến thủy sản](major_name) 1 năm nhiu vậy ạ
+    - Học phí ngành [cơ khí ô tô](major_name) là bao nhiêu ạ
+    - Học phí ngành [điều khiển và tự động hóa](major_name) cho nữ là bao nhiêu ạ?
+    - Học phí ngành [điều khiển và tự động hóa](major_name) là khoảng bao nhiêu ạ?
+    - Học phí ngành [kế toán](major_name) bao nhiêu ạ ?
+    - Học phí ngành [kĩ thuật điều khiển và tự động hóa](major_name) là bao nhiêu vậy ạ?
+    - Học phí ngành [kinh tế](major_name) là bao nhiêu ạ
+    - Học phí ngành [kt điều khiển và tự động hoá](major_name) năm nay là bao nhieu ạ
+    - Học phí ngành [Kỹ Thuật Phần Mềm](major_name) khoảng bao nhiêu 1 năm ạ? Em cảm ơn
+    - Học phí ngành [luật](major_name) bao nhiêu vậy ạ
+    - Học phí ngành [quản lí thủy sản](major_name) nhiu vậy ạ
+    - Học phí ngành [tài chính ngân hàng](major_name) bao nhiêu v ạ
+    - Học phí ngành [Tài chính-Ngân hàng](major_name) bao nhiêu v ạ
+    - Học phí ngành [Thống Kê](major_name) khoảng bao nhiêu ạ
+    - Học phí ngành [truyền thông đa phương tiện](major_name) theo từng năm thế nào ạ?
+    - Học phí ngành [việt nam học](major_name) ạ
+    - Học phí ngành [việt nan học](major_name) là bao nhiêu ah
+    - Học phí nghành [quản trị du lịch và lữ hành](major_name) bao nhiêu ạ
+    - Học phí [sư phạm anh](major_name) là bao nhiêu vậy ạ??
+    - Học phí [sư phạm địa](major_name) bao nhiêu ạ
+    - Học phí sư phạm là bao nhiêu ạ
+    - Học phí sư phạm là bao nhiêu vậy ạ?
+    - Học phí và phương thức xét học bạ là bao nhiêu học kì
+    - Chi phí ngành [việt nam học](major_name) ạ
+    - chi phí ngành [việt nan học](major_name) là bao nhiêu ah
+    - Chi phí nghành [quản trị du lịch và lữ hành](major_name) bao nhiêu ạ
+    - Chi phí [sư phạm anh](major_name) là bao nhiêu vậy ạ??
+    - CHI phí [sư phạm địa](major_name) bao nhiêu ạ
+    - chi phí [sư phạm địa lý](major_name) là bao nhiêu ạ
+    - chi phí [sư phạm toán](major_name) là bao nhiêu vậy ạ?
+    - [Kế toán](major_name) phí bao nhiêu vậy ạ
+    - [Luật](major_name) phí bao nhiêu ạ
+    - Mỗi năm ngành [Quản lý đất đai](major_name) tăng bao nhiêu học phí ạ
+    - Ngành [bệnh học thủy sản](major_name) có mức học phí bao nhiêu năm ạ
+    - Ngành [CNTT](major_name) học phí bao nhiêu vậy ạ?
+    - Ngành [CNTT](major_name) học phí ntn ạ
+    - Ngành [công nghệ kỹ thuật hóa học](major_name) CLC có học phí bao nhiêu vậy ạ
+    - NGÀNH [GIÁO DỤC TIỂU HỌC](major_name) có học phí BAO NHIÊU TRÊN NĂM VẬY Ạ
+    - Ngành [hóa học và ngành công nghệ hóa học](major_name) đại trà có học phí bao nhiêu vậy ạ
+    - Ngành [kế toán](major_name) bao nhiêu học phí / năm ạ
+    - Ngành [khoa học cây trồng](major_name) hc phí bn vậy ạ
+    - Ngành [khoa học cây trồng](major_name) học phí ra sao ạ.
+    - Ngành [logistisc](major_name) học phí hệ đại trà là bao nhiêu ạ?
+    - Ngành [Luật](major_name) học phí 1 năm bao nhiêu vậy ạ?
+    - Ngành [luật](major_name) là học phí bao nhiêu vậy ạ
+    - ngành [ngôn ngữ Pháp](major_name) học phí là bao nhiêu ạ?
+    - Ngành [quản lí thủy sản](major_name) học phí nhiu ạ
+    - ngành [quản trị du lịch lữ hành](major_name) học phí sao ạ
+    - ngành [quản trị du lịch lữ hành](major_name) nhiêu ạ
+    - Ngành [quản trị kinh doanh](major_name) học phí bao nhiu ạ,
+    - Ngành [quản trị kinh doanh](major_name) học phí ntn ạ
+    - Ngành [sư phạm địa](major_name) có chi phí bao nhiêu ạ
+    - Ngành [sư phạm địa lí](major_name) học phí bao nhiêu ạ
+    - Ngành [sư phạm lịch sử](major_name) học phí là bao nhiêu ạ
+    - Ngành [tài chính ngân hàng](major_name) học phí bao nhiêu vậy
+    - Ngành [thú y](major_name) chi phí 1 năm học sau ạ
+    - Ngành [truyền thông đa phương tiện](major_name) học phí 1 năm bao nhiêu ạ
+    - Ngành [y khoa](major_name) học phí bao nhiêu một năm vậy cô ?
+    - [Nghành ngôn ngữ anh](major_name) học phí là bao nhiu ạ????
+    - [Nghành ngôn ngữ anh](major_name) học phí là bao nhiu vậy ạ?
+    - [Ngôn ngữ Anh](major_name) bao nhiêu 1 năm ạ
+    - [Ngôn ngữ Anh](major_name) học phí bao nhiêu vậy ạ?
+    - Nhành [luật](major_name) bảo nhiêu điểm học phí năm nhiêu ạ
+    - [Nông học](major_name) có học phí 4.5 là bao nhiêu ạ
+    - Phí [tài chính ngân hàng](major_name) là bao nhiêu ạ
+    - [Qtkd](major_name) học phí bao nhiêu vậy ạ
+    - [Quản trị du lịch lữ hành](major_name) bao nhiêu một năm vậy ạ
+    - [Quản trị kinh doanh](major_name) học phí nhiu vậy ạ
+    - Sẵn cho em hỏi [Ngôn ngữ Anh](major_name) luôn ạ
+    - [Sư Phạm Văn học](major_name) phí bao nhiêu ạ?
+    - Vậy nếu em đóng 33tr cho 1 năm là đã xong các khoản phí cơ bản về học phí đúng không ạ?
+    - Cho e hỏi ngành [nuôi trồng thủy sản](major_name) học phí là bao nhiêu ạ?
+    - Học phí [CNTT](major_name) là bao nhiu ạ
+    - Ngành [kế toán](major_name) bao nhiêu tiền / năm ạ
+    - Ngành [khoa học cây trồng](major_name) tốn bao nhiu tien vậy ạ
+    - Ngành [logistisc](major_name) học phí hệ đại trà là bao nhiêu tièn ạ?
+    - Ngành [Luật](major_name) học phí 1 năm bao nhiêu tiền vậy ạ?
+    - Ngành [luật](major_name) là học phí bao nhiêu tiền vậy ạ
+    - ngành [ngôn ngữ Pháp](major_name) học phí là bao nhiêu tien ạ?
+    - Ngành [quản lí thủy sản](major_name) học phí nhiu tien ạ
+    - ngành [quản trị du lịch lữ hành](major_name) tốn bao nhiêu thế ạ
+    - Ngành [quản trị kinh doanh](major_name) học phí bao nhiu tièn ạ
+    - Ngành [sư phạm địa](major_name) có chi phí bao nhiêu tien dạ
+    - Ngành [sư phạm địa lí](major_name) học phí bao nhiêu tiên dạ
+    - Ngành [tài chính ngân hàng](major_name) học phí bao nhiêu tiền vậy ad
+    - Ngành [truyền thông đa phương tiện](major_name) học phí 1 năm bao nhiêu tiên vậy ạ
+    - học phí như thế nào
+    - học phí
+- intent: chi_tieu_tuyen_sinh
+  examples: |
+    - Cho em hỏi chỉ tiêu xét học bạ ngành [CNSH](major_name) là bao nhiêu ạ?
+    - Chỉ tiêu 60 là lấy 60 bạn thôi hả ad
+    - Chỉ tiêu càng ít liệu điểm có giảm hông ạ😭
+    - Chỉ tiêu [công nghệ ô tô](major_name) xét học bạ là bn ạ
+    - Chỉ tiêu của ngành [sư phạm địa lí](major_name) là bao nhiêu ạ em cảm ơn ạ
+    - Chỉ tiêu để tuyển sinh ngành [công nghệ thực phẩm](major_name) là sao ạ
+    - Chỉ tiêu học bạ ngành [NTTS](major_name) là bao nhiêu ạ
+    - Chỉ tiêu học bạ ngành [Văn học](major_name) là bao nhiêu ạ
+    - Chỉ tiêu là lấy điểm từ cao xuống thấp hay sao ạ
+    - Chỉ tiêu là lấy từ cao xuống hay sao ạ. Nếu em đậu nghành đó mà đủ chỉ tiêu thì sao ạ
+    - Chỉ tiêu [marketing](major_name) năm nay là bao nhiêu vậy ạ?
+    - Chỉ tiêu ngành [luật](major_name) là bao nhiêu ạ
+    - chỉ tiêu [NNA](major_name) bao nhiêu ạ
+    - Chỉ tiêu [QTKD](major_name)
+    - Chỉ tiêu [QTKD](major_name) là nhiêu ạ
+    - Chỉ tiêu [qtkd](major_name) năm nay bn ạ?
+    - Chỉ tiêu số lượng [sư phạm Anh](major_name) năm nay có tăng không ạ?
+    - Chỉ tiêu [sư phạm Anh](major_name) 2022 là bao nhiêu ạ
+    - Chỉ tiêu [sư phạm địa](major_name) ạ
+    - Chỉ tiêu [sư phạm hoá](major_name) là bao nhiêu vậy cô
+    - Chỉ tiêu [sư phạm lịch sử](major_name) là bao nhiêu ạ
+    - Chỉ tiêu [sư phạm sử](major_name) ạ
+    - Chỉ tiêu [Sư Phạm Toán](major_name) ạ?
+    - Chỉ tiêu [sư phạm Toán](major_name) là bao nhiêu ?
+    - chỉ tiêu [sư Phạm Văn](major_name) là bao nhiêu ạ
+    - Chỉ tiêu [văn học](major_name) bao nhiêu ạ
+    - Chỉ tiêu [Xã hội học](major_name) năm nay là bao nhiêu v ạ
+    - Chỉ tiêu xét học bạ [CNTT](major_name) năm nay thế nào ạ?
+    - Chỉ tiêu xét học bạ của nghành [thú y](major_name) là bao nhiêu ạ
+    - Chỉ tiêu xét học bạ ngành [Công nghệ thực phẩm](major_name) chuẩn ạ
+    - Chỉ tiêu xét học bạ ngành [NNA](major_name) hệ chuẩn
+    - Chỉ tiêu xét học bạ ngành [sư phạm văn](major_name) ạ
+    - Chỉ tiêu xét học bạ và điểm thi [Ngôn ngữ anh](major_name) là bao nhiêu ạ?
+    - Chỉ tiêu xét tuyển học bạ nghành [thú y](major_name) năm nay bao nhiu ạ
+    - Chỉ tiu ngành [kỹ thuật phần mềm](major_name) là bao nhiu ạ
+    - Cho e hỏi nếu không đủ chỉ tiêu ngành thì sẽ hạ bớt điểm hay sao ạ
+    - Cho em hỏi  chỉ tiêu ngành [chính trị học](major_name) ạ
+    - Cho em hỏi 28.25đ thì xét [quản trị kinh doanh](major_name) có đc không ạ. Có thể cho em thêm thông tin về ngành [mkt không ạ
+    - Cho em hỏi chỉ tiêu của ngành [công nghệ kĩ thuật hóa](major_name) học đại trà vs CLC năm nay vs ạ
+    - Cho em hỏi chỉ tiêu của ngành [quản lí đất đai](major_name) là bao nhiêu vậy ạ
+    - Cho em hỏi chỉ tiêu của nghành [truyền thông đa phương tiện](major_name) năm nay là bao nhiêu ạ
+    - Cho em hỏi chỉ tiêu của [truyền thông đa phương tiện](major_name) là bnh ạ
+    - cho em hỏi chỉ tiêu năm nay của ngành [VIệt Nam học](major_name) ạ
+    - CHO EM HỎI CHỈ TIÊU NGÀNH [MARKETING](major_name) VỚI Ạ
+    - cho em hỏi chỉ tiêu [ngôn ngữ anh](major_name) năm nay ạ
+    - Cho em hỏi là ngành [sư phạm tiểu học](major_name) chỉ tiêu là bao nhiêu vậy ạ
+    - cho em hỏi ngành [logistic](major_name) lấy bao nhiêu thí sinh vậy ạ
+    - Cho em hỏi ngành [marketing](major_name) đại trà và CLC nhiu z ạ
+    - Cho em hỏi tỉ lệ số lượng trúng tuyển vào nghành [chuỗi cung ứng và quản lí](major_name) là bao nhiêu
+    - Cho em hỏi tiêu chí của [sư phạm ngữ văn](major_name) như thế nào?
+    - Dạ cho con hỏi về ngành [công nghệ thực phẩm](major_name) với lại công nghệ sau thu hoạch với ạ
+    - dạ cho em chỉ tiêu ngành [Văn học](major_name) ạ. em cảm ơn ạ
+    - Dạ cho em hỏi ngành [chế biến thủy sản](major_name) chỉ tiêu nhiu ạ
+    - Dạ cho em hỏi Ngành [Quản Lý Tài Nguyên và Môi Trường](major_name) chỉ tiêu bao nhiêu ạ.
+    - [Kỹ thuật môi trường](major_name) chỉ tiêu là bao nhiêu ?
+    - [Marketing](major_name) năm nay chỉ tiêu bao nhiêu vậy ạ
+    - Ngành [ngôn ngữ anh](major_name) xét học bạ bao nhiêu chỉ tiêu ạ
+    - Ngành [nuôi trồng thủy sản](major_name) năm nay xét học bạ chỉ tiêu bao nhiêu ạ!
+    - Ngành [sư phạm sinh](major_name) là bao nhiêu chỉ tiêu vậy cô
+    - Ngành [sư phạm tiểu học](major_name) xét học bạ bao nhiêu ạ
+    - Ngành [Tài chính ngân hàng](major_name) chỉ tiêu bao nhiêu vậy ad
+    - ngành [thủy sản](major_name) lấy bao nhiêu vậy ạ
+    - [ntts](major_name) năm nay lấy nhiêu sinh viên v ạ
+    - [Sư phạm anh](major_name) năm nay chỉ tiêu bao nhiêu v ad
+    - [Sư phạm địa](major_name) năm nay lấy bao nhiêu sinh viên vậy ạ
+    - Thầy cô cho em hỏi rằng ngành [truyền thông đa phương tiện](major_name) có chỉ tiêu và yêu cầu như thế nào ạ? Năm nay là năm đầu tiên trường đào tạo ngành đấy thì có dễ vào không ạ?
+    - Chỉ tiêu tuyển sinh [QTDL và LH](major_name) là bao nhiêu ạ
+    - [Xã hội học](major_name) năm nay chỉ tiêu bao nhiêu ạ
+    - xét học bạ ngành [CNTT](major_name) năm nay xét bao nhiêu chỉ tiêu ạ
+    - Xét học bạ ngành [thủy sản](major_name) có chỉ tiêu bao nhiêu ạ
+    - chỉ tiêu là bao nhiêu
+    - chỉ tiêu
+    - chỉ tiêu ngành httt
+    - chi tieu nganh httt
+- intent: diem_xet_tuyen
+  examples: |
+    - Điểm chuẩn ngành [luật](major_name) sao ạ
+    - Cho em hỏi ngành [tài chính ngân hàng](major_name) xét tuyeen là bao nhiêu điểm ạ?
+    - [CNTT](major_name) điểm bao nhiêu ạ
+    - Cho em hỏi [kế toán](major_name) điểm chuẩn bao nhiêu ạ
+    - ngành [kế toán](major_name) đó chỉ tiêu bao nhiêu vậy
+    - Cho e hỏi học phí ngành Ngành [Quản trị dịch vụ du lịch và lữ hành](major_name) với ạ.
+    - cho em hỏi khoảng thời gian nào thì công bố điểm [CNTT](major_name) 2022 ạ
+    - ngành [kế toán](major_name) đó điểm bao nhiêu vậy
+    - 24 điểm học bạ thì có đậu nghành nào về [CNTT](major_name) k ạ
+    - 24,95 điểm [Văn học](major_name) có khả năng đậu không
+    - 27.2 điểm thì có cơ hội đậu vào [cn thực phẩm](major_name) k ạ.
+    - Ad cho em hỏi Ngành [truyền thông đa phương tiện](major_name) điểm xét tuyển dao động bao nhiêu ?
+    - [Bảo vệ thực vật](major_name) xét bao nhiêu điểm ạ
+    - Cho con hỏi năm nay ngành [luật](major_name) liệu có tăng điểm xét không ạ, có tăng thì tăng khoảng bao nhiêu! Con xin cảm ơn
+    - Cho e hỏi điểm của [sư phạm văn](major_name) ạ
+    - Cho e hỏi điểm ngành [luật](major_name) năm nay có thay đổi hơn so với năm trước ko ạ
+    - Cho e hỏi điểm [sư phạm toán](major_name) với ạ
+    - Cho e hỏi điểm [Ngôn ngữ anh](major_name) và điểm thi là bao nhiêu ạ
+    - cho e hỏi điểm tuyển nghành [Tài Chính Ngân Hàng](major_name) là bao nhiêu ạ?
+    - Cho e hỏi điểm xét tuyển ngành [Sư phạm Tin Học](major_name) năm 2022 ạ
+    - Cho e hỏi là [công nghệ sinh học](major_name) lấy điểm sao v
+    - cho e hỏi là năm nay [công nghệ thông tin](major_name) điểm có biến động nhiều k ạ em cảm ơn
+    - Cho e hỏi liệu điểm xét các nghành [công nghệ sinh học](major_name) năm nay liệu có tăng lên thêm hoặc giảm xuống hoặc giữ nguyên không ạ thưa Thầy !
+    - cho e hỏi nếu nghành mk muốn học là 26 đ , mà điểm học bạ của e chỉ có 24đ thì e có học dc nghành [công nghệ thông tin](major_name) 26 điểm ko ạ
+    - Cho e hỏi ngành [công nghệ thông tin](major_name) mấy điểm như thế nào ạ?
+    - Cho e hỏi ngành [quản lý đất đai](major_name) xét học bạ bao nhiêu vậy ạ
+    - Cho e hỏi Ngành [Quản trị dịch vụ du lịch và lữ hành](major_name) e muốn xét học bạ, e hiện đang có 27đ v có khả năng đậu k ạ
+    - Cho em em hỏi có ngành nào 24₫ kh ạ
+    - cho em hỏi điểm chuẩn xét tuyển của ngành [Kĩ thuật phần mềm](major_name) với ạ
+    - cho em hỏi điểm chuẩn [y dược](major_name) tầm bao nhiêu điểm ạ ?
+    - Cho em hỏi điểm ngành [công nghệ thông tin](major_name) năm nay có tăng hay giảm không ạ
+    - Cho em hỏi điểm ngành [Sư phạm Hóa học](major_name)
+    - Cho em hỏi điểm [sư phạm địa](major_name) ạ
+    - Cho em hỏi điểm [sư phạm lịch sử](major_name) ạ
+    - Cho em hỏi điểm [sư phạm sinh](major_name) ạ
+    - Cho em hỏi điểm [sư phạm tiểu học](major_name)
+    - Cho em hỏi điểm xét tuyển [sư phạm tiểu học](major_name) sau ạ
+    - Cho em hỏi điểm xét tuyển nhành [Nông Học](major_name) ạ
+    - Cho em hỏi điểm xét tuyển [nuôi trồng thủy sản](major_name) năm 2022 có tăng lên nữa không ạ
+    - Cho em hỏi điểm chuẩn nghành [Tài Chính Ngân Hàng](major_name) ạ
+    - Cho em hỏi điểm xét tuyển chuẩn [Truyền Thông Đa Phương Tiện](major_name) là bao nhiêu ạ?
+    - Cho em hỏi điểm xét tuyển nghành [Tài Chính Ngân Hàng](major_name) tăng khoảng bao nhiêu so với điểm sàn ạ?
+    - Cho em hỏi [kinh doanh quốc tế](major_name) xét tuyển bao nhiêu điểm ạ
+    - Cho em hỏi [kinh doanh quốc tế](major_name) xét tuyển bao nhiêu điểm thì đậu ạ
+    - Cho em hỏi là điểm thi đầu vào và điểm xét ngành [giáo dục tiểu học](major_name) là bao nhiêu vậy ạ ❤️
+    - Cho em hỏi là ngành [Ngôn ngữ anh](major_name) lấy điểm có chênh lệch nhau nhiều không ạ?
+    - Cho em hỏi [marketing](major_name) có điểm là nhiu ạ
+    - Cho em hỏi ngành [Công Nghệ Sinh Học](major_name) lấy bao nhiêu điểm vậy ạ?
+    - Cho em hỏi ngành [hóa dược](major_name) em tính điểm học bạ được 29.4 có khả năng đậu k ạ. Em thấy điểm chuẩn năm 2021 cao quá ạ
+    - Cho em hỏi ngành [kinh doanh quốc tế](major_name) xét điểm là bao nhiu ah
+    - Cho em hỏi ngành [kinh doanh quốc tế](major_name) xét bao nhiêu điểm ạ
+    - Cho em hỏi ngành [logistis](major_name) bao nhiu điểm ạ
+    - Cho em hỏi ngành [luật](major_name) điểm khoảng bao nhiêu ạ
+    - cho em hỏi ngành [marketing](major_name) điểm xét là bao nhiêu mới đủ vào vậy ạ
+    - cho em hỏi ngành [thiết kế đồ họa](major_name) điểm xét là bao nhiêu mới đủ vào vậy ạ
+    - Cho em hỏi Ngành [Quản trị dịch vụ du lịch và lữ hành](major_name) , hiện e muốn xét điểm e có là 27đ vậy có đậu không ạ.
+    - Cho em hỏi ngành [sư phạm toán](major_name) năm nay có khả năng tăng cao điểm k ạ
+    - Cho em hỏi [ngôn ngữ anh](major_name) xét điêm là 23.33đ có khả năng đậu kh ạ
+    - Cho em hỏi [qtkd](major_name) năm nay điểm bn ạ?
+    - Cho em hỏi [Sư phạm hoá](major_name) lấy bao nhiêu điểm
+    - Cho em hỏi [sư phạm sinh](major_name) lbao nhiêu điểm
+    - Cho em hỏi [xã Hội học](major_name) bao nhiêu điểm mới đậu ạ
+    - Cho em hỏi [xã hội học](major_name) xet tuyển và điểm thi là bao nhiêu ạ
+    - cho em hỏi xét cần bao nhieu cho [Văn học](major_name) 2021 ạ
+    - Cho em hỏi, điểm xét cần bao nhieu cho [Văn học](major_name) năm nay có tăng nhiều không ạ?
+    - Cho em hỏi, năm nay điểm cần bao nhieu cho [Văn học](major_name) tăng nhiều không ạ ?
+    - [CNSH](major_name) điểm 2021 bao nhiêu z ạ
+    - [CNTT](major_name) điểm dao động là bao nhiêu ạ
+    - [Công nghệ kĩ thuật hóa học](major_name) và kĩ thuật cơ khí thì điểm học bạ nghành nào cao hơn ạ
+    - [kĩ thuật cơ khí](major_name) thì điểm xét nghành nào cao hơn ạ
+    - [Công nghệ sinh học](major_name) bao nhiêu điểm ạ
+    - [Công nghệ sinh học](major_name) bao nhiêu điểm v ạ
+    - [Công nghệ sinh học](major_name) lấy bao nhiêu điểm ạ
+    - [Công nghệ sinh học](major_name) lấy bao nhiêu điểm v ạ
+    - [Công nghệ sinh học](major_name) năm nay xét lấy bao nhiêu điểm ạ
+    - [Công nghệ thực phẩm](major_name) lấy điểm xét saoo ạ
+    - Dạ 22 ,36 đủ đậu [kĩ thuật công trình thủy](major_name) ko ạ
+    - Dạ cho e hỏi điểm xét tuyển của [ngành Xã hội học](major_name) 2021 là 26.25.
+    - Dạ cho e hỏi ngành [Công Nghệ Thông tin](major_name) trường mình xét tuyển thì bao nhiêu điểm ạ?
+    - Dạ cho em hỏi điểm đầu vô tuyển sinh của nghành [điều dưỡng](major_name) của trường mình là bao nhiêu điểm ạ
+    - Dạ cho em hỏi điểm của ngành học [Công Nghệ Thông tin](major_name) của trường năm nay biến động nhiều không ạ cụ thể ước tính hơn 2021 bao nhiêu điểm ạ
+    - Dạ cho em hỏi ngành [công nghệ thực phẩm](major_name) trường mình xét bao nhiêu điểm ạ?
+    - Dạ cho em hỏi ngành [NNA](major_name) lấy tầm bao nhiêu điểm ạ🥺
+    - Dạ điểm khối b00 của em nó 22.63 điểm em có thể đậu ngành [nuôi trồng thủy sản](major_name) ko ạ
+    - Dạ điểm xét tuyển của ngành [kinh doanh quốc tế](major_name) là bao nhiêu vậy ạ ?
+    - Dạ học bạ em được 25.8đ có cơ hội đậu [Quản trị kinh doanh](major_name) không ạ
+    - Điểm 19.5 của ngành [Quản trị kinh doanh](major_name) là đậu k ạ
+    - Điểm chẩn [QTKD](major_name) 2022 có chưa ạ
+    - Điểm chuẩn xét tuyển của ngành [NNA](major_name) được công bố trước hay sau thi THPTQG vậy ạ??
+    - điểm chuẩn ngành [NNA](major_name) năm 2022 đã có chưa ạ?
+    - Điểm chuẩn ngành [luật kinh tế](major_name) bao nhiêu ạ
+    - Điểm chuẩn ngành [ngôn ngữ](major_name) khoảng bao nhiêu ạ
+    - Điểm chuẩn nghành [luật](major_name) 2021 là bn v ạ
+    - Điểm chuẩn [Quản Trị Dịch Vụ Du Lịch Và Lữ Hành](major_name) năm 2021 là bao nhiêu vậy ạ?
+    - điểm chuẩn ngành [NNA](major_name) năm 2022 lấy bao nhiêu z ạ?
+    - Điểm chuẩn ngành [luật kinh tế](major_name) lấy bao nhiêu ạ
+    - Điểm chuẩn ngành [ngôn ngữ](major_name) lấy khoảng bao nhiêu ạ
+    - Điểm chuẩn nghành [luật](major_name) 2021 là lấy bn v ạ
+    - Điểm chuẩn [Quản Trị Dịch Vụ Du Lịch Và Lữ Hành](major_name) năm 2021 lấy bao nhiêu vậy ạ?
+    - Điểm của các nghàn [NNA](major_name) bao nhiêu điểm ạ
+    - Điểm của ngành [bệnh học thủy sản](major_name) bao nhiêu ạ
+    - Điểm của ngành [xe điện](major_name) năn nay sao ạ
+    - Điểm của ngành [NNA](major_name) của trường hơi cao mà muốn đậu thì nên xét tuyển sao ạ
+    - ĐIỂM E CÓ 22 ĐIỂM XÉT KHÔNG BIẾT ĐẬU NGÀNH [MARKETING](major_name) KKHÔNG Ạ
+    - Điểm xet tuyẻn các ngành [quản trị kinh doanh](major_name) năm nay có cao hơn 2021 ko ạ
+    - Điểm xét tuyển các ngành [quản trị kinh doanh](major_name) năm nay có dao động cao hơn năm 2021 ko ạ
+    - Điểm xét tuyển của 21,68 có khả năng xét tuyển [khoa học đất đại](major_name) học cần thơ k ạ
+    - Điểm của em đang là 26.92 thì có khả năng đậu vào ngành [Logistics](major_name) ko v ạ
+    - Điểm của em đang là 26.92 thì có khả năng đậu vào ngành [Cntt](major_name) ko v ạ
+    - Điểm của em đang là 26.92 thì có khả năng đậu vào ngành [Công nghe thong tin](major_name) ko v ạ
+    - ĐIỂM của E CÓ 22 ĐIỂM CÓ ĐẬU ĐƯỢC NGÀNH [MARKETING](major_name) KHÔNG Ạ
+    - điểm tổng của ngành [Công nghe thong tin](major_name) năm nay có tăng không ạ
+    - điểm chuản năm nay của [Sư phạm hoá](major_name) sao ạ
+    - Điểm cuẩn ngành [quản trị kinh doanh](major_name) bao nhiêu vậy ạ
+    - Điểm tổng của [sư phạm](major_name) là bao nhiêu ạ
+    - Điểm xét [truyền thông đa phương tiện](major_name) bao nhiêu vậy ạ
+    - Điểm ngành [an toàn thông tin](major_name) là bao nhiu ạ
+    - Điểm ngành [công nghệ thông tin](major_name) như thế nào ạ?
+    - Điểm sàn ngành [công nghệ thông tin](major_name) năm nay có giảm không ạ:((
+    - điểm sàn [sư phạm](major_name) năm 2022 là bao nhiêu ạ ?
+    - điểm sàn của [sư phạm](major_name) năm 2022 là bao nhiêu ạ?
+    - Điểm [sư phạm](major_name) năm nay co tăng mạnh không ạ
+    - điểm thi của nghành [thú y](major_name) là bao nhiêu ạ
+    - Điểm tổ hợp 5 học kì cỡ bao nhiêi thì đậu [sư phạm địa lí](major_name) vậy ạ
+    - Điểm xét tuyển các ngành [logistics](major_name) năm nay có cao hơn năm 2021 ko ạ
+    - Điểm xét tuyển của [ngôn ngữ anh](major_name) là bao nhiêu vậy ạ?
+    - Điểm xét tuyển ngành [Nông học](major_name) là bao nhiêu ạ
+    - Điểm xét tuyển [sp sử](major_name) với địa ạ
+    - Điểm xét tuyển [sưu phạm Anh](major_name) là bao nhiêu ạ..?
+    - Điểm xét ngành [giáo dục tiểu học](major_name) bao nhiêu ạ
+    - Điểm xét tuyển của [ngôn ngữ anh](major_name) lấy bao nhiêu vậy ạ?
+    - Điểm xét tuyển [sp sử](major_name) lấy ntn ạ
+    - Điểm xét ngành [giáo dục tiểu học](major_name) là bao nhiêu ạ
+    - Điểm xét tuyển học bạ nghành [logistics](major_name) là bao nhiêu vậy ạ
+    - Đố ad năm nay điểm dự kiến của [logistics](major_name) tăng thêm mấy điểm
+    - E điểm toỏng xét [QTKD](major_name) có cơ hội đậu kh ạ
+    - Em 28.06 xét đậu [Qtkd](major_name) ko ạ
+    - [Giáo dục tiểu học](major_name) bao nhiêu điểm vậy ạ
+    - điểm đạt 25,25 tính luôn điểm vùng, như vậy có cơ hội đâu [sư phạm gdcd](major_name) kh ạ
+    - em xét đc 22đ có thể đậu [luật](major_name) k ạ
+    - [sư phạm địa](major_name) là bao nhiêu điểm ạ
+    - Khi nào công bố điểm thi thpt ngành [luật](major_name) vậy ạ
+    - [logistis](major_name) là ngành mới tuyển sinh năm 2022 nên chưa có thông tin điểm chuẩn nhé em
+    - [luật](major_name) năm nay trường lấy bao nhiêu ạ
+    - [Mạng máy tính và truyền thông dữ liệu](major_name) lên tận 7.5 điểm so với năm ngoái ạ 🙁 e còn thiếu 0.25 nữa là đậu rồi huhu. Tạm biệt đại học luôn rồi 🙁
+    - năm nay điểm chuẩn nhang [luật](major_name) có tăng không ạ
+    - Năm nay điểm sàn [luật](major_name) bạo nhiu ạ
+    - Năm nay điểm xét [luật](major_name) có tăng nhiều nữa k ạ huhu?
+    - Năm nay điểm xét ngành [sư phạm](major_name) có tăng cao không ạ
+    - Ngành [bảo vệ thực vật](major_name) 2021 bao nhiêu điểm ạ
+    - ngành [bệnh học thủy sản](major_name) đieme chuẩn bao nhiêu vậy ạ?
+    - ngành [bệnh học thủy sản](major_name) điểm chuẩn khi xét bao nhiêu vậy ạ?
+    - Ngành [chế biến thủy sản](major_name) xét tuyển năm nay khoảng nhiu điểm ạ
+    - Ngành [CN ôtô](major_name) xét điểm là khảong bao nhiêu ạ
+    - ngành [CNTT](major_name) chương trình CLC xét điểm xét khoảng bao nhiêu điểm mới có thể đ ạt
+    - ngành [kdoanh thương mai](major_name) điểm chuẩn học bạ bnhieu v ạ?
+    - Ngành [khoa học cây trồng](major_name) xét điểm khoảng bao nhiêu ạ . và xét học bạ bao nhiêu ạ
+    - Ngành [Logistics](major_name) điểm chuẩn bao nhiêu vậy ạ?
+    - Ngành [quản lý chuỗi cung ứng](major_name) điểm chuẩn bao nhiêu vậy ạ?
+    - Ngành [logitis](major_name) là ngành mới vậy điểm có quá cao không ạ
+    - Ngành [quản lý chuỗi cung ứng](major_name) là ngành mới vậy điểm có quá cao không ạ
+    - Ngành [luật](major_name) điểm xét năm nay bao nhiêu vậy ạ??
+    - Ngành [marketing](major_name) thì xét bao nhiu điểm ạ?
+    - Ngành mới [truyền thông đa phương tiện](major_name) thì điểm chuẩn khoảng bao nhiêu thì ổn ạ
+    - Ngành [QTKD](major_name) bao nhiêu điểm đậu ạ
+    - Ngành [quản lý thuỷ sản](major_name) điểm là bao nhiêu vậy ạ
+    - Ngành [quản trị du lịch](major_name) điểm xét tuyển đầu vào là bao nhiêu ạ
+    - Ngành [quản trị kinh doanh](major_name) xét điểm thi bao nhiêu ah
+    - Ngành [truyền thông đa phương tiện](major_name) điểm xét dự tính nhiêu điểm vậy ạ
+    - Ngành [truyền thông đa phương tiện](major_name) nhiêu điểm ạ
+    - [Nghành KT ĐIỆN](major_name) điểm đàu vào bao nhiêu ạ
+    - [Nghành QTDL VÀ LH](major_name) xét thi bao nhiêu điểm ạ
+    - [Ngôn ngữ anh](major_name) điểm xét sao ạ
+    - [Ngôn ngữ anh](major_name) ddiiemr 26.3 có khả năng đậu ko ạ ??
+    - [Ngôn ngữ anh](major_name) xét bnhiu điểm ạ
+    - [Ngôn ngữ anh](major_name) xét điểm bao nhiêu điểm ạ
+    - [Nông học](major_name) năm nay xét bao nhiêu điểm ạ
+    - [Nông học](major_name) xét tuyển bao nhiêu điểm ạ
+    - [Nuôi trồng thủy sản](major_name) bao nhiêu điểm ạ
+    - [nuôi trồng thủy sản](major_name) năm nay cỡ nhiêu là chắc chắn đậu ạ
+    - [QTKD](major_name) xét cỡ nhiêu thì chắc đậu ạ
+    - [Quản trị dịch vụ du lịch và lữ hành](major_name) là bao nhiêu điểm v ậy ạ
+    - [Quản trị kinh doanh](major_name) điểm chuẩn bao nhiêu ạ
+    - [Quản trị kinh doanh](major_name) điểm xét năm r bao nhiu và điểm thi bao nhiu ạ ! Em cảm ơn
+    - [Sư phạm hoá](major_name) học bao nhiêu điểm ạ
+    - [Sư phạm hoá](major_name) lấy nhiêu điểm vậy ạ , em cảm ơn
+    - [Sư phạm](major_name) lấy khoảng bao nhiêu đ z a
+    - [Sư phạm lịch sử](major_name) điểm chuẩn là bao nhiêu ạ?
+    - [Sư Phạm Lý](major_name) bao nhiêu điểm ạ
+    - [Sư phạm sinh](major_name) thì bao nhiêu điểm ạ
+    - [Sư Phạm Văn](major_name) điểm bao nhiêu vậy ạ?
+    - Tầm 26đ đậu được ngành [Sư Phạm Văn](major_name) k z ạ
+    - Thầy cho em hỏi điểm sàn [Sư Phạm Văn](major_name) là sao ạ??? Em cảm ơn
+    - Tổ hợp coo của em tầm 25-26,15 vậy em có cơ hội đậu vào [sư phạm văn](major_name) k ạ?
+    - Trung bình môn 9.0 có khả năng đậu khối D ngành [NNA](major_name) không ạ
+    - [truyền thông đa phương tiện](major_name) điểm bao nhiêu ạ?
+    - Trường cho em hỏi đểm chuẩn của các ngành [truyền thông đa phương tiện](major_name) được đưa ra dựa vào tiêu chí nào vậy ạ
+    - Tư vấn tuyển sinh chính quy dạ vậy điểm lấy của [truyền thông đa phương tiện](major_name) năm nay dao động khoảng bao nhiêu ạ
+    - Về điểm xét tuyển [truyền thông đa phương tiện](major_name) có cao không?
+    - Với việc dịch nhiều và việc học bị hỏng khá nhìu kiến thức khi học online thì nhà trường năm nay cho ra điểm chuẩn [truyền thông đa phương tiện](major_name) thế nào ạ
+    - Xét điẻm [truyền thông đa phương tiện](major_name) bao nhiêu điểm ạ
+    - Xét tuyển [Luật](major_name) bao nhiêu điểm và xét như nào ạ
+    - Xét điểm [luật](major_name) là nhiu ạ
+    - Xét tuyển ngành [công nghệ thực phẩm](major_name) là nhiu vậy ạ
+    - Xét điểm ngành [NNA](major_name) 28 điểm + điểm ưu tiên khu vực 2 vậy cơ hội đậu cao không ạ
+    - Xét tuyển ngành [nuôi trồng thủy sản](major_name) năm ngoái bao nhiêu điểm ạ?
+    - XÉT điểm NGÀNH [QUẢN TRỊ DỊCH VỤ DU LỊCH VÀ LỮ HÀNH](major_name) BAO NHIÊU ĐIỂM VẬY Ạ
+    - Xét điểm [quản trị kinh doanh](major_name) là bao nhiu điểm ạ
+    - Xét tuyển [nông lâm](major_name) mấy đ vậy
+    - xét tuyển [công nghệ thông tin](major_name) bao nhiêu điểm vậy ạ
+    - điểm xét tuyển
+- intent: co_hoi_viec_lam_sau_tn
+  examples: |
+    - Dạ cho em hỏi ngành [quản lý công nghiệp](major_name) sau khi ra trường tỉ lệ có việc làm cao không ạ
+    - Chào thầy cô! Thầy cô em em hỏi là ngành [Bảo vệ thực vật](major_name) và ngành Khoa học cây trồng cơ hội có việc làm là bao nhiêu ạ?
+    - Chào Trường đại học cần Thơ. Cho e hỏi bên mảng [công nghệ](major_name) trừ công nghệ thông tin thì sau nó có nghành nào có xu hướng có việc làm cao sao khi ra trường không ạ?
+    - Cho e hỏi là ngành khoa học máy tính và [kĩ thuật điện tử viễn thông](major_name) ra trường làm j ạ, e cảm ơn ạ
+    - Cho e hỏi là ngành [kinh tế tài nguyên thiên nhiên](major_name) sau này ra làm gì ạ
+    - Cho e hỏi ngành [nông học](major_name) ra trường lm j ạ.
+    - Cho e hỏi ngành [nông nghiệp](major_name) là bao gồm những việc làm gì ạ
+    - Cho e hỏi Ngành [sinh học ứng dụng](major_name) khi ra trường việc làm sao ạ. Và làm ở những đâu ạ ?
+    - Cho e hỏi nghành [xã hội học](major_name) cơ hội việc làm ntn ạ
+    - Cho e hỏi tỉ lệ có việc làm của [sư phạm hoá](major_name) là bao nhiêu % ạ
+    - Cho e hỏi tỉ lệ việc làm của ngành [kĩ thuật điện tử viễn thông](major_name) ạ
+    - Cho e hỏi về cơ hội việc làm của nghành [cntt](major_name) ạ
+    - Cho e hỏi về ngành [Kinh tế Nông nghiệp](major_name), sau khi ra trường thì cơ hội việc làm sẽ như thế nào ạ.
+    - Cho em hỏi , học [Toán ứng dụng](major_name) là học những gì và sau khi ra trường sẽ làm gì ạ . Em cảm ơn
+    - Cho em hỏi chuẩn đầu ra ngành [quản lí đất đai](major_name) như thế nào ạ
+    - Cho em hỏi cơ hội việc làm ngành [kinh tế](major_name)
+    - Cho em hỏi cơ hội việc làm nghành [công nghệ sinh học](major_name) ạ
+    - Cho em hỏi cơ hội việc làm sao này của cử nhân [Hóa Dược](major_name) ạ
+    - CHO EM HỎI HỌC NGÀNH [MARKETING](major_name) RA LÀM NGÀNH KHÁC ĐƯỢC KHÔNG Ạ
+    - cho em hỏi học ngành [văn học](major_name) thì có thể làm gì ạ
+    - Cho em hỏi học [Thú Y](major_name) sau khi ra trường có thể làm việc ở những nơi nào ạ
+    - Cho em hỏi là [công nghệ sinh học](major_name) thì cơ hội việc làm sau khi ra trường như thế nào ạ
+    - Cho em hỏi là học ngành [Toán ứng dụng](major_name) thì ra trường làm kế toán được không ạ?
+    - Cho em hỏi là [kĩ thuật hóa học và kĩ thuật cơ khí](major_name) thì cơ hội việc làm nghành nào ổn hơn vậy ạ
+    - Cho em hỏi là ngành [hóa dược](major_name) có cơ hội việc làm sau khi ra trường như thế nào ạ
+    - Cho em hỏi ngành [bảo vệ thực vật](major_name) là học những gì ra trường có cơ hội việc làm như thế nào ạ
+    - Cho em hỏi ngành [chăn nuôi](major_name) ra trường làm j để mau giàu ạ
+    - Cho em hỏi ngành [CN Sinh Học](major_name) và ngành KH Cây Trồng thì ngành nào có tỉ lệ việc làm cao hơn ạ?
+    - Cho em hỏi ngành [NNP](major_name) thị trường việc làm ntn ạ?
+    - Cho em hỏi ngành [quản lý tài nguyên và môi trường](major_name) sẽ làm gì ạ
+    - Cho em hỏi ngành [quản lý tài nguyên và môi trường](major_name), khi ra trường sẽ làm những gì và làm ở đâu được ạ ??
+    - Cho em hỏi ngành [quản lý thủy sản](major_name) làm gì ạ
+    - Cho em hỏi ngành [sư phạm tiểu học](major_name) nếu đậu thì học xong sẽ được đảm bảo phân công việc làm không ạ?
+    - Cho em hỏi ngành [Thú Y](major_name) sau khi ra trường thì có thể xin việc ở đâu ạ
+    - Cho em hỏi nghành [marketing](major_name) sau khi học mình có thể làm ở vị trí nào và sau khi kết thúc chương trình học thì trường có liên kết tìm kiếm công việc cho sinh viên không ạ
+    - Cho em hỏi [nuôi trồng thủy sản](major_name) con gái học xong ra trường có việc làm ổn định không ạ
+    - Cho em hỏi sau khi tốt nghiệp [sư phạm](major_name) thì mình sẽ về dạy ở tỉnh mình hay có sự phân công khác ạ?
+    - Cho em hỏi tỉ lệ việc làm của ngành [truyền thông đa phương tiện](major_name) ạ
+    - Cho em hỏi về cơ hội việc làm của ngành [logitis](major_name) với ạ em cảm ơn
+    - Cho em hỏi về cơ hội viêc lm của các ngành [kinh tế](major_name) khi học tại trường
+    - Cho em hỏi về ngành [Ngôn Ngữ Anh](major_name) cơ hội việc làm sau khi tốt nghiệp như thế nào ạ
+    - Cho em hỏi về ngành [quản trị kinh doanh](major_name) có cơ hội việc làm như thế nào ạ sao khi ra trường sẽ làm được những gì ạ
+    - Cho em hỏi, học [GDTC](major_name) ra trường có thể dạy trường ở địa phương mình ở không ạ
+    - Cho em tỉ lệ có việc làm ngành [công nghệ sinh học](major_name) ở trường là bao nhiêu vậy ạ?
+    - [Cn kĩ thuật hóa học](major_name) tỉ lệ việc làm là bao nhiêu v ạ
+    - Có phải học [điện tử viễn thông](major_name) là có đi kéo cáp đk ạ
+    - Cơ hội việc làm cho [quản lí tài nguyên và môi trường](major_name) hiện nay ạ
+    - Cơ hội việc làm của [sư phạm](major_name) ạ
+    - Cơ hội việc làm sau khi ra trường của ngành [sư phạm](major_name) như thế nào ạ
+    - Dạ cho e hỏi cơ hội cũng như vị trí việc làm của ngành [Quản Lý Thủy Sản](major_name) như thế nào ạ
+    - dạ cho e hỏi những ngành nào sau khi ra trường sẽ làm việc được bên lĩnh vực báo chí, biên tập viên ạ
+    - Dạ cho em hỏi cơ hội việc làm nghành [công nghệ sinh học](major_name) như thế nào ạ
+    - Dạ cho em hỏi em muốn trở thành lập trình viên, em đang phân vân giữa 2 ngành [khoa học máy tính](major_name) và kỹ thuật phần mềm, vậy em nên chọn ngành nào trong 2 ngành đó. Nếu em học khoa học máy tính thì có thể làm những công việc của kỹ thuật phần mềm và ngược lại được không? Em xin cảm ơn
+    - dạ cho em hỏi học [quản lý đất đai](major_name) ra trường làm địa chính hả ?
+    - Dạ cho em hỏi ngành [bảo vệ thực vật](major_name) trường mình có liên kết với những công ty nào để hỗ trợ việc làm sau khi tốt nghiệp vậy ạ?
+    - Dạ cho em hỏi [Quản lí tài nguyên và môi trường](major_name) sẽ học những gì và ra trường sẽ làm việc gì ạ
+    - Dạ cho em hỏi tỉ lệ có việc làm ngành [CN thực phẩm](major_name) với ạ
+    - dạ cho em hỏi về ngành [tâm lý học](major_name) khi học xong tỉ lệ có việc làm là bao nhiêu, và làm việc ở đâu ạ. em cảm ơn
+    - Dạ cho em hỏi, [khoa học cây trồng](major_name) ra trường mình có dể kiếm việc làm không ạ?? Và được làm những nơi nào ạ??
+    - Dạ e học [Nông Học](major_name) làm luận văn tốt nghiệp đề tài liên quan đến lĩnh vực Thủy Sản có được ko ạ
+    - Dạ em muốn hỏi về cơ hội việc làm ạ
+    - Dạ thầy cô cho em hỏi ngành [giáo dục tiểu học](major_name) cơ hội việc làm là bao nhiêu ạ
+    - Dạ trường cho em hỏi là e muốn biết thêm về ngành [truyền thông đa phương tiện](major_name) học những gì và cơ hội việc làm sao vậy ạ?
+    - Dạ trường cho em hỏi là em muốn biết thêm về ngành trường mới mở là ngành [truyền thông đa phương tiện](major_name) cơ hội việc làm như thế nào v ạ?
+    - Em cho hỏi về triển vọng của [sư phạm địa](major_name) 2022
+    - Em muốn biết các ngành [Khoa học Môi trường](major_name) ra trường có xin được việc làm dễ hay không? và làm ở đâu?
+    - Em xin chào quý thầy cô, Theo em tìm hiểu, hiện nay có rất nhiều trung tâm đào tạo về thực hành kế toán thực tế. Em muốn hỏi sau khi tốt nghiệp ngành Kế toán](major_name) của trường mình, chúng em có nên tham gia các khóa đào tạo về thực hành kế toán thực tế không? Trong quá trình học của chúng em, Nhà trường có những chương trình nào để chúng em vận dụng giữa lý thuyết và thực hành công việc kế toán trong thực tế không ạ?
+    - Hiện tại e đnag quan tâm đến ngành [nuôi trồng thủy sản](major_name) và bệnh học thủy sản. Cho e hỏi ngành nào thì có khả năng có việc làm cao hơn ạ.
+    - Học [chăn nuôi](major_name) ra mở tiệm thuốc thức ăn được không ạ
+    - Học [CNTT](major_name) thì cơ hội việc làm như thế nào ạ?
+    - Học [khoa học đất](major_name) em có thể làm việc ở đâu ạ
+    - Học [Nông Học](major_name) ra trường làm ở mảng nuôi trồng thủy sản được ko ạ
+    - Học [QTKD](major_name) ra trường có đc hỗ trợ vc lm kh ạ
+    - Học [sư phạm](major_name) tốt nghiệp xong nhà trường có giới thiệu cho sv có đến các trường để dạy k ạ.
+    - học xong có đi kéo cap hay sửa chữa giống mấy anh VNPT hay viettle gì khum ta
+    - Kính thưa quý Thầy/ Cô. Khi nói đến ngành [quản lý đất đai](major_name) thì đa phần sẽ nghĩ là về làm địa chính. Vậy cho em hỏi học Quản lí đất đai ngoài làm lĩnh vực địa chính đo đạc còn làm được những lĩnh vực nào và làm việc ở đâu?. Cảm ơn quý Thầy/ Cô
+    - [Kỹ thuật công trình thủy](major_name) ra làm việc ở đâu ạ
+    - [Logistics](major_name) - quản lí chuỗi cung ứng cơ hội việc làm ra sao ạ
+    - Mức lương TB của [kỹ thuật điện](major_name) khi ra trường là bao nhiêu vậy ạ.
+    - nếu em học ngành [bệnh học thuỷ sản](major_name), mình có chắc ăn 100% khi ra trường không ạ
+    - Ngành [bệnh học thủy sản](major_name) có cơ hội làm việc như thế nào ạ
+    - Ngành [CNSH](major_name) sau khi tốt nghiệp thì em có thể làm bên mảng nào ạ?
+    - Ngành [khoa học cây trồng](major_name) sau khi ra trường thì có thể làm những nghề nào ạ.
+    - Ngành [nuôi trồng thủy sản](major_name) khi ra trường có tỉ lệ việc làm bao nhiêu ạ.
+    - Ngành [sư phạm](major_name) sau khi ra trường cơ hội việc làm như thế nào ạ
+    - Ngành [toán ứng dụng](major_name) thì ra trường có thể làm bên mảng tin học không ạ?
+    - ngành [văn học](major_name) khi ra trường có thể làm những việc nào ạ
+    - Nghành [KT ĐIỆN TỬ- VIỄN THÔNG](major_name) ra trường có đi kéo cáp k ad
+    - [Ngôn ngữ Anh](major_name) cơ hội việc làm ra sao ạ
+    - [ngôn ngữ anh](major_name) sau khi ra trường có làm việc bên lĩnh vực báo chí đc ko ạ
+    - [Nông học](major_name) ra có việc làm liền không ạ và làm việc ở đâu ạ
+    - [Nông học](major_name) ra trường có thể mở cửa hàng phân bón được không ạ
+    - [Nông học](major_name) sẽ làm gì ạ
+    - Sau khi em tốt nghiệp đại học em có thể xin có việc làm kh ạ
+    - Thầy cô ơi! Cho em hỏi ngành [bảo vệ thực vật](major_name) sẽ làm gì? Và làm ở đâu ạ?
+    - thưa thầy, cho em hỏi trong các ngành đào tạo của khoa thì ngành nào có cơ hội việc làm cao nhất và sau khi tốt nghiệp khoa có hỗ trợ giới thiệu việc làm cho sc không? Em xin cảm ơn!
+    - Tỉ lệ có việc làm của ngàng [CNKT Hóa Học](major_name) là bao nhiêu vậy ạ
+    - Tỉ lệ có việc làm của ngành [toán ứng dụng](major_name) và khoa học máy tính là bao nhiêu % ạ?
+    - "Và khi học ngành [Quản lý đất đai](major_name) thì có cơ hội làm việc trong lĩnh vực của các ngành liên quan (Quản lý tài nguyên môi trường,...) hay không? Em xin cảm ơn quý thầy cô"
+    - [Văn Học](major_name) ra trường có thể làm những công việc nào ạ
+    - Về điểm việc làm khi mình ra trường thì cơ hội việc làm có cao không
+- intent: nganh_dao_tao
+  examples: |
+    - Cho mình hoit thông tin ngành [ktpm](major_name) với ạ
+    - Cho em hỏi là ngành [công nghệ sinh học](major_name) thì chương trình mình sẻ được học những gì
+    - Cho em hỏi là ngành [hóa dược](major_name) thì chương trình mình sẻ được học những gì
+    - cho e hỏi là bộ môn [tâm lí học sp](major_name) là học về gì ạ
+    - Cho e hỏi Nghành [QTKD](major_name) là một ngành mới
+    - [truyền thông đa phương tiện](major_name) là học cả thiết kế và lập trình luôn ạ
+    - [Truyển thông đa phương tiện](major_name) trường mình nghiên về đồ họa hay content/ báo chí vậy ạ? Cái này rất quan trọng đối với em mong ad trả lời ạ
+    - Cho em hỏi , em thích học Toán thì em nên chọn [Toán Ứng Dụng](major_name) không ạ
+    - Cho em hỏi ngành [quản lý đất đai](major_name) ạ
+    - Cho em hỏi [CNTT](major_name) như thế nào ạ
+    - Cho em hỏi [KTPM](major_name) như nào ạ
+    - cho em hỏi học ngành [luật](major_name) bên viện kiểm sát ạ
+    - Cho em hỏi là đối với ngành [sư phạm](major_name) ntn?
+    - Cho em hỏi là ngành [Khoa học máy tính](major_name)
+    - Cho em hỏi là ngành [ngành công nghệ thông tin](major_name) với ad
+    - Cho em hỏi là thông tin ngành [Khoa học máy tính](major_name)
+    - Cho em hỏi là thông tin ngành [ngành công nghệ thông tin](major_name) với ad
+    - CHO EM HỎI MÌNH CÓ LINK NGÀNH [MARKETING](major_name) KHÔNG Ạ
+    - Cho em hỏi ngành [an toàn thông tin](major_name) là sao ạ
+    - Cho em hỏi ngành [công nghệ kĩ thuật hoá học](major_name) nt nào ạ???
+    - Cho em hỏi ngành [logictis](major_name) là ngành như thế nào ặ
+    - Cho em hỏi ngành [Logistics](major_name)
+    - Cho em hỏi ngành [quản lý chuỗi cung ứng](major_name)
+    - Cho em hỏi ngành [ngành kinh doanh quốc tế](major_name)
+    - Cho em hỏi ngành [MMT và TTDL](major_name) khi nào mới cần dùng đến máy tính ạ
+    - Cho em hỏi kiến thức ngành [nuôi trồng thủy sản](major_name)
+    - Cho em hỏi yêu cầu ngành [nuôi trồng thủy sản](major_name)
+    - Cho em hỏi thông tin ngành [nuôi trồng thủy sản](major_name)
+    - Cho em hỏi yc ngành [nuôi trồng thủy sản](major_name)
+    - Cho em hỏi ngành [truyền thông đa phương tiện](major_name) của trường
+    - Cho em hỏi ngành [quan he cong chung](major_name) của trường
+    - Cho em hỏi ngành [truyền thông đa phương tiện](major_name) tại CTU như nào thế nào vậy ạ?
+    - Cho em hỏi [sư phạm địa lý](major_name) ạ
+    - Cho em hỏi tt của [sư phạm ngữ văn](major_name) như thế nào?
+    - Cho em hỏi tư vấn ngành [Thú Y](major_name) qua chưa ạ em cảm ơn
+    - Cho em hỏi về ngành [Ngôn Ngữ Anh](major_name)
+    - Cho em hỏi về ngành [quản lí công nghiêp](major_name)
+    - Cho em hỏi [xã hội học](major_name)
+    - Cho em hỏi [quan hệ công chúng](major_name) với ad
+    - Cho em xin lại link của ngành [quan hệ công chúng](major_name) ạ
+    - Có thể cho em thêm thông tin về ngành [mkt](major_name) không ạ
+    - thông tin ngành [mkt](major_name) ạ
+    - dạ cho e hỏi chương trình học của ngành [Xã hội học](major_name) ạ
+    - Dạ cho em hỏi ngành [CNTT](major_name) khi học mình sẻ học những gì
+    - dạ cho em hỏi ngành [cntt](major_name) với ad
+    - Dạ cho em hỏi ngành [an toàn thông tin](major_name) khi học mình sẻ học những gì
+    - Dạ cho em hỏi ngành [quản lý công nghiệp](major_name)
+    - Dạ cho em hỏi về ngành [công nghe thực phẩm](major_name) vs ạ
+    - Dạ cho em hỏi ngành [công nghe chế biến thủy sản](major_name) vs a
+    - Dạ cho em hỏi ngành [công nghệ sinh học](major_name)
+    - Dạ cho em hỏi về ngành [quản trị du lịch](major_name)
+    - Dạ cho em tìm hiểu thêm về ngành [logictis](major_name) của trường ạ
+    - Dạ có thể giới thiệu về nghành [quản trị du lịch và lữ hành](major_name) được không ạ
+    - Dạ e xin kính chào quý thầy cô hiện tại e đang quan tâm đến những ngành [Sinh Học Ứng Dụng](major_name) ạ
+    - Dạ e xin kính chào quý thầy cô hiện tại e đang quan tâm đến những ngành [khoa học dũ liệu](major_name) ạ
+    - Dạ năm nay trường có tuyển sinh ngành [khoa học dũ liệu](major_name) k
+    - Dạ ngành [GDCD](major_name) thì sao ạ???
+    - Dạ theo như em biết thì năm nay trường có đào tạo ngành mới là [Kĩ Thuật cấp thoát nước](major_name) , em muốn hỏi là ngành này có gì đặc biệt hơn so với các ngành còn lại ạ.
+    - Dạ vì em muốn học chuyên về [cây trồng](major_name)
+    - để học ngành [xã hội học](major_name) mình cần gì ạ
+    - [điện tử viễn thông](major_name) là mình học về mảng gì vậy trường
+    - Em không giỏi toán và tin học thì có thể học [kiểm toán](major_name) được không ạ?
+    - Em muốn phát triến sự nghiệp ở lĩnh vực báo chí có nên học [văn học](major_name) k ạ
+    - Em xin thông tin về [CNTT](major_name) ạ
+    - [GIÁO DỤC THỂ CHẤT](major_name) yêu cầu NHƯ NÀO Ạ?
+    - ngành [nông học](major_name)
+    - ngành [khoa học cây trồng](major_name) thì sao
+    - TT ngành [ngôn ngữ anh](major_name) ạ
+    - Hiện tại ngành [CNTT](major_name) được học đc gì ạ
+    - TT ngành [nuôi trồng thủy sản](major_name) k ạ
+    - Học [MTĐPT](major_name) có cần vẽ đẹp không?
+    - Kính chào quý Thầy/Cô, Em xin phép hỏi thông tin ngành [he thong thong tin](major_name) á
+    - Kính chào quý thầy/cô! Cho em hỏi ngành [Quản lý đất đai](major_name) ạ
+    - Kính chào quý thầy/cô! Cho em hỏi ngành [ngành Khoa học Đất](major_name) ạ
+    - Mình có link ngành [marketing](major_name) không ạ cho e xin với
+    - Ngành [công nghệ thông tin](major_name) đi ạ
+    - Ngành [KHMT](major_name) có những ưu điểm gì so với các ngành khác trong khoa MT và TNTN.
+    - Ngành [NNA](major_name)
+    - Ngành [NNP](major_name) có đào tạo từ đầu không ạ? Có yêu cầu phải biết tiếng anh trước k ạ?
+    - Ngành [NNP](major_name) có giảng viên ng Pháp không ạ?
+    - Ngành [qtkd](major_name) gồm chuyên ngành nào ạ
+    - Ngành [Thống Kê](major_name) ạ
+    - Nghành [kĩ thuật điện tử](major_name) có phù hợp với nữ không
+    - [Sư phạm địa lí](major_name) ạ
+    - [Tài chính ngân hàng](major_name) thì sao ạ
+    - Thầy cô cho em hỏi thêm thông tin về ngành [truyền thông đa phương tiện](major_name) với ạ
+    - Thầy cô tư vấn về [luật hành chính](major_name) được kh ạ
+    - Thầy ơi, ngành [kỹ thuật hóa học](major_name) đaò tạo mảng nào vậy ạ
+    - Thầy ơi, ngành [hóa học](major_name) đaò tạo mảng nào vậy ạ
+    - [Thủy sản](major_name) chia ra 2 khối là nuôi trồng và bệnh học đúng hông ạ
+    - [truyền thông đa phương tiện](major_name) thuộc khoa công nghệ ạ
+    - Tư vấn tuyển sinh chính quy ngành [tài chính ngân hàng](major_name) ạ
+    - Tư vấn cho em ngành [Thủy sản](major_name) với ạ
+    - Tư vấn cho em ngành [truyền thông đa phương tiện](major_name) với ạ
+    - Tư vấn cho em ngành [hóa học](major_name) với ạ
+    - Tư vấn cho em ngành [tài chính ngân hàng](major_name) với ạ
+    - Tư vấn cho em ngành [nuôi trồng thủy sản](major_name)
+    - Tư vấn cho em ngành [truyền thông đa phương tiện](major_name) của trường
+    - Tư vấn cho em ngành [quan he cong chung](major_name) của trường
+    - Tư vấn cho em ngành [truyền thông đa phương tiện](major_name) tại CTU như nào thế nào vậy ạ?
+    - Tư vắn cho em ngành [nuôi trồng thủy sản](major_name)
+    - Tư vắn cho em ngành [truyền thông đa phương tiện](major_name) của trường
+    - Tư vắn cho em ngành [quan he cong chung](major_name) của trường
+    - Tư vắn cho em ngành [truyền thông đa phương tiện](major_name) tại CTU như nào thế nào vậy ạ?
+    - cung cấp thong tin cho em ngành [nuôi trồng thủy sản](major_name)
+    - cung cấp thong tin cho em ngành [truyền thông đa phương tiện](major_name) của trường
+    - cung cấp thong tin cho em ngành [quan he cong chung](major_name) của trường
+    - cung cấp thong tin cho em ngành [truyền thông đa phương tiện](major_name) tại CTU như nào thế nào vậy ạ?
+    - Dạ cho em hỏi thêm thông tin ngành [quản lý công nghiệp](major_name)
+    - Dạ cho em hỏi thêm thông tin về ngành [công nghe thực phẩm](major_name) vs ạ
+    - Dạ cho em hỏi thêm thông tin ngành [công nghe chế biến thủy sản](major_name) vs a
+    - Dạ cho em hỏi thêm thông tin ngành [công nghệ sinh học](major_name)
+    - Dạ cho em hỏi thêm thông tin về ngành [quản trị du lịch](major_name)
+    - Dạ cho em hỏi thông tin ngành [quản lý công nghiệp](major_name)
+    - Dạ cho em hỏi thông tin về ngành [công nghe thực phẩm](major_name) vs ạ
+    - Dạ cho em hỏi thông tin ngành [công nghe chế biến thủy sản](major_name) vs a
+    - Dạ cho em hỏi thông tin ngành [công nghệ sinh học](major_name)
+    - Dạ cho em hỏi thông tin về ngành [quản trị du lịch](major_name)
+    - TƯ vấn thêm thông tin ngành [công nghệ sinh học](major_name)
+    - TƯ vấn thêm thông tin về ngành [quản trị du lịch](major_name)
+    - TƯ vấn thông tin ngành [quản lý công nghiệp](major_name)
+    - TƯ vấn thông tin về ngành [công nghe thực phẩm](major_name) vs ạ
+    - TƯ vấn thông tin ngành [công nghe chế biến thủy sản](major_name) vs a
+    - TƯ vấn thông tin về ngành [quản trị du lịch](major_name)
+    - Cho em hỏi tt chi tiết ngành [quản lý đất đai](major_name) ạ
+    - Cho em hỏi tt chi tiết ngành [CNTT](major_name) như thế nào ạ
+    - Cho em hỏi tt chi tiết ngành [KTPM](major_name) như nào ạ
+    - Cho em hỏi tt chi tiết là đối với ngành [sư phạm](major_name) ntn?
+    - Cho em hỏi tt chi tiết vs ngành [Khoa học máy tính](major_name)
+    - Cho em hỏi tt chi tiết vs ngành [ngành công nghệ thông tin](major_name) với ad
+    - Cho em hỏi thêm tt chi tiết ngành [quản lý đất đai](major_name) ạ
+    - Cho em hỏi thêm tt chi tiết ngành [CNTT](major_name) như thế nào ạ
+    - Cho em hỏi thêm tt chi tiết ngành [KTPM](major_name) như nào ạ
+    - Cho em hỏi thêm tt chi tiết là đối với ngành [sư phạm](major_name) ntn?
+    - Cho em hỏi thêm tt chi tiết vs ngành [Khoa học máy tính](major_name)
+    - Cho em hỏi thêm tt chi tiết vs ngành [ngành công nghệ thông tin](major_name) với ad
+    - Tư vấn giúp em ngành [quản lý đất đai](major_name) ạ
+    - Tư vấn giúp em [CNTT](major_name) như thế nào ạ
+    - Tư vấn giúp em [KTPM](major_name) như nào ạ
+    - Tư vấn giúp em học ngành [luật](major_name) bên viện kiểm sát ạ
+    - Tư vấn giúp em là đối với ngành [sư phạm](major_name) ntn?
+    - Tư vấn giúp em là ngành [Khoa học máy tính](major_name)
+    - Tư vấn giúp em là ngành [ngành công nghệ thông tin](major_name) với ad
+    - Tư vấn giúp em là thông tin ngành [Khoa học máy tính](major_name)
+    - Tư vấn giúp em là thông tin ngành [ngành công nghệ thông tin](major_name) với ad
+    - Tư vấn giúp em tt chi tiết ngành [quản lý đất đai](major_name) ạ
+    - Tư vấn giúp em tt chi tiết ngành [CNTT](major_name) như thế nào ạ
+    - Tư vấn giúp em tt chi tiết ngành [KTPM](major_name) như nào ạ
+    - Tư vấn giúp em tt chi tiết là đối với ngành [sư phạm](major_name) ntn?
+    - Tư vấn giúp em tt chi tiết vs ngành [Khoa học máy tính](major_name)
+    - Tư vấn giúp em tt chi tiết vs ngành [ngành công nghệ thông tin](major_name) với ad
+    - Em đang quan tâm về ngành [công nghệ thông tin](major_name)
+    - Dạ cho em hỏi ngành [quản lý công nghiệp](major_name) đào tạo những gì ạ?
+    - Cho em hỏi nghành [marketing](major_name) chương trình học thì ntn ạ
+    - Dạ cho em hỏi [Học ngôn ngữ anh](major_name) có thể học văn bằng 2 sư phạm anh được không ạ?
+    - Cho em hỏi nếu mình hoc [kĩ thuật xây dựng](major_name) là hoc về những gì ? Và mình có hoc thêm được phần thiết kế các công trình ko ạ
+    - Cho em hỏi ngành [hoá học](major_name) có đào tạo kĩ sư ko ạ???
+    - Cho em hỏi ngành [ngôn ngữ Anh](major_name), thêm một ngoại ngữ là do mình tự chọn hay sao ạ
+    - Cho em hỏi ngành [Thú Y](major_name) chương trình học mấy năm?
+    - Cho em hỏi [truyền thông đa phương tiện](major_name) trường mình nghiên về đồ họa hay content / báo chí vậy ạ?
+    - Cho em hỏi nếu em học [CNTT](major_name) mà không cần viết code thì có học được không ạ???
+    - Dạ cho em hỏi ngành [ngôn ngữ Pháp](major_name) có những chuyên ngành nào ạ?
+    - Dạ cho em hỏi Ngành [Quản Lý Tài Nguyên và Môi Trường](major_name) cần trang bị trước những gì và chương trình học có trải nghiệm thực tế không ạ.
+    - Dạ cho em hỏi ngành [truyền thông đa phương tiện](major_name) có phải học hoàn toàn trên máy tính ko ạ?
+    - Dạ cho em hỏi ngành [truyền thông đa phương tiện](major_name) có phải là thiết kế và lập trình ko ạ?
+    - Dạ cho em hỏi về ngành [khoa học cây trồng](major_name) ạ
+    - Dạ cho em hỏi. Đối với ngành [Kỹ thuật môi trường](major_name) thì người học cần trang bị những kỹ năng gì để có thể học tốt được ngành này
+    - Dạ em xin chào quý thầy cô, cho em hỏi là ngành [Kĩ Thuật Môi Trường](major_name) chương trình sẽ học như thế nào ạ.
+    - Dạ trường cho em hỏi là em muốn biết thêm về ngành trường mới mở là ngành [truyền thông đa phương tiện](major_name) học những gì
+    - Em chào Cô TS Bùi Thanh Thảo. Cho em hỏi chương trình ngành [Văn học](major_name) học về những gì ạ ?
+    - Học [Sư phạm Lịch Sử](major_name) thì sau này học cao lên có thể có cơ hội làm giảng viên không ạ?
+    - ngành [ngôn ngữ Pháp](major_name) bao nhiêu năm vậy ạ?
+    - Ngành [Thống Kê](major_name) năm nay bắt đầu tuyển sinh thuộc khoa nào ạ
+    - Ngành [truyền thông đa phương tiện](major_name) có phải học code hết 4 năm ko
+    - ngành [truyền thông đa phương tiện](major_name) là nghiên về báo chí hay thiết kế ạ
+    - Ngành [Việt Nam học](major_name) là ngành như thế nào ạ
+    - Nghành [quản lí tài nguyên và môi trường](major_name) học bao nhiêu năm ạ
+    - Cho mình hỏi thông tin ngành [cntt](major_name)
+    - Cho mình hỏi về thông tin ngành [ktpm](major_name)
+    - Cho mình hoit thông tin ngành [công nghệ thông tin](major_name)
+    - Thông tin ngành [cntt](major_name)
+    - ngành [hệ thống thông tin](major_name)
+    - nganh httt
+- intent: chuong_trinh_dao_tao
+  examples: |
+    - Trường Đại học Cần Thơ tuyển sinh những ngành nào?
+    - Chương trình đại trà thì khác gì?
+    - Chất lượng cao có gì khác với đại trà?
+    - Chương trình đại trà khác gì vwois chất lượng cao?
+    - Năm nay trường tuyển sinh bao nhiêu ngành?
+    - Trường tuyển sinh bao nhiêu ngành?
+    - Trường đào tạo gồm bao nhiêu ngành?
+    - Trường đào tạo có bao nhiêu ngành?
+    - clc yêu cầu tiếng anh như thế nào?
+    - Chương trình đại trà có yêu cầu đầu ra như thế nào?
+    - Đại trà gồm những ngành nào?
+    - Đại trà có yêu cầu tiếng anh đầu ra khum?
+    - Đại trà có yêu cầu tiếng anh không?
+    - Chương trình đại trà yêu cầu tiếng anh như thế nào?
+    - Chất lượng cao hiện có mấy ngành?
+    - Chất lượng cao hiện tại gồm những ngành nào?
+    - Clc hiện có bao nhiêu ngành?
+    - Chương trình chất lượng cao khác chương trình đại trà như thế nào?
+    - Chương trình đại trà gôm bao nhiêu ngành, bao nhiêu khoa?
+    - Năm nay có bao nhiêu ngành mới
+    - Năm nay có những ngành mới nào?
+    - Nhưng ngành mới thuộc những khoa nào
+    - Yêu cầu tiếng anh so với clc như thế nào?
+    - CTĐT cuả trường ĐHCT ntn?
+    - Em đang quan tâm ctdt của trường về các ngành mới ạ
+    - Em học ngành khác nhưng có thể qua đăng ký học thêm bên mình không ạ?
+    - Các nhà tuyển dụng, đối tác của Trường là ai?
+    - Cho em hỏi ngành Kinh doanh nông nghiệp ạ ,em thấy ngành này rất ít người hỏi không biết chương trình đào tạo ra sao ạ?
+    - Cho e hỏi nếu mình học liên thông thì điểm như nào mới đậu vô đại học vậy ạ
+    - Cho e hỏi mình có thể học cùng 1 lúc 2 ngành nuôi trồng thủy sản và bệnh học thuỷ sản đc ko ạ
+    - Cho e hỏi ngành nuôi trồng thủy sản đào tạo bao nhiêu năm
+    - Cho e hỏi Xã hội học cũng giống như quan hệ công chúng mà nó bao quát hơn đúng hông ạ
+    - Cho em hỏi có vừa học vừa làm ngành Ngôn ngữ anh Ko ạ
+    - Cho em hỏi em không giỏi anh thì có nên vào ct chất lượng cao không ạ😥
+    - Cho em hỏi là trường học theo tín chỉ thì nếu đăng ký nhiều tín chỉ trong 1 khoảng thời gian ngắn thì có thể tốt nghiệp sớm không ạ?
+    - Cho em hỏi nếu em không đậu hệ chính quy thì em sẽ học hệ vừa học vừa làm thì ra trường em có được cấp bằng đại học hay là cấp chứng chỉ. Em mong nhận được sự phản hồ
+    - Cho em hỏi ngoại ngữ kém học chương trình clc được ko ạ
+    - Cho em hỏi vừa học vừa làm ngành truyền thông có không ạ
+    - cho em xin chương trình đào tạo của ngành Truyền thông đa phương tiện với ạ, em cảm ơn
+    - Chuẩn đầu ra của ngành luật hành chính thì sao ạ
+    - Chương trình luật CLC bao nhiêu 1 tín chỉ ạ
+    - CNSH đại trà có học phần tế bào gốc không ạ
+    - CNTP CLC hiện nay là bao nhiêu tín chỉ vậy ạ?
+    - CNTT học 1 chuyên nghành hay 2,3 chuyên nghành đều được ạ
+    - CNTT học ở hòa an khác gì so với khu 2 ạ,em thấy điểm hòa an thấp hơn
+    - Có clip giới thiệu và bản mô tả chương trình đào tạo ngành Thống Kê chưa ạ e theo dõi web hôm rày chưa thấy up load ạ
+    - Có vài ngành có chương trình liên thông CĐ nhé, em xem thông tin website trường
+    - cô cho hỏi em học ngôn ngữ anh và em muốn học thêm một số chứng chỉ bên ngành kinh doanh và maketinh được không aj
+    - Ct chất lượng cao thì cao hơn phải không ạ
+    - CTU xó đào tạo chuyên nghành về công nghệ kĩ thuật oto không ạ !
+    - dạ cho em hỏi luận văn là gì ạ
+    - dạ cho em hỏi, đào tạo bằng cử nhân hóa dược là 4 năm đúng k ạ? nếu muốn đào tạo lên cao hơn thì cần thêm mấy năm ạ?
+    - Dạ Có kế hoạch đào tạo chương trình ngành Thống Kê chưa ạ
+    - Dạ e xin hỏi về việc HỌC VƯỢT TÍN CHỈ của sinh viên khoa Công nghệ ạ. Sẽ có những ĐIỀU KIỆN và KHÓ KHĂN gì để THỰC HIỆN TỐT được ạ? Em cảm ơn rất nhiều ạ
+    - Dạ em muốn hỏi về ct đào tạo
+    - Em tên Phạm Anh Vũ em đang muốn học ngành ngôn ngữ anh vậy chưong trình đào tạo thì như thế nào
+    - "Em xin chào các thầy cô. Khi nào thì trường mình mở thêm đợt liên thông chính quy ạ?"
+    - giữa ngành văn học và xã hội học thì ngành nào sẽ phải học nhiều lí thuyết ạ
+    - Hệ vừa học vừa làm là như thế nào ạ
+    - Hóa dược, công nghệ sinh học và tự động hóa. Cả 3 ngành này đều có đào tạo kĩ sư phải k ạ?
+    - Học khoa học đất có học bên khu hòa an k ạ
+    - Học ở khu Hoà An thì bằng tốt nghiệp vẫn ghi là CTU ạ
+    - khi ra trường thì e sẽ nhận được bằng chính quy hay bằng đào tạo và chuẩn đầu ra của luật hành chính
+    - Kĩ thuật điện tử là mình học về j ạ
+    - Kính chào quý Thầy, Cô. Thầy, cô Những kỹ năng nào em sẽ được cung cấp để đáp ứng nhu cầu của doanh nghiệp sau khi học ngành kỹ thuật môi trường ?
+    - Liên thông có phải học chính quy không giống
+    - Nếu có thể cho em hỏi về thạc sĩ một số ngành, bên trường mình có thể tổ chức dạy mặc định vào các ngày cúôi tuần không ạ, rất mong muốn quay trở lại trường học, nhưng công việc lại không thể sắp xếp được vào các ngày trong tuần. Xin cảm ơn
+    - Nếu như e đăng ký xét tuyển ở Hòa An ngoài năm 1 và năm cuối ra thì các năm 2,3 e có thể đăng ký học ở Khu 2 hay ko ạ hay phải bắt buộc học ở Hòa An ạ
+    - Nếu như học xong năm nhất mà mình cảm thấy đã chọn sai ngành và có mong muốn đổi ngành khác thì có được không ạ?Và nếu được đổi thì có bất lợi nhiều không ạ?.Em cảm ơn
+    - Nghành CNTT khu 2 khác gì so với ở hòa an ạ
+    - Nông học có thể học cao hơn sau khi tốt nghiệp ko ạ
+    - Nông học học tiến sĩ thì thời gian bao nhiêu năm ạ
+    - Sinh viên đã bảo lưu trường khác có được xét học bạ ở trường ĐHCT không ạ ?
+    - Thầy cô cho em nếu em đậu ngành CNTT ở Hoà An mà em chuyển sang học CNTT CLC thì em học ở Hoà An hay ở Cần Thơ vậy ạ
+    - Thầy ơi sư phạm có được học ngành 2 không ạ
+    - Thế mạnh của Trường là đào tạo ngành gì ạ
+    - ctdt ntn a?
+    - thời gian dạy là bao lâu ạ?
+    - Trường có đào tạo dự bị sưu phạm không ạ
+    - trường có liên thông cao đẳng kh ạ
+    - trường mình có đào tạo bằng nghiệp vụ sư phạm k ạ?
+    - Tư vấn tuyển sinh chính quy dạ cho em hỏi thêm là CLC mình chỉ tham gia có 1 học kì đào tạo ngoại ngữ không biết là mấy tháng ạ
+    - Tư vấn tuyển sinh chính quy dạ em có khá bân khuân về CLC vì vốn tiếng anh em k đc tốt lắm. K biết theo thầy cô em có nên theo k ạ
+    - Vừa học vừa làm học làm sao ạ
+    - Vừa học vừa làm là sao ạ
+    - Yếu Tiếng Anh hx CLC sao ạ
+    - Chương trình Đại trà thì có thể học những gì?
+    - Chương trình Tien tien thì có thể học những gì?
+    - Chương trình Chat luong cao thì có thể học những gì?
+    - Chương trình dai tra thì có thể học những gì?
+    - Chương trình tiên tiến thì có thể học những gì?
+    - Chương trình Chất lượng cao thì có thể học những gì?
+    - Chương trình ĐẠI TRÀ thì có thể học những gì?
+    - Chương trình TIÊN TIẾN thì có thể học những gì?
+    - Chương trình CHẤT LƯỢNG CAO thì có thể học những gì?
+    - Chương trình đt thì có thể học những gì?
+    - Chương trình tt thì có thể học những gì?
+    - Chương trình clc thì có thể học những gì?
+    - Chương trình ĐT thì có thể học những gì?
+    - Chương trình TT thì có thể học những gì?
+    - Chương trình CLC thì có thể học những gì?
+    - Chương trình đào tạo ĐT thì có thể học những gì?
+    - Chương trình đào tạo TT thì có thể học những gì?
+    - Chương trình đào tạo CLC thì có thể học những gì?
+    - Chương trình đào tạo của ĐT thì có thể học những gì?
+    - Chương trình đào tạo của TT thì có thể học những gì?
+    - Chương trình đào tạo của ct CLC thì có thể học những gì?
+    - Chương trình đào tạo của ct ĐT thì có thể học những gì?
+    - Chương trình đào tạo của ct TT thì có thể học những gì?
+    - Chương trình đào tạo của CLC thì có thể học những gì?
+    - Chương trình đào tạo của chương trình CLC thì có thể học những gì?
+    - Chương trình đào tạo của chương trình ĐT thì có thể học những gì?
+    - Chương trình đào tạo của chương trình TT thì có thể học những gì?
+    - Chương trình đào tạo của chuong trinh CLC thì có thể học những gì?
+    - Chương trình đào tạo của chuong trinh ĐT thì có thể học những gì?
+    - Chương trình đào tạo của CT TT thì có thể học những gì?
+    - Chương trình đào tạo của CT CLC thì có thể học những gì?
+    - Chương trình đào tạo của CT ĐT thì có thể học những gì?
+    - Chương trình đào tạo của chuong trinh TT thì có thể học những gì?
+    - CT đào tạo của CT TT thì có thể học những gì?
+    - CT đào tạo của CT CLC thì có thể học những gì?
+    - CT đào tạo của CT ĐT thì có thể học những gì?
+    - ctdt của chương trình TT thì có thể học những gì?
+    - ctdt của chuong trinh CLC thì có thể học những gì?
+    - ctdt của chuong trinh ĐT thì có thể học những gì?
+    - ctdt của TT thì có thể học những gì?
+    - ctdt của CLC thì có thể học những gì?
+    - ctdt của ĐT thì có thể học những gì?
+    - CTDT của TT thì có thể học những gì?
+    - CTDT của CLC thì có thể học những gì?
+    - CTDT của ĐT thì có thể học những gì?
+    - CT DT thì được học những gì
+    - CT TT thì được học những gì
+    - CT CLC thì được học những gì
+    - CT Đại trà thì được học những gì
+    - CT Tiên tiến thì được học những gì
+    - CT chất lượng cao thì được học những gì
+    - chương trình đào tạo xem ở đâu
+    - ctdt xem ở đâu
+    - CHƯƠNG TRÌNH ĐÀO TẠO xem ở đâu
+    - CTĐT xem ở đâu
+- intent: xet_tuyen_hoc_ba
+  examples: |
+    - Hồ sơ xét tuyển học bạ như thế nào?
+    - Dạ cho e hỏi xét học bạ gửi hồ sơ bằng hình thức nào ạ
+    - xét tuyển học bạ có khó không ạ?
+    - Xét tuyển học bạ chuẩn bị những gì?
+    - phương thức xét học bạ ntn?
+    - Cần chuẩn bị gì cho xét học bạ?
+    - Hồ sơ xét học bạ ra sao?
+    - Giấy twof cần thiết cho xét học bạ là gì?
+    - CHào admin, em muốn hỏi quy trình xét học bạ.
+    - Quy trình xét học bạ ra sao?
+    - Ở phương thức xét học bạ, học sinh trường thường có ngang như trường chuyên không ạ? Tại em thấy trường nói không nhất thiết là học bạ của trường chuyên ạ
+    - % đậu của xét học bạ là bao nhiêu so với thi ạ?
+    - ạ cho em hỏi . trường mình khi nào nhận hồ sơ xét tuyển học bạ ạ
+    - Chào thầy cho hỏi nghành công nghệ thông tinh có xét tuyển theo học bạ hông thầy
+    - Cho e hỏi chừng nào mới bắt đầu xét học bạ vậy ạ
+    - Cho e hỏi e xét học bạ có khả năng đậu cao kh ạ
+    - Cho e hỏi là xét học bạ quy trinh nhu the nao ak
+    - Cho e hỏi sư phạm tiểu học có xét học bạ như nào vậy ah
+    - Cho em hỏi cách xét học bạ ạ
+    - Cho em hỏi cách xét học bạ là nộp hồ sơ và nộp trực tuyến như thế nào ạ
+    - Cho em hỏi cn kt hóa học chất lượng cao có xét hc bạ bằng tổ hợp a00 k ạ
+    - Cho em hỏi đăng kí xét học bạ để vào trường thì em nên làm sao ạ
+    - Cho em hỏi em học ban xã hội..có thể xét họ bạ vào ngành kinh tế được hong ạ ..em cảm ơn
+    - Cho em hỏi là em hc tự nhiên mà em xét hc bạ Sư phạm Sử ( D14 ) được ko ạ ?
+    - Cho em hỏi là mình muốn nộp hồ sơ xét học bạ vào trường thì mình cần chuẩn bị những gì và nộp bằng cách nào ạ?
+    - Cho em hỏi là ngành siêu phạm địa có xét học bả cả năm 12 phải được loại giỏi không ạ
+    - cho em hỏi là phương thức xét tuyển học bạ ngành bảo vệ thực vật là như thế nào ạ
+    - CHO EM HỎI LÀ XÉT HỌC BẠ 1 ĐỢT THÔI ĐÚNG KHÔNG Ạ
+    - Cho em hỏi là xét học bạ thì cần những giấy tờ gì ạ
+    - Cho em hỏi nếu mà sau khi công bố điểm thi mà không đủ điểm thì có còn cơ hội để quay lại xét học bạ không ạ
+    - Cho em hỏi ngành bảo vệ thực vật xét học bạ là ntn ạ
+    - Cho em hỏi ngành bảo vệ thực vật xét học bạ là quy trinh ntn ạ
+    - Cho em hỏi ngành công nghệ thực phẩm xét học bạ thế nào ạ, em đọc hướng dẫn nhiều lần nhưng vẫn ko hiêu ad giúp em với.
+    - Cho em hỏi ngành thú y có xét điểm học bạ kh ạ
+    - Cho em hỏi thời gian xét học bạ năm nay với ạ
+    - Cho em hỏi việc đăng kí nguyện vọng xét học bạ có giới hạn không ạ
+    - Cho em hỏi xét học ban bằng online hay gửi về trường qua đường bưu điện ạ?
+    - Chừng nào trường bắt đầu xét tuyển học bạ vậy ạ
+    - Chừng nào xét học bạ vậy ạ
+    - Chương trình tiên tiến clc có xét hc bạ bằng tổ hợp A00 k ạ
+    - có phải 5/5 mới xét học bạ không ạ? Em cảm ơn
+    - Dạ cho e hỏi mình có được xét học bạ của SP Anh. Toán không ạ, khi nào mới nộp học bạ được ạ
+    - Dạ cho em hỏi giấy báo trúng tuyển theo pt xét hc bạ được gửi trước hay sau thi thpt vậy ạ
+    - Dạ cho em hỏi khi nào nọp hồ sơ ạ
+    - Dạ cho em hỏi khi nào nộp đơn ạ
+    - dạ cho em hỏi từ ngày 5/5 đến hết ngày nộp học bạ, khi mình lên trường thì có được tư vấn trực tiếp không ạ
+    - Đăng kí xét tuyển học bạ cần chuẩn bị gồm những gì ạ
+    - E tốt nghiệp năm 2018 v có thể dùng học bạ để xét vào trường đại học cần thơ ngành sư phạm sử được hay không ạ và cần có những yêu cầu gì ko ạ.
+    - Em thi xã hội thì có xét học bạ tự nhiên được không ạ?
+    - Học dự bị đại học có xét học bạ được không ạ
+    - Khi nào mình bắt đầu làm hồ sơ xét học bạ ạ
+    - Khi nào thì mình biết mình đậu bằng phương thức xét học bạ?
+    - Khi nào trường nhận hồ sơ ạ
+    - Nếu xét học bạ Sư phạm Sử thì xét mấy học kỳ z ạ ?
+    - Nếu xét học bạ thì khi nào mới biết điểm xét lần 1 ạ
+    - Nếu xétd học bạ không đậu mình chờ xét điểm tốt nghiệp được k ạ
+    - ngành kdoanh thương mai chỉ tiêu xét học bạ là bnhieu % v ạ
+    - Ngành quản trị kinh doanh xét học bạ học kì nào ạ
+    - Ngành Thủy sản có xét học bạ khối AOO ko ạ
+    - Nghành sư phạm xét học bạ kèm đk học lực giỏi lớp 12 cả năm hay HK1 ạ.
+    - Sp ngữ văn có xét học bạ ko ạ có cần đều kiện ba năm phổ thông là học sinh giỏi ko ạ
+    - sư phạm anh xét hc bạ tổ hợp a01 đc k ạ
+    - Thầy cô cho em hỏi, điểm của 5 học kì xét tuyển khá cao. Nhưng đến học kì 2 lớp 12 (không nằm trong mục xét tuyển) thấp thì liệu có ảnh hưởng đến việc xét tuyển k ạ?
+    - Theo tâm linh thì điểm chuẩn học bạ năm nay ntn ạ
+    - thời gian gửi học bạ là tháng nào ạ?
+    - Trường xét học bạ mình đki online hay gửi bưu điện ạ
+    - V là vẫn xét hc bạ đc pk ạ
+    - Xét học bạ 2 ngành sư phạm khác nhau đc ko ạ
+    - Xét học bạ cần những điều kiện nào ạ
+    - Xét học bạ có xét ngành dược k ạk
+    - xét học bạ hiện mình nộp được chưa ạ
+    - Xét học bạ là online hay sao ạ
+    - xét học bạ một ngành với nhiều khối được không ạ?
+    - Xét học bạ năm nay tăng điểm nhiều không ạ
+    - Xét học bạ ngành nông học thì cần những giấy tờ gì ạ
+    - Xét học bạ ngành quản trị kinh ntn
+    - Xét học bạ ngôn ngữ anh bao nhiêu học kì ạ
+    - Xét học bạ sư phạm Anh thì xét 6 kỳ ạ, kèm điều kiện HSG ạ
+    - Xét học bạ sư phạm mà năm 12 e chỉ có học kì 2 là giỏi thì mình được dự tuyển ko ạ
+    - xét học bạ sư phạm mấy học kì z ạ
+    - Xét học tối đa bao nhiu nguyện vọng ạ
+    - Xét tuyển học bạ có thể nộp tối đa bao nhiêu nguyện vọng ạ
+    - Xét học bạ có được cộng điểm ưu tiên khu vực ko ạ?
+    - Xét học bạ ngành sư phạm lịch sử là bao nhiêu điểm vậy ạ
+    - cho em hỏi phương thức xét học bạ
+    - Thông tin xet học bạ
+    - Thông tin chi tiết pt xét tuyển học bạ
+    - Cho em hỏi Xét học bạ 2 ngành sư phạm khác nhau đc ko ạ
+    - Cho em hỏi Xét học bạ cần những điều kiện nào ạ
+    - Cho em hỏi Xét học bạ có xét ngành dược k ạk
+    - Cho em hỏi xét học bạ hiện mình nộp được chưa ạ
+    - Cho em hỏi Xét học bạ là online hay sao ạ
+    - Cho em hỏi xét học bạ một ngành với nhiều khối được không ạ?
+    - Cho em hỏi Xét học bạ năm nay tăng điểm nhiều không ạ
+    - Cho em hỏi Xét học bạ ngành nông học thì cần những giấy tờ gì ạ
+    - Cho em hỏi Xét học bạ ngành quản trị kinh ntn
+    - Cho em hỏi Xét học bạ ngôn ngữ anh bao nhiêu học kì ạ
+    - Cho em hỏi Xét học bạ sư phạm Anh thì xét 6 kỳ ạ, kèm điều kiện HSG ạ
+    - Cho em hỏi Xét học bạ sư phạm mà năm 12 e chỉ có học kì 2 là giỏi thì mình được dự tuyển ko ạ
+    - Cho em hỏi xét học bạ 2 ngành sư phạm khác nhau đc ko ạ
+    - Cho em hỏi xét học bạ cần những điều kiện nào ạ
+    - Cho em hỏi xét học bạ có xét ngành dược k ạk
+    - Cho em hỏi xét học bạ là online hay sao ạ
+    - Cho em hỏi xét học bạ năm nay tăng điểm nhiều không ạ
+    - Cho em hỏi xét học bạ ngành nông học thì cần những giấy tờ gì ạ
+    - Cho em hỏi xét học bạ ngành quản trị kinh ntn
+    - Cho em hỏi xét học bạ ngôn ngữ anh bao nhiêu học kì ạ
+    - Cho em hỏi xét học bạ sư phạm Anh thì xét 6 kỳ ạ, kèm điều kiện HSG ạ
+    - Cho em hỏi xét học bạ sư phạm mà năm 12 e chỉ có học kì 2 là giỏi thì mình được dự tuyển ko ạ
+    - Cho tao hỏi xét học bạ sư phạm mấy học kì z ạ
+    - Cho tao hỏi xét học bạ 2 ngành sư phạm khác nhau đc ko ạ
+    - Cho tao hỏi xét học bạ cần những điều kiện nào ạ
+    - Cho tao hỏi xét học bạ có xét ngành dược k ạk
+    - Cho tao hỏi xét học bạ hiện mình nộp được chưa ạ
+    - Cho tao hỏi xét học bạ là online hay sao ạ
+    - Cho tao hỏi xét học bạ một ngành với nhiều khối được không ạ?
+    - Cho tao hỏi xét học bạ năm nay tăng điểm nhiều không ạ
+    - Cho tao hỏi xét học bạ ngành nông học thì cần những giấy tờ gì ạ
+    - Cho tao hỏi xét học bạ ngành quản trị kinh ntn
+    - Cho tao hỏi xét học bạ ngôn ngữ anh bao nhiêu học kì ạ
+    - Cho tao hỏi xét học bạ sư phạm Anh thì xét 6 kỳ ạ, kèm điều kiện HSG ạ
+    - Cho tao hỏi xét học bạ sư phạm mà năm 12 e chỉ có học kì 2 là giỏi thì mình được dự tuyển ko ạ
+    - Cho tui hỏi xét học bạ 2 ngành sư phạm khác nhau đc ko ạ
+    - Cho tui hỏi xét học bạ cần những điều kiện nào ạ
+    - Cho tui hỏi xét học bạ có xét ngành dược k ạk
+    - Cho tui hỏi xét học bạ hiện mình nộp được chưa ạ
+    - Cho tui hỏi xét học bạ là online hay sao ạ
+    - Cho tui hỏi xét học bạ một ngành với nhiều khối được không ạ?
+    - Cho tui hỏi xét học bạ năm nay tăng điểm nhiều không ạ
+    - Cho tui hỏi xét học bạ ngành nông học thì cần những giấy tờ gì ạ
+    - Cho tui hỏi xét học bạ ngành quản trị kinh ntn
+    - Cho tui hỏi xét học bạ ngôn ngữ anh bao nhiêu học kì ạ
+    - Cho tui hỏi xét học bạ sư phạm Anh thì xét 6 kỳ ạ, kèm điều kiện HSG ạ
+    - Cho tui hỏi xét học bạ sư phạm mà năm 12 e chỉ có học kì 2 là giỏi thì mình được dự tuyển ko ạ
+    - Cho tui hỏi xét học bạ sư phạm mấy học kì z ạ
+    - em muốn hỏi xét học bạ 2 ngành sư phạm khác nhau đc ko ạ
+    - em muốn hỏi xét học bạ cần những điều kiện nào ạ
+    - em muốn hỏi xét học bạ có xét ngành dược k ạk
+    - em muốn hỏi xét học bạ hiện mình nộp được chưa ạ
+    - em muốn hỏi xét học bạ là online hay sao ạ
+    - em muốn hỏi xét học bạ một ngành với nhiều khối được không ạ?
+    - em muốn hỏi xét học bạ năm nay tăng điểm nhiều không ạ
+    - em muốn hỏi xét học bạ ngành nông học thì cần những giấy tờ gì ạ
+    - em muốn hỏi xét học bạ ngành quản trị kinh ntn
+    - em muốn hỏi xét học bạ ngôn ngữ anh bao nhiêu học kì ạ
+    - em muốn hỏi xét học bạ sư phạm Anh thì xét 6 kỳ ạ, kèm điều kiện HSG ạ
+    - em muốn hỏi xét học bạ sư phạm mà năm 12 e chỉ có học kì 2 là giỏi thì mình được dự tuyển ko ạ
+    - E muốn hỏi xét học bạ 2 ngành sư phạm khác nhau đc ko ạ
+    - E muốn hỏi xét học bạ cần những điều kiện nào ạ
+    - E muốn hỏi xét học bạ có xét ngành dược k ạk
+    - E muốn hỏi xét học bạ hiện mình nộp được chưa ạ
+    - E muốn hỏi xét học bạ là online hay sao ạ
+    - E muốn hỏi xét học bạ một ngành với nhiều khối được không ạ?
+    - E muốn hỏi xét học bạ năm nay tăng điểm nhiều không ạ
+    - E muốn hỏi xét học bạ ngành nông học thì cần những giấy tờ gì ạ
+    - E muốn hỏi xét học bạ ngành quản trị kinh ntn
+    - E muốn hỏi xét học bạ ngôn ngữ anh bao nhiêu học kì ạ
+    - E muốn hỏi xét học bạ sư phạm Anh thì xét 6 kỳ ạ, kèm điều kiện HSG ạ
+    - E muốn hỏi xét học bạ sư phạm mà năm 12 e chỉ có học kì 2 là giỏi thì mình được dự tuyển ko ạ
+    - T muốn hỏi xét học bạ 2 ngành sư phạm khác nhau đc ko ạ
+    - T muốn hỏi xét học bạ cần những điều kiện nào ạ
+    - T muốn hỏi xét học bạ có xét ngành dược k ạk
+    - T muốn hỏi xét học bạ hiện mình nộp được chưa ạ
+    - T muốn hỏi xét học bạ là online hay sao ạ
+    - T muốn hỏi xét học bạ một ngành với nhiều khối được không ạ?
+    - T muốn hỏi xét học bạ năm nay tăng điểm nhiều không ạ
+    - T muốn hỏi xét học bạ ngành nông học thì cần những giấy tờ gì ạ
+    - T muốn hỏi xét học bạ ngành quản trị kinh ntn
+    - T muốn hỏi xét học bạ ngôn ngữ anh bao nhiêu học kì ạ
+    - T muốn hỏi xét học bạ sư phạm Anh thì xét 6 kỳ ạ, kèm điều kiện HSG ạ
+    - T muốn hỏi xét học bạ sư phạm mà năm 12 e chỉ có học kì 2 là giỏi thì mình được dự tuyển ko ạ
+- intent: out_of_scope
+  examples: |
+    - Em đói bụng quá
+    - muốn hỏi gì vô hỏi Bé ơi
+    - Nay trực tuyến của khoa nào.
+    - nghe nói ông cũng 28đ mà
+    - Nghĩ học ik m
+    - nhắm ăn kh
+    - ối giồi ôi
+    - Quá dữ luôn
+    - rảnh vô xem nha em
+    - buồn ngủ quá
+    - lên đại học có người yêu không cô?
+    - Nghe thú vị quá
+    - khóc luôn
+    - Tắm sông có mát không?

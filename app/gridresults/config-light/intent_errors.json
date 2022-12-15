@@ -1,0 +1,1570 @@
+[
+  {
+    "text": "mình có vài câu hỏi",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.5628133416175842
+    }
+  },
+  {
+    "text": "Cho em hỏi",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.3489622473716736
+    }
+  },
+  {
+    "text": "bạn hữu dụng như thế nào",
+    "intent": "challenge_bot",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.2366124540567398
+    }
+  },
+  {
+    "text": "Chúc một ngày tuyệt vời!",
+    "intent": "chao_tam_biet",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.9252349138259888
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành marketing đại trà và CLC nhiu z ạ",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.8480581641197205
+    }
+  },
+  {
+    "text": "Cho e hỏi học phí ngành Ngành Quản trị dịch vụ du lịch và lữ hành với ạ.",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.9969803690910339
+    }
+  },
+  {
+    "text": "Cho em em hỏi có ngành nào 24₫ kh ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.3066675662994385
+    }
+  },
+  {
+    "text": "Cho em hỏi điểm xét học bạ khối T sau ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.32005128264427185
+    }
+  },
+  {
+    "text": "Với việc dịch nhiều và việc học bị hỏng khá nhìu kiến thức khi học online thì nhà trường năm nay cho ra điểm chuẩn thế nào ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.8084858059883118
+    }
+  },
+  {
+    "text": "Cho em hỏi chuẩn đầu ra ngành quản lí đất đai như thế nào ạ",
+    "intent": "co_hoi_viec_lam_sau_tn",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.3102743625640869
+    }
+  },
+  {
+    "text": "Cho em hỏi là ngành Khoa học máy tính thì khác gì với ngành công nghệ thông tin ạ?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.44871363043785095
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành hoá học và ngành công nghệ kĩ thuật hoá học khác nhau ở điểm nào ạ???",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.5143077373504639
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành MMT và TTDL khi nào mới cần dùng đến máy tính ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.810074508190155
+    }
+  },
+  {
+    "text": "Cho em hỏi về ngành quản lí công nghiêp",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.534523069858551
+    }
+  },
+  {
+    "text": "Có thể cho em thêm thông tin về ngành mkt không ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.4169619381427765
+    }
+  },
+  {
+    "text": "Dạ cho em hỏi ngành quản lý công nghiệp",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.6713151335716248
+    }
+  },
+  {
+    "text": "Dạ e muốn làm trong lĩnh vực HSE trong doanh nghiệp thì chọn ngành học nào phù hợp ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.6689794659614563
+    }
+  },
+  {
+    "text": "\"Dạ e xin kính chào quý thầy cô hiện tại e đang quan tâm đến những ngành liên quan đến Sinh Học cụ thể có 3 ngành Sinh Học, Công Nghệ Sinh Học, Sinh Học Ứng Dụng mỗi ngành lại trực thuộc các khoa khác nhau\"",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.43635880947113037
+    }
+  },
+  {
+    "text": "điện tử viễn thông là mình học về mảng gì vậy trường",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.9875942468643188
+    }
+  },
+  {
+    "text": "Em muốn phát triến sự nghiệp ở lĩnh vực nào, hay tiếp tục phát triển sự nghiệp báo chí?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.9466633200645447
+    }
+  },
+  {
+    "text": "GIÁO DỤC THỂ CHẤT](major_name) NĂM NAY NHƯ NÀO Ạ?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.9892026782035828
+    }
+  },
+  {
+    "text": "học bạ 24đ thì có đậu nổi nuôi trồng thủy sản k ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.9966397285461426
+    }
+  },
+  {
+    "text": "Ngành NNA",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.658004879951477
+    }
+  },
+  {
+    "text": "Ngành NNP có đào tạo từ đầu không ạ? Có yêu cầu phải biết tiếng trước ạ?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.9895294308662415
+    }
+  },
+  {
+    "text": "Tài chính ngân hàng thì sao ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.7211695909500122
+    }
+  },
+  {
+    "text": "Năm nay có bao nhiêu ngành mới",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.6481139659881592
+    }
+  },
+  {
+    "text": "Cho e hỏi nếu mình học liên thông thì điểm như nào mới đậu vô đại học vậy ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.9527185559272766
+    }
+  },
+  {
+    "text": "Dạ cho em hỏi về ngành khoa học cây trồng ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.5582445859909058
+    }
+  },
+  {
+    "text": "\"Em xin chào các thầy cô. Khi nào thì trường mình mở thêm đợt liên thông chính quy ạ?\"",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.812786340713501
+    }
+  },
+  {
+    "text": "Kính chào quý Thầy, Cô. Thầy, cô Những kỹ năng nào em sẽ được cung cấp để đáp ứng nhu cầu của doanh nghiệp sau khi học ngành kỹ thuật môi trường ?",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.5965140461921692
+    }
+  },
+  {
+    "text": "Sinh viên đã bảo lưu trường khác có được xét học bạ ở trường ĐHCT không ạ ?",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.8648280501365662
+    }
+  },
+  {
+    "text": "% đậu của xét học bạ là bao nhiêu so với thi ạ?",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.9433478116989136
+    }
+  },
+  {
+    "text": "Cho e hỏi chừng nào mới bắt đầu xét học bạ vậy ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.38045167922973633
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành bảo vệ thực vật xét học bạ là bao nhiêu ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.37043827772140503
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành công nghệ thực phẩm xét học bạ thế nào để đậu ạ, em đọc hướng dẫn nhiều lần nhưng vẫn ko hiêu ad giúp em với.",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.7048236131668091
+    }
+  },
+  {
+    "text": "Chừng nào trường bắt đầu xét tuyển học bạ vậy ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.3706369996070862
+    }
+  },
+  {
+    "text": "có phải 5/5 mới xét học bạ không ạ? Em cảm ơn",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.5247460007667542
+    }
+  },
+  {
+    "text": "Khi nào thì mình biết mình đậu bằng phương thức xét học bạ?",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.3334015905857086
+    }
+  },
+  {
+    "text": "Xét học bạ 2 ngành sư phạm khác nhau đc ko ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.45135748386383057
+    }
+  },
+  {
+    "text": "Xét học bạ sư phạm mà năm 12 e chỉ có học kì 2 là giỏi thì mình được dự tuyển ko ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.34600651264190674
+    }
+  },
+  {
+    "text": "hi",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.33716192841529846
+    }
+  },
+  {
+    "text": "chị ơi",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.5305082201957703
+    }
+  },
+  {
+    "text": "có ai ở đây không?",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.24397023022174835
+    }
+  },
+  {
+    "text": "Ê",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.4645824730396271
+    }
+  },
+  {
+    "text": "xin cam on",
+    "intent": "cam_on",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.3610903024673462
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành tài chính ngân hàng xét học bạ là bao nhiêu ạ?",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.21608145534992218
+    }
+  },
+  {
+    "text": "Điểm chuẩn ngành luật sao ạ",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.9995403289794922
+    }
+  },
+  {
+    "text": "Sẵn cho em hỏi Ngôn ngữ Anh luôn ạ",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.2118569314479828
+    }
+  },
+  {
+    "text": "Chỉ tiêu càng ít liệu điểm có giảm hông ạ😭",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.5916086435317993
+    }
+  },
+  {
+    "text": "Chỉ tiêu xét học bạ và điểm thi Ngôn ngữ anh là bao nhiêu ạ?",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.5551473498344421
+    }
+  },
+  {
+    "text": "Cho em hỏi 28.25đ thì xét quản trị kinh doanh có đc không ạ. Có thể cho em thêm thông tin về ngành [mkt không ạ",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.273246169090271
+    }
+  },
+  {
+    "text": "Thầy cô cho em hỏi rằng ngành truyền thông đa phương tiện có chỉ tiêu và yêu cầu như thế nào ạ? Năm nay là năm đầu tiên trường đào tạo ngành đấy thì có dễ vào không ạ?",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.35526326298713684
+    }
+  },
+  {
+    "text": "Em cho hỏi về triển vọng của sư phạm địa 2022",
+    "intent": "co_hoi_viec_lam_sau_tn",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.2767490744590759
+    }
+  },
+  {
+    "text": "cho em hỏi học ngành luật bên viện kiểm sát nên học khối nào trong 4 khối ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.23696930706501007
+    }
+  },
+  {
+    "text": "Cho em hỏi về ngành Ngôn Ngữ Anh và cơ hội việc làm sau khi tốt nghiệp như thế nào ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.9871199131011963
+    }
+  },
+  {
+    "text": "để học ngành xã hội học mình cần gì ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.46409571170806885
+    }
+  },
+  {
+    "text": "Em có thế mạnh là viết báo, và từng được nhận vào 1 công ty truyền thông. Nhưng em lại thấy ngành này làm việc không được bền cho lắm. Cho em hỏi là em có thể học ngành nào để phát triển sự nghiệp ạ?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.2389373928308487
+    }
+  },
+  {
+    "text": "Hiện tại ngành CNTT đang thiếu nhân lực nên có rất rất rất nhiều bạn theo học, liệu rằng đến lúc bọn em ra trường có bị dư nguồn nhân lực không ạ?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.3441477417945862
+    }
+  },
+  {
+    "text": "Ngành KHMT có những ưu điểm vì so với các ngành khác trong khoa MT và TNTN.",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.38564127683639526
+    }
+  },
+  {
+    "text": "Ngành Thống Kê thuộc khoa nào ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.7113178372383118
+    }
+  },
+  {
+    "text": "Thầy cô cho em hỏi thêm thông tin về ngành truyền thông đa phương tiện với ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.409665584564209
+    }
+  },
+  {
+    "text": "Thầy ơi, ngành hóa học và ngành kỹ thuật hóa học khác nhau như thế nào vậy ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.23187987506389618
+    }
+  },
+  {
+    "text": "truyền thông đa phương tiện thuộc khoa công nghệ ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.4382738173007965
+    }
+  },
+  {
+    "text": "Tư vấn tuyển sinh chính quy ngành tài chính ngân hàng ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chao_hoi",
+      "confidence": 0.15840639173984528
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành quan hệ công chúng vs truyền thông đa phươngtiện có điểm nào khác nhau không ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.2512894570827484
+    }
+  },
+  {
+    "text": "cho e hỏi là bộ môn tâm lí học sp là học về gì ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.5632392168045044
+    }
+  },
+  {
+    "text": "Cho em hỏi nếu em học CNTT mà không cần viết code thì có học được không ạ???",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.3592441976070404
+    }
+  },
+  {
+    "text": "Chuẩn đầu ra của ngành luật hành chính thì sao ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.49461254477500916
+    }
+  },
+  {
+    "text": "cô cho hỏi em học ngôn ngữ anh và em muốn học thêm một số chứng chỉ bên ngành kinh doanh và maketinh được không ( tại vì em muốn học ngôn ngữ anh chuyên về kinh doanh )",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.2853945195674896
+    }
+  },
+  {
+    "text": "Dạ cho em hỏi Học ngôn ngữ anh có thể học văn bằng 2 sư phạm anh được không ạ?",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.19145943224430084
+    }
+  },
+  {
+    "text": "dạ cho em hỏi luận văn là gì ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.5535520315170288
+    }
+  },
+  {
+    "text": "Chào thầy cho hỏi nghành công nghệ thông tinh có xét tuyển theo học bạ hông thầy",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.39381125569343567
+    }
+  },
+  {
+    "text": "Cho e hỏi e xét học bạ 23.33 đ có khả năng đậu kh ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.998847484588623
+    }
+  },
+  {
+    "text": "Cho em hỏi cách tính điểm học bạ ngành ngôn ngữ anh ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.7239358425140381
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành thú y có xét điểm học bạ kh ạ tại gì em thi xh nếu có thì điểm bao nhiêu thì đậu ạ??",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.9149901866912842
+    }
+  },
+  {
+    "text": "Điểm xét tuyển học bạ năm nay có cao hơn năm rồi không ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.9762753844261169
+    }
+  },
+  {
+    "text": "E tốt nghiệp năm 2018 v có thể dùng học bạ để xét vào trường đại học cần thơ ngành sư phạm sử được hay không ạ và cần có những yêu cầu gì ko ạ.",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.4106670618057251
+    }
+  },
+  {
+    "text": "Năm nay xét học bạ chỉ tiêu khoảng bao nhiêu ạ!",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.9308286309242249
+    }
+  },
+  {
+    "text": "tra cứu mã ngành công nghệ thông tin",
+    "intent": "ask_major_code",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.34131452441215515
+    }
+  },
+  {
+    "text": "cháu ơi",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.5367738008499146
+    }
+  },
+  {
+    "text": "hay",
+    "intent": "cam_on",
+    "intent_prediction": {
+      "name": "ask_major_code",
+      "confidence": 0.2688392400741577
+    }
+  },
+  {
+    "text": "siêu",
+    "intent": "cam_on",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.42722752690315247
+    }
+  },
+  {
+    "text": "Cảm ơn cháu đã giúp đỡ",
+    "intent": "cam_on",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.764106273651123
+    }
+  },
+  {
+    "text": "Rất vui được gặp bạn!",
+    "intent": "chao_tam_biet",
+    "intent_prediction": {
+      "name": "challenge_bot",
+      "confidence": 0.9448376893997192
+    }
+  },
+  {
+    "text": "Cho em hỏi chỉ tiêu xét học bạ ngành CNSH học phí ra sao ạ?",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.4156036972999573
+    }
+  },
+  {
+    "text": "Chương trình đại trà CNTP học phí thế nào cho những năm tiếp theo bắt đầu năm 2022 ạ.",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.6545155644416809
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành truyền thông đa phương tiện học phí bao nhiêu 1 năm ạ?",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.9917067289352417
+    }
+  },
+  {
+    "text": "luật năm nay trường lấy bao nhiêu ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.35263943672180176
+    }
+  },
+  {
+    "text": "Xét học bạn nông lâm mấy đ vậy",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.4486224353313446
+    }
+  },
+  {
+    "text": "Cho em hỏi sau khi tốt nghiệp sư phạm thì mình sẽ về dạy ở tỉnh mình hay có sự phân công khác ạ?",
+    "intent": "co_hoi_viec_lam_sau_tn",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.44667014479637146
+    }
+  },
+  {
+    "text": "Dạ cho em hỏi em muốn trở thành lập trình viên, em đang phân vân giữa 2 ngành khoa học máy tính và kỹ thuật phần mềm, vậy em nên chọn ngành nào trong 2 ngành đó. Nếu em học khoa học máy tính thì có thể làm những công việc của kỹ thuật phần mềm và ngược lại được không? Em xin cảm ơn",
+    "intent": "co_hoi_viec_lam_sau_tn",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.6540065407752991
+    }
+  },
+  {
+    "text": "Dạ e học Nông Học làm luận văn tốt nghiệp đề tài liên quan đến lĩnh vực Thủy Sản có được ko ạ",
+    "intent": "co_hoi_viec_lam_sau_tn",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.918856143951416
+    }
+  },
+  {
+    "text": "Em xin chào quý thầy cô, Theo em tìm hiểu, hiện nay có rất nhiều trung tâm đào tạo về thực hành kế toán thực tế. Em muốn hỏi sau khi tốt nghiệp ngành Kế toán](major_name) của trường mình, chúng em có nên tham gia các khóa đào tạo về thực hành kế toán thực tế không? Trong quá trình học của chúng em, Nhà trường có những chương trình nào để chúng em vận dụng giữa lý thuyết và thực hành công việc kế toán trong thực tế không ạ?",
+    "intent": "co_hoi_viec_lam_sau_tn",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.8861071467399597
+    }
+  },
+  {
+    "text": "Học chăn nuôi ra mở tiệm thuốc thức ăn được không ạ",
+    "intent": "co_hoi_viec_lam_sau_tn",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.477464884519577
+    }
+  },
+  {
+    "text": "Cho em hỏi 1 số kiến thức về thủ tục đất đai ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.8501197695732117
+    }
+  },
+  {
+    "text": "Cho em hỏi là đối với ngành sư phạm mình có thể từ chối nhận hỗ trợ sinh hoạt phí được không ạ? Sau khi từ chối nhận thì mình còn ràng buộc sau khi ra trường không ạ?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.5172147154808044
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành quan hệ công chúng vs truyền thông đa phương tiện có điểm nào khác nhau và số điểm thi năm nay có gì khác biệt không ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.30651167035102844
+    }
+  },
+  {
+    "text": "Công tác xã hội có những ngành nào ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.47685229778289795
+    }
+  },
+  {
+    "text": "Dạ cho em hỏi về ngành công nghe thực phẩm, công nghe chế biến thủy sản vs công nghệ sinh học vs ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.5024160146713257
+    }
+  },
+  {
+    "text": "Dạ năm nay trường có tuyển sinh ngành khoa học dũ liệu k",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.4223029613494873
+    }
+  },
+  {
+    "text": "Em không giỏi toán và tin học thì có thể học kiểm toán được không ạ?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.590772807598114
+    }
+  },
+  {
+    "text": "Ngành NNP có giảng viên ng Pháp không ạ?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.47926774621009827
+    }
+  },
+  {
+    "text": "Thầy cô tư vấn về luật hành chính được kh ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.41439130902290344
+    }
+  },
+  {
+    "text": "Em đang quan tâm về ngành mới của trường đó là Truyền thông đa phương tiện , em muốn biết thêm về ngành và cơ hội việc làm .Nếu em học ở trường mình thì khi lên Sài Gòn cơ hội việc làm có cao không ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.7486646771430969
+    }
+  },
+  {
+    "text": "CNTT học 1 chuyên nghành hay 2,3 chuyên nghành đều được ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.8669798374176025
+    }
+  },
+  {
+    "text": "Kĩ thuật điện tử là mình học về j ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.553555965423584
+    }
+  },
+  {
+    "text": "ngành ngôn ngữ Pháp bao nhiêu năm vậy ạ?",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.9920083284378052
+    }
+  },
+  {
+    "text": "Nghành quản lí tài nguyên và môi trường học bao nhiêu năm ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.9521663188934326
+    }
+  },
+  {
+    "text": "Nông học có thể học cao hơn sau khi tốt nghiệp ko ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.4207993745803833
+    }
+  },
+  {
+    "text": "Nông học học tiến sĩ thì thời gian bao nhiêu năm ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.8085957169532776
+    }
+  },
+  {
+    "text": "Thầy ơi sư phạm có được học ngành 2 không ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.1946229338645935
+    }
+  },
+  {
+    "text": "Cho em hỏi nếu em không đậu hệ chính quy thì em sẽ học hệ vừa học vừa làm thì ra trường em có được cấp bằng đại học hay là cấp chứng chỉ. Em mong nhận được sự phản hồi",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.9961429238319397
+    }
+  },
+  {
+    "text": "Cho e hỏi là xét điểm học bạ ngành sư phạm và quản trị kinh doanh được k ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.9388423562049866
+    }
+  },
+  {
+    "text": "Cho em hỏi đăng kí xét học bạ để vào trường thì em nên làm sao ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.4254385232925415
+    }
+  },
+  {
+    "text": "Cho em hỏi nếu mà sau khi công bố điểm thi mà không đủ điểm thì có còn cơ hội để quay lại xét học bạ không ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.9561688303947449
+    }
+  },
+  {
+    "text": "Dạ cho e xin phép được hỏi là nếu như e xét học bạ nhiều nguyện vọng vào nhiều ngành nếu may mắn có cơ hội đậu hết các nguyện thì e có thể lựa chọn ngành học trong các ngành trúng tuyển ko ạ hay phải học ngành học trúng tuyển nguyện vọng cao nhất",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.5947130918502808
+    }
+  },
+  {
+    "text": "Dạ cho em hỏi khi nào nộp đơn ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.4855267107486725
+    }
+  },
+  {
+    "text": "ngành kdoanh thương mai chỉ tiêu xét học bạ là bnhieu % v ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.8143962025642395
+    }
+  },
+  {
+    "text": "Tới tháng mấy mới công bố điểm học bạ ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.9717742800712585
+    }
+  },
+  {
+    "text": "Xét học bạ năm nay tăng điểm nhiều không ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.9967291355133057
+    }
+  },
+  {
+    "text": "Xét học bạ ngành sư phạm lịch sử là bao nhiêu điểm vậy ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.981297492980957
+    }
+  },
+  {
+    "text": "cho hỏi mã ngành hệ thống thông tin",
+    "intent": "ask_major_code",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.6133160591125488
+    }
+  },
+  {
+    "text": "có ai giúp mình không",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "challenge_bot",
+      "confidence": 0.9619514346122742
+    }
+  },
+  {
+    "text": "Em cần tư vấn tuyển sinh",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.2801620662212372
+    }
+  },
+  {
+    "text": "Cuối tuần vui vẻ!",
+    "intent": "chao_tam_biet",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.9951621890068054
+    }
+  },
+  {
+    "text": "dạ cho em hỏi, đào tạo bằng cử nhân hóa dược học phí như nào ạ?",
+    "intent": "hoc_phi",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.6924427151679993
+    }
+  },
+  {
+    "text": "cho em hỏi ngành logistic lấy bao nhiêu thí sinh vậy ạ",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.5861680507659912
+    }
+  },
+  {
+    "text": "Ngành sư phạm tiểu học xét học bạ bao nhiêu ạ",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.6157917976379395
+    }
+  },
+  {
+    "text": "ngành thủy sản lấy bao nhiêu vậy ạ",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.5519954562187195
+    }
+  },
+  {
+    "text": "ngành kdoanh thương mai điểm chuẩn học bạ bnhieu v ạ?",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.7313939332962036
+    }
+  },
+  {
+    "text": "nếu em học ngành bệnh học thuỷ sản, mình có chắc ăn 100% khi ra trường không ạ",
+    "intent": "co_hoi_viec_lam_sau_tn",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.7710856795310974
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành logictis là ngành như thế nào ặ, ra trường sẽ làm những việc gì, có cần phải học giỏi tiếng anh không ặ.",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.8509306311607361
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành truyền thông đa phương tiện tại CTU như nào thế nào vậy ạ?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.4696032702922821
+    }
+  },
+  {
+    "text": "Cho em hỏi tư vấn ngành Thú Y qua chưa ạ em cảm ơn",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "cam_on",
+      "confidence": 0.303559809923172
+    }
+  },
+  {
+    "text": "Dạ cho em hỏi ngành CNTT khi học mình sẻ học những gì",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.9792733192443848
+    }
+  },
+  {
+    "text": "Dạ vì em muốn học chuyên về cây trồng . muốn lai tạo giống ạ .",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.9911796450614929
+    }
+  },
+  {
+    "text": "Học MTĐPT có cần vẽ đẹp không?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.4425818920135498
+    }
+  },
+  {
+    "text": "Ngành công nghệ thông tin đi ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chao_tam_biet",
+      "confidence": 0.2168857306241989
+    }
+  },
+  {
+    "text": "Những ngành nào năm trước được đăng ký nhiều ạ??",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.8804624080657959
+    }
+  },
+  {
+    "text": "Thủy sản chia ra 2 khối là nuôi trồng và bệnh học đúng hông ạ, vậy còn bệnh học lấy sao ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.22371864318847656
+    }
+  },
+  {
+    "text": "Nhưng ngành mới thuộc những khoa nào",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.8054412007331848
+    }
+  },
+  {
+    "text": "Các nhà tuyển dụng, đối tác của Trường là ai?",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.4458412826061249
+    }
+  },
+  {
+    "text": "Cho em hỏi chỉ tiêu Cntt Khu 4 ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.9537616968154907
+    }
+  },
+  {
+    "text": "Cho em hỏi nếu em không đậu hệ chính quy thì em sẽ học hệ vừa học vừa làm thì ra trường em có được cấp bằng đại học hay là cấp chứng chỉ. Em mong nhận được sự phản hồ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.9992172718048096
+    }
+  },
+  {
+    "text": "CNSH đại trà có học phần tế bào gốc không ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.6993797421455383
+    }
+  },
+  {
+    "text": "Dạ cho em hỏi ngành truyền thông đa phương tiện có phải học hoàn toàn trên máy tính ko ạ?",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.6554614901542664
+    }
+  },
+  {
+    "text": "Em có câu hỏi là Ngành KHMT có những ưu điểm vì so với các ngành khác trong khoa MT và TNTN và em sẽ được trang bị nhưng kiến thức cơ bản nào ạ?",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.9280712604522705
+    }
+  },
+  {
+    "text": "giữa ngành văn học và xã hội học thì ngành nào sẽ phải học nhiều lí thuyết ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.49668875336647034
+    }
+  },
+  {
+    "text": "Học về lĩnh vực điện công công nghiệp và truyền tải điện",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.6173763275146484
+    }
+  },
+  {
+    "text": "Ngành Thống Kê năm nay bắt đầu tuyển sinh thuộc khoa nào ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.8336970210075378
+    }
+  },
+  {
+    "text": "Ngành Việt Nam học là ngành như thế nào ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.5533424615859985
+    }
+  },
+  {
+    "text": "Cho em hỏi điểm xét học bạ có cộng điểm ưu tiên ( điểm nghề) luôn hông ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.9982810020446777
+    }
+  },
+  {
+    "text": "Điểm học bạ công bố kết quả trước kỳ thi tốt nghiệp hay sau ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.8549213409423828
+    }
+  },
+  {
+    "text": "Theo tâm linh thì điểm chuẩn học bạ năm nay ntn ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.536516010761261
+    }
+  },
+  {
+    "text": "Xét học bạ có được cộng điểm ưu tiên khu vực ko ạ?",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.7159660458564758
+    }
+  },
+  {
+    "text": "cho e hỏi mã ngành công nghệ thông tin là gì vậy ạ",
+    "intent": "ask_major_code",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.2290513515472412
+    }
+  },
+  {
+    "text": "Em cần tư vấn",
+    "intent": "chao_hoi",
+    "intent_prediction": {
+      "name": "challenge_bot",
+      "confidence": 0.36365827918052673
+    }
+  },
+  {
+    "text": "I appreciate you",
+    "intent": "cam_on",
+    "intent_prediction": {
+      "name": "chao_tam_biet",
+      "confidence": 0.794693648815155
+    }
+  },
+  {
+    "text": "Let me know if you need anything else",
+    "intent": "cam_on",
+    "intent_prediction": {
+      "name": "chao_tam_biet",
+      "confidence": 0.2550237774848938
+    }
+  },
+  {
+    "text": "Couldn't have done it without you",
+    "intent": "cam_on",
+    "intent_prediction": {
+      "name": "chao_tam_biet",
+      "confidence": 0.7453017830848694
+    }
+  },
+  {
+    "text": "What do you think",
+    "intent": "cam_on",
+    "intent_prediction": {
+      "name": "chao_tam_biet",
+      "confidence": 0.26459547877311707
+    }
+  },
+  {
+    "text": "Tạm biệt.",
+    "intent": "chao_tam_biet",
+    "intent_prediction": {
+      "name": "challenge_bot",
+      "confidence": 0.5298680067062378
+    }
+  },
+  {
+    "text": "Bảo trọng.",
+    "intent": "chao_tam_biet",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.956666886806488
+    }
+  },
+  {
+    "text": "Chỉ tiu ngành kỹ thuật phần mềm là bao nhiu ạ",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.7381623387336731
+    }
+  },
+  {
+    "text": "Cho em hỏi tỉ lệ số lượng trúng tuyển vào nghành chuỗi cung ứng và quản lí là bao nhiêu",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.6249109506607056
+    }
+  },
+  {
+    "text": "Dạ cho con hỏi về ngành công nghệ thực phẩm với lại công nghệ sau thu hoạch với ạ",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "nganh_dao_tao",
+      "confidence": 0.23060621321201324
+    }
+  },
+  {
+    "text": "Sư phạm địa năm nay lấy bao nhiêu sinh viên vậy ạ",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.35521385073661804
+    }
+  },
+  {
+    "text": "Xét học bạ ngành thủy sản bao nhiêu ạ",
+    "intent": "chi_tieu_tuyen_sinh",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.35308119654655457
+    }
+  },
+  {
+    "text": "Cho e hỏi ngành quản lý đất đai xét học bạ bao nhiêu vậy ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.2797327935695648
+    }
+  },
+  {
+    "text": "Cho em hỏi marketing đại trà và CLC là nhiu ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.33639493584632874
+    }
+  },
+  {
+    "text": "cho em hỏi xét học bạ Văn học 2021 ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.4310262203216553
+    }
+  },
+  {
+    "text": "Dạ cho em hỏi điểm đầu vô tuyển sinh của nghành điều dưỡng của trường mình là bao nhiêu ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.6228442192077637
+    }
+  },
+  {
+    "text": "Học bạ em xét đc 22đ có thể đậu luật k ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.5326822996139526
+    }
+  },
+  {
+    "text": "Trường cho em hỏi đểm chuẩn của các ngành được đưa ra dựa vào tiêu chí nào vậy ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.35934504866600037
+    }
+  },
+  {
+    "text": "Xét học bạ luật là nhiu ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "xet_tuyen_hoc_ba",
+      "confidence": 0.563414454460144
+    }
+  },
+  {
+    "text": "Xét học bạ ngành công nghệ thực phẩm là nhiu vậy ạ",
+    "intent": "diem_xet_tuyen",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.3471703827381134
+    }
+  },
+  {
+    "text": "học xong có đi kéo cap hay sửa chữa giống mấy anh VNPT hay viettle gì khum ta",
+    "intent": "co_hoi_viec_lam_sau_tn",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.5461347103118896
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành an toàn thông tin là sao ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.32189348340034485
+    }
+  },
+  {
+    "text": "Cho em hỏi ngành Logistics và quản lý chuỗi cung ứng với ngành kinh doanh quốc tế khác gì nhau ạ với cơ hội việc làm 2 ngành này như nào ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.436543732881546
+    }
+  },
+  {
+    "text": "Cho em hỏi tiêu chí của sư phạm ngữ văn như thế nào? Học phí và phương thức xét học bạ là bao nhiêu học kì và có cần học sinh giỏi không ạ . Các công việc khi tốt nghiệp của ngành này. Em cảm ơn.",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.37268006801605225
+    }
+  },
+  {
+    "text": "Cho em hỏi xã hội học với quan hệ công chúng gần giống nhau phải hông ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.49881964921951294
+    }
+  },
+  {
+    "text": "dạ cho e hỏi chương trình học của ngành Xã hội học ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.9247971177101135
+    }
+  },
+  {
+    "text": "Dạ cho em hỏi về ngành quản trị du lịch",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.3292132318019867
+    }
+  },
+  {
+    "text": "Dạ theo như em biết thì năm nay trường có đào tạo ngành mới là Kĩ Thuật cấp thoát nước, em muốn hỏi là ngành này có gì đặc biệt hơn so với các ngành còn lại ạ.",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.8261024951934814
+    }
+  },
+  {
+    "text": "Kính chào quý Thầy/Cô, Em xin phép hỏi câu hỏi như sau kính mong quý Thầy/Cô giải đáp giúp em ạ. Em rất thích về lĩnh vực nghiên cứu khoa học, phân tích, kiểm nghiệm nước, thì em nên học ngành nào ở Khoa MT và TNTN ạ? và học ngành đó thì tụi em sẽ được đào tạo những kỹ năng nào ạ?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.4439093768596649
+    }
+  },
+  {
+    "text": "Ngành nào nữ học được giảm 50% học phí ạ?",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "hoc_phi",
+      "confidence": 0.9938313961029053
+    }
+  },
+  {
+    "text": "Ngành qtkd gồm chuyên ngành nào ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.8456906676292419
+    }
+  },
+  {
+    "text": "Sư phạm địa lí ạ",
+    "intent": "nganh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.2415371686220169
+    }
+  },
+  {
+    "text": "Năm nay có những ngành mới nào?",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "challenge_bot",
+      "confidence": 0.41639789938926697
+    }
+  },
+  {
+    "text": "CNTP CLC hiện nay là bao nhiêu tín chỉ vậy ạ?",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "chi_tieu_tuyen_sinh",
+      "confidence": 0.3572002053260803
+    }
+  },
+  {
+    "text": "Dạ e xin hỏi về việc HỌC VƯỢT TÍN CHỈ của sinh viên khoa Công nghệ ạ. Sẽ có những ĐIỀU KIỆN và KHÓ KHĂN gì để THỰC HIỆN TỐT được ạ? Em cảm ơn rất nhiều ạ",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.7588639259338379
+    }
+  },
+  {
+    "text": "Học Sư phạm Lịch Sử thì sau này học cao lên có thể có cơ hội làm giảng viên không ạ?",
+    "intent": "chuong_trinh_dao_tao",
+    "intent_prediction": {
+      "name": "co_hoi_viec_lam_sau_tn",
+      "confidence": 0.8371657729148865
+    }
+  },
+  {
+    "text": "Ở phương thức xét học bạ, học sinh trường thường có ngang như trường chuyên không ạ? Tại em thấy trường nói không nhất thiết là học bạ của trường chuyên ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.825797438621521
+    }
+  },
+  {
+    "text": "Cho em hỏi cách tính điểm xét học bạ ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.8367782235145569
+    }
+  },
+  {
+    "text": "cho em hỏi là ngành kỹ thuật điều khiển và tự động hóa lấy 26d xét học bạ , mà em có 24d chưa công điểm vùng thì có cơ hội không ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "diem_xet_tuyen",
+      "confidence": 0.8954868316650391
+    }
+  },
+  {
+    "text": "Sp ngữ văn có xét học bạ ko ạ có cần đều kiện ba năm phổ thông là học sinh giỏi ko ạ",
+    "intent": "xet_tuyen_hoc_ba",
+    "intent_prediction": {
+      "name": "chuong_trinh_dao_tao",
+      "confidence": 0.6563005447387695
+    }
+  }
+]
