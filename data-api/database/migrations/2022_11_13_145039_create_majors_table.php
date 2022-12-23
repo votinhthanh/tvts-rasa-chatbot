@@ -23,7 +23,6 @@ class CreateMajorsTable extends Migration
             $table->unsignedInteger('target');
             $table->longText('information')->nullable();
             $table->string('tuition')->nullable();
-            $table->unsignedInteger('total_credit')->nullable();
             $table->timestamps();
         });
     }

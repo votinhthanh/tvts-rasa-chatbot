@@ -12,7 +12,7 @@ pipeline:
     model_name: bert
     model_weights: rasa/LaBSE
   - name: DIETClassifier
-    epochs: 50
+    epochs: 100
     constrain_similarities: true
   - name: FallbackClassifier
     threshold: 0.4
