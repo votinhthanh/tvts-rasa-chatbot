@@ -15,7 +15,6 @@ class Major extends Model
         'reference_score',
         'entrance_score',
         'subjects_combination',
-        'total_credit',
         'target',
         'information',
         'tuition'
